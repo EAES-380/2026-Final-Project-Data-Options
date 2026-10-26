@@ -1,0 +1,51 @@
+---
+title: "EAES 380 Final Project Dataset Options"
+subtitle: "Curated from the Environmental Data Initiative (EDI) data portal"
+---
+
+Three options are provided for each of the four departmental subject areas. Each dataset has its own page here, built from its README, with a direct link to the EDI metadata page, a basic description, coverage, and suggested analyses.
+
+Datasets are curated from the [Environmental Data Initiative (EDI) data portal](https://portal.edirepository.org/).
+
+::: {.callout-note appearance="simple"}
+**Note on access:** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Choose a subject
+
+::: {.subject-grid}
+{{< include _cards.html >}}
+:::
+
+## How to choose a dataset
+
+Use the dataset pages to compare options side by side. Each page tells you what the dataset is, where it comes from, what it contains, and which analyses it suits.
+
+1. **Start with your interest.** Pick the subject area closest to what you want to learn about, then read its three options.
+2. **Check the coverage.** Every page lists the time span and location. Look for a record long enough, or frequent enough, for your question (for example, 10-minute data supports diurnal cycles, while multi-decade records support trend analysis).
+3. **Read the suggested analyses.** Each page lists analyses the dataset supports. Ask whether one of them could become your project question.
+4. **Check how easy it is to access.** Open the EDI metadata page linked on each dataset page. If you hit an authentication prompt, see the access note above. MacroSheds also has an R package and a dashboard linked on its page.
+5. **Ask for help if needed.** The EDI package ID is listed on every page so you can point to the exact dataset.
+
+## All 12 datasets at a glance
+
+| Subject | Dataset | Package |
+|---|---|---|
+| Biogeochemistry | [GCE Eddy Covariance Carbon Fluxes (Georgia salt marsh, 2014–2024)](biogeochemistry/gce-eddy-covariance.qmd) | `knb-lter-gce.858.12` |
+| Biogeochemistry | [SC Coastal Wetland Chamber Fluxes & Soil Biogeochemistry (2022–2023)](biogeochemistry/sc-wetland-fluxes.qmd) | `edi.1828.3` |
+| Biogeochemistry | [MacroSheds Multi-Watershed Biogeochemical Synthesis](biogeochemistry/macrosheds.qmd) | `edi.1262.2` |
+| Climate | [Kellogg Biological Station Long-Term Meteorology (Michigan, 1941–present)](climate/kbs-meteorology.qmd) | `knb-lter-kbs.2` |
+| Climate | [Niwot Ridge D1 Alpine Climate Station (Colorado, 10-minute data)](climate/niwot-ridge-d1.qmd) | `knb-lter-nwt.273` |
+| Climate | [Downscaled 90 m Climate Grids for California (1971–2000 bioclimatic variables)](climate/california-downscaled.qmd) | `edi.167.1` |
+| Hydrology | [Hubbard Brook Daily Streamflow (New Hampshire, 1956–present)](hydrology/hubbard-brook-streamflow.qmd) | `knb-lter-hbr.2.15` |
+| Hydrology | [Harvard Forest Prospect Hill Hydrological Stations (since 2005)](hydrology/harvard-forest-hydro.qmd) | `knb-lter-hfr.70` |
+| Hydrology | [MacroSheds (also listed under Biogeochemistry)](hydrology/macrosheds.qmd) | `edi.1262.2` |
+| Geophysics | [Bonanza Creek Deep Borehole Permafrost Temperatures (Alaska, 2009–2021)](geophysics/bnz-boreholes.qmd) | `knb-lter-bnz.792.2` |
+| Geophysics | [Interior Alaska Wildfire Effects on Permafrost Soil Temperatures (hourly, 2013–2018)](geophysics/ak-wildfire-permafrost.qmd) | `knb-lter-bnz.717.2` |
+| Geophysics | [Virginia Coast Reserve Stratigraphy & Seismic Context](geophysics/vcr-seismic-stratigraphy.qmd) | `knb-lter-vcr.15.19` |
+
+Hydrology also lists MacroSheds (the same EDI package, `edi.1262.2`, as under Biogeochemistry).
+
+## About this site
+
+The original README files remain in the [GitHub repository](https://github.com/EAES-380/2026-Final-Project-Data-Options). This site organizes the same content by subject so it is easier to browse.

@@ -1,0 +1,52 @@
+---
+title: "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)"
+subtitle: "Earth and Planetary Geophysics · Option 2"
+---
+
+::: {.pager}
+[← Previous: Bonanza Creek Boreholes](bnz-boreholes.qmd)
+
+[Back to Geophysics](index.qmd)
+
+[Next: VCR Seismic Stratigraphy →](vcr-seismic-stratigraphy.qmd)
+:::
+
+## What it is
+Hourly soil temperature measurements at depths from 5 to 150 cm at paired burned and unburned sites in Interior Alaska. Designed to examine the effects of climate and wildfire on near-surface permafrost thermal regimes.
+
+## Source and access
+
+- **EDI package ID:** `knb-lter-bnz.717.2`
+- **Metadata page:** [https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-bnz.717.2](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-bnz.717.2)
+- **DOI:** [https://doi.org/10.6073/pasta/275492a4d552c5b4612f1aa42d88bc46](https://doi.org/10.6073/pasta/275492a4d552c5b4612f1aa42d88bc46)
+- **Original README:** [Geophysics_2_AK_Wildfire_Permafrost_README.md](https://github.com/EAES-380/2026-Final-Project-Data-Options/blob/main/Geophysics_2_AK_Wildfire_Permafrost_README.md)
+
+::: {.callout-note appearance="simple"}
+**Note on access (from the course README):** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Variables and contents
+- Hourly soil temperature at multiple depths
+- Burned vs. unburned paired sites
+
+## Temporal & spatial coverage
+- **Time:** 2013–2018
+- **Location:** Interior Alaska
+
+## Why this dataset is useful for final projects
+Students can investigate how wildfire alters the thermal structure of the active layer and upper permafrost—an important geophysical and ecological process in boreal and Arctic systems.
+
+## Suggested questions and analyses
+- Differences in soil temperature profiles between burned and unburned sites
+- Seasonal freeze–thaw dynamics
+- Depth-dependent warming rates
+
+---
+
+::: {.pager}
+[← Previous: Bonanza Creek Boreholes](bnz-boreholes.qmd)
+
+[Back to Geophysics](index.qmd)
+
+[Next: VCR Seismic Stratigraphy →](vcr-seismic-stratigraphy.qmd)
+:::

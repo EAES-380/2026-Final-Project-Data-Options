@@ -1,0 +1,32 @@
+---
+title: "Hydrology and Ecosystems"
+subtitle: "Three dataset options for your EAES 380 final project"
+---
+
+*MacroSheds is also listed under [Biogeochemistry](../biogeochemistry/macrosheds.qmd).*
+
+### 1. [Hubbard Brook Streamflow](hubbard-brook-streamflow.qmd)
+
+*Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present*
+
+Continuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire.
+
+EDI package: `knb-lter-hbr.2.15`
+
+### 2. [Harvard Forest Hydrology](harvard-forest-hydro.qmd)
+
+*Prospect Hill Hydrological Stations at Harvard Forest (since 2005)*
+
+Long-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts.
+
+EDI package: `knb-lter-hfr.70`
+
+### 3. [MacroSheds](macrosheds.qmd)
+
+*MacroSheds Watershed Synthesis (also listed under Biogeochemistry)*
+
+MacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for >200 small watersheds and is equally valuable for hydrology-focused projects.
+
+EDI package: `edi.1262.2`
+
+[← Back to all subjects](../index.qmd)

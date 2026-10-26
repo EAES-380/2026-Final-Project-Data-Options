@@ -1,0 +1,83 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - biogeochemistry/*.qmd
+    - climate/*.qmd
+    - hydrology/*.qmd
+    - geophysics/*.qmd
+
+website:
+  title: "EAES 380 Data Options"
+  site-url: https://eaes-380.github.io/2026-Final-Project-Data-Options/
+  repo-url: https://github.com/EAES-380/2026-Final-Project-Data-Options
+  page-navigation: false
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: "#0c2220"
+    foreground: "#f4eed8"
+    collapse-below: lg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: "Biogeochemistry"
+        menu:
+          - text: "Biogeochemistry overview"
+            href: biogeochemistry/index.qmd
+          - text: "GCE Eddy Covariance"
+            href: biogeochemistry/gce-eddy-covariance.qmd
+          - text: "SC Wetland Fluxes"
+            href: biogeochemistry/sc-wetland-fluxes.qmd
+          - text: "MacroSheds"
+            href: biogeochemistry/macrosheds.qmd
+      - text: "Climate"
+        menu:
+          - text: "Climate overview"
+            href: climate/index.qmd
+          - text: "KBS Meteorology"
+            href: climate/kbs-meteorology.qmd
+          - text: "Niwot Ridge D1"
+            href: climate/niwot-ridge-d1.qmd
+          - text: "California Downscaled Grids"
+            href: climate/california-downscaled.qmd
+      - text: "Hydrology"
+        menu:
+          - text: "Hydrology overview"
+            href: hydrology/index.qmd
+          - text: "Hubbard Brook Streamflow"
+            href: hydrology/hubbard-brook-streamflow.qmd
+          - text: "Harvard Forest Hydrology"
+            href: hydrology/harvard-forest-hydro.qmd
+          - text: "MacroSheds"
+            href: hydrology/macrosheds.qmd
+      - text: "Geophysics"
+        menu:
+          - text: "Geophysics overview"
+            href: geophysics/index.qmd
+          - text: "Bonanza Creek Boreholes"
+            href: geophysics/bnz-boreholes.qmd
+          - text: "AK Wildfire & Permafrost"
+            href: geophysics/ak-wildfire-permafrost.qmd
+          - text: "VCR Seismic Stratigraphy"
+            href: geophysics/vcr-seismic-stratigraphy.qmd
+    right:
+      - icon: github
+        text: GitHub
+        href: https://github.com/EAES-380/2026-Final-Project-Data-Options
+        aria-label: GitHub repository
+  page-footer:
+    center: "EAES 380 · University of Illinois Chicago · Data from the [Environmental Data Initiative](https://portal.edirepository.org/)"
+    background: "#0c2220"
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
+    email-obfuscation: none

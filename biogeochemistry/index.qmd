@@ -1,0 +1,30 @@
+---
+title: "Biogeochemistry and Geobiology"
+subtitle: "Three dataset options for your EAES 380 final project"
+---
+
+### 1. [GCE Eddy Covariance](gce-eddy-covariance.qmd)
+
+*Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)*
+
+Science-ready vertical carbon fluxes measured by eddy covariance (EC) over a *Spartina alterniflora* tidal salt marsh on Sapelo Island, Georgia (GCE-LTER).
+
+EDI package: `knb-lter-gce.858.12`
+
+### 2. [SC Wetland Fluxes](sc-wetland-fluxes.qmd)
+
+*Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina*
+
+Paired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023).
+
+EDI package: `edi.1828.3`
+
+### 3. [MacroSheds](macrosheds.qmd)
+
+*MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds*
+
+A harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from >200 small watersheds across LTER, CZO/CZNet, NEON, and other networks.
+
+EDI package: `edi.1262.2`
+
+[← Back to all subjects](../index.qmd)

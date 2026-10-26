@@ -1,0 +1,49 @@
+---
+title: "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present"
+subtitle: "Hydrology and Ecosystems · Option 1"
+---
+
+::: {.pager}
+[Back to Hydrology](index.qmd)
+
+[Next: Harvard Forest Hydrology →](harvard-forest-hydro.qmd)
+:::
+
+## What it is
+Continuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire. One of the longest continuous watershed hydrology records in the United States.
+
+## Source and access
+
+- **EDI package ID:** `knb-lter-hbr.2.15`
+- **Metadata page:** [https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hbr.2.15](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hbr.2.15)
+- **DOI:** [https://doi.org/10.6073/pasta/355cda48aaf6764dd146990ab76a1a7b](https://doi.org/10.6073/pasta/355cda48aaf6764dd146990ab76a1a7b)
+- **Original README:** [Hydrology_1_HubbardBrook_Streamflow_README.md](https://github.com/EAES-380/2026-Final-Project-Data-Options/blob/main/Hydrology_1_HubbardBrook_Streamflow_README.md)
+
+::: {.callout-note appearance="simple"}
+**Note on access (from the course README):** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Variables and contents
+- Daily streamflow (mm/day) for multiple watersheds
+- Includes both reference and experimentally manipulated watersheds
+- Transition from chart-recorder to digital sensors documented
+
+## Temporal & spatial coverage
+- **Time:** 1956–2024 (and ongoing)
+- **Location:** Hubbard Brook Experimental Forest, White Mountains, New Hampshire, USA
+
+## Why this dataset is useful for final projects
+Classic dataset for studying watershed hydrology, effects of forest management (e.g., clear-cutting experiments), and long-term hydrologic change. Well-documented and widely used in teaching.
+
+## Suggested questions and analyses
+- Effects of deforestation or other experiments on streamflow
+- Long-term trends or variability in discharge
+- Comparison among watersheds with different treatments or characteristics
+
+---
+
+::: {.pager}
+[Back to Hydrology](index.qmd)
+
+[Next: Harvard Forest Hydrology →](harvard-forest-hydro.qmd)
+:::

@@ -1,0 +1,48 @@
+---
+title: "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000"
+subtitle: "Meteorology and Climate · Option 3"
+---
+
+::: {.pager}
+[← Previous: Niwot Ridge D1](niwot-ridge-d1.qmd)
+
+[Back to Climate](index.qmd)
+:::
+
+## What it is
+High-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period).
+
+## Source and access
+
+- **EDI package ID:** `edi.167.1`
+- **Metadata page:** [https://portal.edirepository.org/nis/mapbrowse?packageid=edi.167.1](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.167.1)
+- **DOI:** (check metadata page)
+- **Original README:** [Climate_3_California_Downscaled_README.md](https://github.com/EAES-380/2026-Final-Project-Data-Options/blob/main/Climate_3_California_Downscaled_README.md)
+
+::: {.callout-note appearance="simple"}
+**Note on access (from the course README):** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Variables and contents
+- Gridded bioclimatic variables (temperature, precipitation, and derived indices) at 90 m resolution
+- Suitable for spatial analysis and ecological modeling
+
+## Temporal & spatial coverage
+- **Time:** 1971–2000 (climate normal)
+- **Location:** California, USA
+
+## Why this dataset is useful for final projects
+Ideal for students interested in spatial climate patterns, downscaling methods, or linking climate to species distributions or ecosystem properties across California’s diverse landscapes.
+
+## Suggested questions and analyses
+- Spatial patterns of temperature or precipitation across ecoregions
+- Comparison of bioclimatic variables with ecological datasets
+- Uncertainty or validation exercises (if paired with station data)
+
+---
+
+::: {.pager}
+[← Previous: Niwot Ridge D1](niwot-ridge-d1.qmd)
+
+[Back to Climate](index.qmd)
+:::

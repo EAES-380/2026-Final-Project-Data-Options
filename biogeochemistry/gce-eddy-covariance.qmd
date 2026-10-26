@@ -1,0 +1,50 @@
+---
+title: "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)"
+subtitle: "Biogeochemistry and Geobiology · Option 1"
+---
+
+::: {.pager}
+[Back to Biogeochemistry](index.qmd)
+
+[Next: SC Wetland Fluxes →](sc-wetland-fluxes.qmd)
+:::
+
+## What it is
+Science-ready vertical carbon fluxes measured by eddy covariance (EC) over a *Spartina alterniflora* tidal salt marsh on Sapelo Island, Georgia (GCE-LTER). Covers a full decade of continuous measurements.
+
+## Source and access
+
+- **EDI package ID:** `knb-lter-gce.858.12`
+- **Metadata page:** [https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12)
+- **DOI:** [https://doi.org/10.6073/pasta/796a1d1461efd426a3b5d3c7d8109eda](https://doi.org/10.6073/pasta/796a1d1461efd426a3b5d3c7d8109eda)
+- **Original README:** [Biogeochem_1_GCE_EddyCovariance_README.md](https://github.com/EAES-380/2026-Final-Project-Data-Options/blob/main/Biogeochem_1_GCE_EddyCovariance_README.md)
+
+::: {.callout-note appearance="simple"}
+**Note on access (from the course README):** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Variables and contents
+- 30-minute, daily, and annual net ecosystem exchange (NEE), ecosystem respiration (ER), and gross primary production (GPP)
+- Uncertainty estimates (95% confidence intervals)
+- Supporting biophysical variables (air temperature, humidity, VPD, water-table height, etc.)
+- Habitat composition of the flux footprint (tall/medium/short marsh)
+
+## Temporal & spatial coverage
+- **Time:** 2014–2024
+- **Location:** Western Sapelo Island, Georgia, USA (Duplin River / Barn Creek marsh)
+
+## Why this dataset is useful for final projects
+Students can explore seasonal and interannual patterns in coastal blue-carbon fluxes, relationships between water-table dynamics and carbon exchange, or gap-filling and flux-partitioning methods. The processed products are relatively ready for analysis in R or Python.
+
+## Suggested questions and analyses
+- Seasonal and annual carbon budgets
+- Response of NEE/GPP to water-table height or temperature
+- Comparison of gap-filled vs. observed periods
+
+---
+
+::: {.pager}
+[Back to Biogeochemistry](index.qmd)
+
+[Next: SC Wetland Fluxes →](sc-wetland-fluxes.qmd)
+:::

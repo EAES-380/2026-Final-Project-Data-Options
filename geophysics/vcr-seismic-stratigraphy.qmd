@@ -1,0 +1,49 @@
+---
+title: "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve"
+subtitle: "Earth and Planetary Geophysics · Option 3"
+---
+
+::: {.pager}
+[← Previous: AK Wildfire & Permafrost](ak-wildfire-permafrost.qmd)
+
+[Back to Geophysics](index.qmd)
+:::
+
+## What it is
+Sediment grain-size, organic-matter, and stratigraphic data from vibracores, interpreted together with high-resolution seismic records to reconstruct the pre-transgression landscape and Holocene/Pleistocene boundary on the Virginia Coast Reserve (Hog Island Bay area).
+
+## Source and access
+
+- **EDI package ID:** `knb-lter-vcr.15.19`
+- **Metadata page:** [https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-vcr.15.19](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-vcr.15.19)
+- **DOI:** [https://doi.org/10.6073/pasta/03c4f7940115a3454958f4c2e997a3a6](https://doi.org/10.6073/pasta/03c4f7940115a3454958f4c2e997a3a6)
+- **Original README:** [Geophysics_3_VCR_Seismic_Stratigraphy_README.md](https://github.com/EAES-380/2026-Final-Project-Data-Options/blob/main/Geophysics_3_VCR_Seismic_Stratigraphy_README.md)
+
+::: {.callout-note appearance="simple"}
+**Note on access (from the course README):** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Variables and contents
+- Grain-size distributions and organic-matter content from cores
+- Stratigraphic horizon data (300 YBP surface and Holocene/Pleistocene boundary)
+- Supporting high-resolution seismic information (described in associated publications)
+
+## Temporal & spatial coverage
+- **Time:** Core collection prior to 1997; Holocene stratigraphic record
+- **Location:** Virginia Coast Reserve, Hog Island Bay, Virginia, USA
+
+## Why this dataset is useful for final projects
+Offers a coastal geologic/geophysical dataset focused on sedimentary stratigraphy and sea-level rise history. Students can explore barrier-island evolution, sediment characteristics, or the application of seismic and core data to reconstruct past landscapes.
+
+## Suggested questions and analyses
+- Spatial patterns in grain size or organic content
+- Reconstruction of paleotopography
+- Relationship between stratigraphy and modern coastal processes
+
+---
+
+::: {.pager}
+[← Previous: AK Wildfire & Permafrost](ak-wildfire-permafrost.qmd)
+
+[Back to Geophysics](index.qmd)
+:::

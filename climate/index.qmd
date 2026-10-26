@@ -1,0 +1,30 @@
+---
+title: "Meteorology and Climate"
+subtitle: "Three dataset options for your EAES 380 final project"
+---
+
+### 1. [KBS Meteorology](kbs-meteorology.qmd)
+
+*LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)*
+
+Long-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan.
+
+EDI package: `knb-lter-kbs.2`
+
+### 2. [Niwot Ridge D1](niwot-ridge-d1.qmd)
+
+*Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)*
+
+High-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m).
+
+EDI package: `knb-lter-nwt.273`
+
+### 3. [California Downscaled Grids](california-downscaled.qmd)
+
+*Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000*
+
+High-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period).
+
+EDI package: `edi.167.1`
+
+[← Back to all subjects](../index.qmd)

@@ -1,0 +1,53 @@
+---
+title: "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)"
+subtitle: "Hydrology and Ecosystems · Option 2"
+---
+
+::: {.pager}
+[← Previous: Hubbard Brook Streamflow](hubbard-brook-streamflow.qmd)
+
+[Back to Hydrology](index.qmd)
+
+[Next: MacroSheds →](macrosheds.qmd)
+:::
+
+## What it is
+Long-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts. Includes continuous automated stream and wetland water-level and discharge data.
+
+## Source and access
+
+- **EDI package ID:** `knb-lter-hfr.70`
+- **Metadata page:** [https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hfr.70](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hfr.70)
+- **DOI:** (see metadata page for current version)
+- **Original README:** [Hydrology_2_HarvardForest_Hydro_README.md](https://github.com/EAES-380/2026-Final-Project-Data-Options/blob/main/Hydrology_2_HarvardForest_Hydro_README.md)
+
+::: {.callout-note appearance="simple"}
+**Note on access (from the course README):** Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts.
+:::
+
+## Variables and contents
+- Streamflow and water-level data from weirs and pipes
+- Contrasting wetland types (spruce-hemlock wetland vs. beaver swamp)
+- Near-real-time updates available
+
+## Temporal & spatial coverage
+- **Time:** 2005–ongoing
+- **Location:** Harvard Forest, Petersham, Massachusetts, USA
+
+## Why this dataset is useful for final projects
+Students can examine the role of headwater wetlands in regulating streamflow, compare adjacent watersheds with different topography and history, or study high-frequency hydrologic responses.
+
+## Suggested questions and analyses
+- Wetland influence on streamflow dynamics
+- Comparison of the two contrasting watersheds
+- Event-based or seasonal hydrologic analysis
+
+---
+
+::: {.pager}
+[← Previous: Hubbard Brook Streamflow](hubbard-brook-streamflow.qmd)
+
+[Back to Hydrology](index.qmd)
+
+[Next: MacroSheds →](macrosheds.qmd)
+:::

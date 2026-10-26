@@ -1,0 +1,32 @@
+---
+title: "Earth and Planetary Geophysics"
+subtitle: "Three dataset options for your EAES 380 final project"
+---
+
+*EDI is primarily an ecological/environmental repository, so pure planetary geophysics datasets are limited. The options below emphasize geophysical measurements (thermal profiles, stratigraphy, seismic context) within Earth-system contexts.*
+
+### 1. [Bonanza Creek Boreholes](bnz-boreholes.qmd)
+
+*Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)*
+
+Temperature profiles from deep boreholes (40–75 m) in permafrost near Fairbanks, Alaska.
+
+EDI package: `knb-lter-bnz.792.2`
+
+### 2. [AK Wildfire & Permafrost](ak-wildfire-permafrost.qmd)
+
+*Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)*
+
+Hourly soil temperature measurements at depths from 5 to 150 cm at paired burned and unburned sites in Interior Alaska.
+
+EDI package: `knb-lter-bnz.717.2`
+
+### 3. [VCR Seismic Stratigraphy](vcr-seismic-stratigraphy.qmd)
+
+*Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve*
+
+Sediment grain-size, organic-matter, and stratigraphic data from vibracores, interpreted together with high-resolution seismic records to reconstruct the pre-transgression landscape and Holocene/Pleistocene boundary on the Virginia Coast Reserve (Hog Island Bay area).
+
+EDI package: `knb-lter-vcr.15.19`
+
+[← Back to all subjects](../index.qmd)
