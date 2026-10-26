@@ -33,7 +33,7 @@ If upward-moving air tends to carry *more* CO₂ than downward-moving air, the m
 - **ER (ecosystem respiration, also written Reco)** is the CO₂ released by plants and soil microbes. It is like your spending.
 - **NEE (net ecosystem exchange)** is the net result that the tower actually sees: NEE = ER − GPP (with GPP written as a positive number). It is like your balance change.
 
-**Sign convention.** In this convention, a **negative NEE means the ecosystem is taking up CO₂** (a sink), and a positive NEE means it is releasing CO₂ (a source). Some datasets flip the sign, so confirm it on the metadata page before you interpret a graph.
+**Sign convention.** In this dataset, a **negative NEE means the ecosystem is taking up CO₂** (a net sink), and a positive NEE means it is releasing CO₂ to the atmosphere (a net source).
 
 ![Carbon flux diagram: CO₂ goes into the plants as GPP and out as ER; NEE = ER − GPP.](../images/carbon-flux.svg){fig-alt="Diagram with a downward arrow labeled GPP, an upward arrow labeled ER, and the equation NEE equals ER minus GPP."}
 
@@ -48,7 +48,7 @@ Good to know: a tower measures **NEE** directly. GPP and ER are not measured dir
 **Supporting variables.** The README lists air temperature, humidity, **VPD** and **water-table height**. *Relative humidity* is how much water vapor is in the air compared with the most it could hold at that temperature. *VPD (vapor pressure deficit)* is the gap between those two amounts, so it measures how "thirsty" the air is. *Water-table height* is the level of the water relative to the ground. On a tidal marsh it may be linked to the tides, but the README does not say, so check the metadata.
 
 ::: {.callout-note appearance="simple"}
-**Not stated in the README:** the units of NEE, GPP and ER, the exact variable names, and the sign convention used here. Those details are on the [metadata page](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12). Eddy covariance fluxes are commonly reported as an amount of CO₂ (or carbon) per area per time, but confirm before you plot.
+**Not stated in the README:** the units of NEE, GPP and ER, and the exact variable names. Those details are on the [metadata page](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12). Eddy covariance fluxes are commonly reported as an amount of CO₂ (or carbon) per area per time, but confirm before you plot.
 :::
 
 ### Key terms
