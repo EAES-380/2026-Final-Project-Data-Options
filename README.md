@@ -80,4 +80,4 @@ Three options are provided for each of the four departmental subject areas. Each
 Share the individual README.md files (or this index) with students. Each contains the direct link to the EDI metadata landing page so students can explore data entities, download tables, and generate analysis code.
 
 If a student needs help accessing a particular package, the package ID is listed above.
-# 2026-Final-Project-Data-Options
+
