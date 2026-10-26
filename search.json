@@ -1,0 +1,632 @@
+[
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html",
+    "href": "geophysics/vcr-seismic-stratigraphy.html",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "",
+    "text": "← Previous: AK Wildfire & Permafrost\nBack to Geophysics"
+  },
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html#what-it-is",
+    "href": "geophysics/vcr-seismic-stratigraphy.html#what-it-is",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "What it is",
+    "text": "What it is\nSediment grain-size, organic-matter, and stratigraphic data from vibracores, interpreted together with high-resolution seismic records to reconstruct the pre-transgression landscape and Holocene/Pleistocene boundary on the Virginia Coast Reserve (Hog Island Bay area)."
+  },
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html#source-and-access",
+    "href": "geophysics/vcr-seismic-stratigraphy.html#source-and-access",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-vcr.15.19\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-vcr.15.19\nDOI: https://doi.org/10.6073/pasta/03c4f7940115a3454958f4c2e997a3a6\nOriginal README: Geophysics_3_VCR_Seismic_Stratigraphy_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html#variables-and-contents",
+    "href": "geophysics/vcr-seismic-stratigraphy.html#variables-and-contents",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nGrain-size distributions and organic-matter content from cores\nStratigraphic horizon data (300 YBP surface and Holocene/Pleistocene boundary)\nSupporting high-resolution seismic information (described in associated publications)"
+  },
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html#temporal-spatial-coverage",
+    "href": "geophysics/vcr-seismic-stratigraphy.html#temporal-spatial-coverage",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: Core collection prior to 1997; Holocene stratigraphic record\nLocation: Virginia Coast Reserve, Hog Island Bay, Virginia, USA"
+  },
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "geophysics/vcr-seismic-stratigraphy.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nOffers a coastal geologic/geophysical dataset focused on sedimentary stratigraphy and sea-level rise history. Students can explore barrier-island evolution, sediment characteristics, or the application of seismic and core data to reconstruct past landscapes."
+  },
+  {
+    "objectID": "geophysics/vcr-seismic-stratigraphy.html#suggested-questions-and-analyses",
+    "href": "geophysics/vcr-seismic-stratigraphy.html#suggested-questions-and-analyses",
+    "title": "Trend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nSpatial patterns in grain size or organic content\nReconstruction of paleotopography\nRelationship between stratigraphy and modern coastal processes\n\n\n\n← Previous: AK Wildfire & Permafrost\nBack to Geophysics"
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html",
+    "href": "geophysics/bnz-boreholes.html",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "",
+    "text": "Back to Geophysics\nNext: AK Wildfire & Permafrost →"
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html#what-it-is",
+    "href": "geophysics/bnz-boreholes.html#what-it-is",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "What it is",
+    "text": "What it is\nTemperature profiles from deep boreholes (40–75 m) in permafrost near Fairbanks, Alaska. Part of long-term monitoring of the active layer and permafrost thermal regime."
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html#source-and-access",
+    "href": "geophysics/bnz-boreholes.html#source-and-access",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-bnz.792.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-bnz.792.2\nDOI: https://doi.org/10.6073/pasta/b70120f14a18cd4c6f08daaff9797bf5\nOriginal README: Geophysics_1_BNZ_Boreholes_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html#variables-and-contents",
+    "href": "geophysics/bnz-boreholes.html#variables-and-contents",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nBorehole temperature time series at multiple depths\nSurface temperature data\nSites spanning a range of permafrost and environmental conditions"
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html#temporal-spatial-coverage",
+    "href": "geophysics/bnz-boreholes.html#temporal-spatial-coverage",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2009–2021\nLocation: Near Fairbanks, Interior Alaska, USA"
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "geophysics/bnz-boreholes.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nProvides geophysical-style subsurface thermal data relevant to permafrost dynamics, climate change impacts on frozen ground, and land–atmosphere interactions in the Arctic. Temperature profiles can be analyzed for active-layer thickness, permafrost temperature trends, and thaw depth."
+  },
+  {
+    "objectID": "geophysics/bnz-boreholes.html#suggested-questions-and-analyses",
+    "href": "geophysics/bnz-boreholes.html#suggested-questions-and-analyses",
+    "title": "Bonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nVertical temperature profiles and seasonal thaw depth\nLong-term warming trends in permafrost\nComparison of surface vs. deep temperatures\n\n\n\nBack to Geophysics\nNext: AK Wildfire & Permafrost →"
+  },
+  {
+    "objectID": "hydrology/macrosheds.html",
+    "href": "hydrology/macrosheds.html",
+    "title": "MacroSheds Watershed Synthesis (also listed under Biogeochemistry)",
+    "section": "",
+    "text": "← Previous: Harvard Forest Hydrology\nBack to Hydrology"
+  },
+  {
+    "objectID": "hydrology/macrosheds.html#what-it-is",
+    "href": "hydrology/macrosheds.html#what-it-is",
+    "title": "MacroSheds Watershed Synthesis (also listed under Biogeochemistry)",
+    "section": "What it is",
+    "text": "What it is\nSee the dedicated Biogeochemistry README for full details. MacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for &gt;200 small watersheds and is equally valuable for hydrology-focused projects."
+  },
+  {
+    "objectID": "hydrology/macrosheds.html#source-and-access",
+    "href": "hydrology/macrosheds.html#source-and-access",
+    "title": "MacroSheds Watershed Synthesis (also listed under Biogeochemistry)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: edi.1262.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1262.2\nDOI: https://doi.org/10.6073/pasta/5ffad974009ff64d0cfc2183c816790b\nFull details: MacroSheds under Biogeochemistry\nOriginal README: Hydrology_3_MacroSheds_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "hydrology/macrosheds.html#why-useful-for-hydrology-ecosystems-students",
+    "href": "hydrology/macrosheds.html#why-useful-for-hydrology-ecosystems-students",
+    "title": "MacroSheds Watershed Synthesis (also listed under Biogeochemistry)",
+    "section": "Why useful for Hydrology & Ecosystems students",
+    "text": "Why useful for Hydrology & Ecosystems students\nEnables multi-site comparative hydrology, examination of controls on runoff generation, and integration of hydrologic and biogeochemical data.\n\n\n← Previous: Harvard Forest Hydrology\nBack to Hydrology"
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html",
+    "href": "hydrology/hubbard-brook-streamflow.html",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "",
+    "text": "Back to Hydrology\nNext: Harvard Forest Hydrology →"
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html#what-it-is",
+    "href": "hydrology/hubbard-brook-streamflow.html#what-it-is",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "What it is",
+    "text": "What it is\nContinuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire. One of the longest continuous watershed hydrology records in the United States."
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html#source-and-access",
+    "href": "hydrology/hubbard-brook-streamflow.html#source-and-access",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-hbr.2.15\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hbr.2.15\nDOI: https://doi.org/10.6073/pasta/355cda48aaf6764dd146990ab76a1a7b\nOriginal README: Hydrology_1_HubbardBrook_Streamflow_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html#variables-and-contents",
+    "href": "hydrology/hubbard-brook-streamflow.html#variables-and-contents",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nDaily streamflow (mm/day) for multiple watersheds\nIncludes both reference and experimentally manipulated watersheds\nTransition from chart-recorder to digital sensors documented"
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html#temporal-spatial-coverage",
+    "href": "hydrology/hubbard-brook-streamflow.html#temporal-spatial-coverage",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 1956–2024 (and ongoing)\nLocation: Hubbard Brook Experimental Forest, White Mountains, New Hampshire, USA"
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "hydrology/hubbard-brook-streamflow.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nClassic dataset for studying watershed hydrology, effects of forest management (e.g., clear-cutting experiments), and long-term hydrologic change. Well-documented and widely used in teaching."
+  },
+  {
+    "objectID": "hydrology/hubbard-brook-streamflow.html#suggested-questions-and-analyses",
+    "href": "hydrology/hubbard-brook-streamflow.html#suggested-questions-and-analyses",
+    "title": "Hubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nEffects of deforestation or other experiments on streamflow\nLong-term trends or variability in discharge\nComparison among watersheds with different treatments or characteristics\n\n\n\nBack to Hydrology\nNext: Harvard Forest Hydrology →"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html",
+    "href": "climate/niwot-ridge-d1.html",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "",
+    "text": "← Previous: KBS Meteorology\nBack to Climate\nNext: California Downscaled Grids →"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#what-it-is",
+    "href": "climate/niwot-ridge-d1.html#what-it-is",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "What it is",
+    "text": "What it is\nHigh-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m). Part of the Niwot Ridge LTER long-term monitoring program."
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#source-and-access",
+    "href": "climate/niwot-ridge-d1.html#source-and-access",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-nwt.273\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nwt.273\nDOI (example): https://doi.org/10.6073/pasta/e06669d42e1314dd93160d091022a717\nOriginal README: Climate_2_NiwotRidge_D1_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#variables-and-contents",
+    "href": "climate/niwot-ridge-d1.html#variables-and-contents",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nAir temperature, relative humidity, wind speed and direction, solar radiation\nQuality-flagged native-resolution data\nSuitable for alpine climate and meteorology studies"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#temporal-spatial-coverage",
+    "href": "climate/niwot-ridge-d1.html#temporal-spatial-coverage",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2014–ongoing (10-minute resolution)\nLocation: Niwot Ridge, Colorado Front Range, USA (high-elevation alpine)"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "climate/niwot-ridge-d1.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nStudents interested in alpine or mountain meteorology can examine high-elevation climate variability, wind patterns, or radiation regimes. High temporal resolution supports diurnal cycle analyses."
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#suggested-questions-and-analyses",
+    "href": "climate/niwot-ridge-d1.html#suggested-questions-and-analyses",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nDiurnal and seasonal temperature/wind cycles\nExtreme wind or temperature events at high elevation\nComparison with lower-elevation stations\n\n\n\n← Previous: KBS Meteorology\nBack to Climate\nNext: California Downscaled Grids →"
+  },
+  {
+    "objectID": "climate/index.html",
+    "href": "climate/index.html",
+    "title": "Meteorology and Climate",
+    "section": "",
+    "text": "1. KBS Meteorology\nLTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)\nLong-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan.\nEDI package: knb-lter-kbs.2\n\n\n2. Niwot Ridge D1\nClimate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)\nHigh-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m).\nEDI package: knb-lter-nwt.273\n\n\n3. California Downscaled Grids\nDownscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000\nHigh-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period).\nEDI package: edi.167.1\n← Back to all subjects"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html",
+    "href": "biogeochemistry/sc-wetland-fluxes.html",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "",
+    "text": "← Previous: GCE Eddy Covariance\nBack to Biogeochemistry\nNext: MacroSheds →"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#what-it-is",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#what-it-is",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "What it is",
+    "text": "What it is\nPaired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023)."
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#source-and-access",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#source-and-access",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: edi.1828.3\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1828.3\nDOI: https://doi.org/10.6073/pasta/08bab7404a446ab8c3d6607eb796aed8\nOriginal README: Biogeochem_2_SC_WetlandFluxes_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#variables-and-contents",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#variables-and-contents",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nSoil cores (0–10 cm and 10–50 cm): C and N concentrations, C:N ratios, moisture, pH, conductivity, organic matter, root biomass, mcrA gene copy numbers\nChamber fluxes: whole-plant, plant-adjacent, and non-vegetated chambers for CH₄ and CO₂"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#temporal-spatial-coverage",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#temporal-spatial-coverage",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2022–2023 (approximately monthly)\nLocation: Georgetown County, South Carolina, USA"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nIdeal for students interested in plant–microbe–soil interactions controlling wetland greenhouse-gas emissions. Combines process measurements (fluxes) with mechanistic soil variables."
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#suggested-questions-and-analyses",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#suggested-questions-and-analyses",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nRelationships between plant presence, soil properties, and CH₄ fluxes\nComparison of salt marsh vs. impounded wetland\nDrivers of spatial and temporal variability in fluxes\n\n\n\n← Previous: GCE Eddy Covariance\nBack to Biogeochemistry\nNext: MacroSheds →"
+  },
+  {
+    "objectID": "biogeochemistry/index.html",
+    "href": "biogeochemistry/index.html",
+    "title": "Biogeochemistry and Geobiology",
+    "section": "",
+    "text": "1. GCE Eddy Covariance\nEddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)\nScience-ready vertical carbon fluxes measured by eddy covariance (EC) over a Spartina alterniflora tidal salt marsh on Sapelo Island, Georgia (GCE-LTER).\nEDI package: knb-lter-gce.858.12\n\n\n2. SC Wetland Fluxes\nChamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina\nPaired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023).\nEDI package: edi.1828.3\n\n\n3. MacroSheds\nMacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds\nA harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks.\nEDI package: edi.1262.2\n← Back to all subjects"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "",
+    "text": "Three options are provided for each of the four departmental subject areas. Each dataset has its own page here, built from its README, with a direct link to the EDI metadata page, a basic description, coverage, and suggested analyses.\nDatasets are curated from the Environmental Data Initiative (EDI) data portal."
+  },
+  {
+    "objectID": "index.html#choose-a-subject",
+    "href": "index.html#choose-a-subject",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "Choose a subject",
+    "text": "Choose a subject\n\n\n\nBiogeochemistry and Geobiology\n\n\n\nGCE Eddy Covariance\n\n\nSC Wetland Fluxes\n\n\nMacroSheds\n\n\nExplore Biogeochemistry →\n\n\n\nMeteorology and Climate\n\n\n\nKBS Meteorology\n\n\nNiwot Ridge D1\n\n\nCalifornia Downscaled Grids\n\n\nExplore Climate →\n\n\n\nHydrology and Ecosystems\n\n\n\nHubbard Brook Streamflow\n\n\nHarvard Forest Hydrology\n\n\nMacroSheds\n\n\nExplore Hydrology →\n\n\n\nEarth and Planetary Geophysics\n\n\n\nBonanza Creek Boreholes\n\n\nAK Wildfire & Permafrost\n\n\nVCR Seismic Stratigraphy\n\n\nExplore Geophysics →"
+  },
+  {
+    "objectID": "index.html#how-to-choose-a-dataset",
+    "href": "index.html#how-to-choose-a-dataset",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "How to choose a dataset",
+    "text": "How to choose a dataset\nUse the dataset pages to compare options side by side. Each page tells you what the dataset is, where it comes from, what it contains, and which analyses it suits.\n\nStart with your interest. Pick the subject area closest to what you want to learn about, then read its three options.\nCheck the coverage. Every page lists the time span and location. Look for a record long enough, or frequent enough, for your question (for example, 10-minute data supports diurnal cycles, while multi-decade records support trend analysis).\nRead the suggested analyses. Each page lists analyses the dataset supports. Ask whether one of them could become your project question.\nCheck how easy it is to access. Open the EDI metadata page linked on each dataset page. If you hit an authentication prompt, see the access note above. MacroSheds also has an R package and a dashboard linked on its page.\nAsk for help if needed. The EDI package ID is listed on every page so you can point to the exact dataset."
+  },
+  {
+    "objectID": "index.html#all-12-datasets-at-a-glance",
+    "href": "index.html#all-12-datasets-at-a-glance",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "All 12 datasets at a glance",
+    "text": "All 12 datasets at a glance\n\n\n\nSubject\nDataset\nPackage\n\n\n\n\nBiogeochemistry\nGCE Eddy Covariance Carbon Fluxes (Georgia salt marsh, 2014–2024)\nknb-lter-gce.858.12\n\n\nBiogeochemistry\nSC Coastal Wetland Chamber Fluxes & Soil Biogeochemistry (2022–2023)\nedi.1828.3\n\n\nBiogeochemistry\nMacroSheds Multi-Watershed Biogeochemical Synthesis\nedi.1262.2\n\n\nClimate\nKellogg Biological Station Long-Term Meteorology (Michigan, 1941–present)\nknb-lter-kbs.2\n\n\nClimate\nNiwot Ridge D1 Alpine Climate Station (Colorado, 10-minute data)\nknb-lter-nwt.273\n\n\nClimate\nDownscaled 90 m Climate Grids for California (1971–2000 bioclimatic variables)\nedi.167.1\n\n\nHydrology\nHubbard Brook Daily Streamflow (New Hampshire, 1956–present)\nknb-lter-hbr.2.15\n\n\nHydrology\nHarvard Forest Prospect Hill Hydrological Stations (since 2005)\nknb-lter-hfr.70\n\n\nHydrology\nMacroSheds (also listed under Biogeochemistry)\nedi.1262.2\n\n\nGeophysics\nBonanza Creek Deep Borehole Permafrost Temperatures (Alaska, 2009–2021)\nknb-lter-bnz.792.2\n\n\nGeophysics\nInterior Alaska Wildfire Effects on Permafrost Soil Temperatures (hourly, 2013–2018)\nknb-lter-bnz.717.2\n\n\nGeophysics\nVirginia Coast Reserve Stratigraphy & Seismic Context\nknb-lter-vcr.15.19\n\n\n\nHydrology also lists MacroSheds (the same EDI package, edi.1262.2, as under Biogeochemistry)."
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "About this site",
+    "text": "About this site\nThe original README files remain in the GitHub repository. This site organizes the same content by subject so it is easier to browse."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html",
+    "href": "biogeochemistry/gce-eddy-covariance.html",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "",
+    "text": "Back to Biogeochemistry\nNext: SC Wetland Fluxes →"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#what-it-is",
+    "href": "biogeochemistry/gce-eddy-covariance.html#what-it-is",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "What it is",
+    "text": "What it is\nScience-ready vertical carbon fluxes measured by eddy covariance (EC) over a Spartina alterniflora tidal salt marsh on Sapelo Island, Georgia (GCE-LTER). Covers a full decade of continuous measurements."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#source-and-access",
+    "href": "biogeochemistry/gce-eddy-covariance.html#source-and-access",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-gce.858.12\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12\nDOI: https://doi.org/10.6073/pasta/796a1d1461efd426a3b5d3c7d8109eda\nOriginal README: Biogeochem_1_GCE_EddyCovariance_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#variables-and-contents",
+    "href": "biogeochemistry/gce-eddy-covariance.html#variables-and-contents",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\n30-minute, daily, and annual net ecosystem exchange (NEE), ecosystem respiration (ER), and gross primary production (GPP)\nUncertainty estimates (95% confidence intervals)\nSupporting biophysical variables (air temperature, humidity, VPD, water-table height, etc.)\nHabitat composition of the flux footprint (tall/medium/short marsh)"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#temporal-spatial-coverage",
+    "href": "biogeochemistry/gce-eddy-covariance.html#temporal-spatial-coverage",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2014–2024\nLocation: Western Sapelo Island, Georgia, USA (Duplin River / Barn Creek marsh)"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "biogeochemistry/gce-eddy-covariance.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nStudents can explore seasonal and interannual patterns in coastal blue-carbon fluxes, relationships between water-table dynamics and carbon exchange, or gap-filling and flux-partitioning methods. The processed products are relatively ready for analysis in R or Python."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#suggested-questions-and-analyses",
+    "href": "biogeochemistry/gce-eddy-covariance.html#suggested-questions-and-analyses",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nSeasonal and annual carbon budgets\nResponse of NEE/GPP to water-table height or temperature\nComparison of gap-filled vs. observed periods\n\n\n\nBack to Biogeochemistry\nNext: SC Wetland Fluxes →"
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html",
+    "href": "biogeochemistry/macrosheds.html",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "",
+    "text": "← Previous: SC Wetland Fluxes\nBack to Biogeochemistry"
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html#what-it-is",
+    "href": "biogeochemistry/macrosheds.html#what-it-is",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "What it is",
+    "text": "What it is\nA harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks."
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html#source-and-access",
+    "href": "biogeochemistry/macrosheds.html#source-and-access",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: edi.1262.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1262.2\nDOI: https://doi.org/10.6073/pasta/5ffad974009ff64d0cfc2183c816790b\nData paper: https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lol2.10325\nDashboard: https://macrosheds.org\nR package: https://github.com/MacroSHEDS/macrosheds\nOriginal README: Biogeochem_3_MacroSheds_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html#variables-and-contents",
+    "href": "biogeochemistry/macrosheds.html#variables-and-contents",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nDaily time series of discharge and solute chemistry (multiple ions and nutrients)\nPrecipitation and precipitation chemistry where available\nComprehensive watershed attributes (climate, geology, terrain, vegetation, land cover) aligned with CAMELS-style predictors"
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html#temporal-spatial-coverage",
+    "href": "biogeochemistry/macrosheds.html#temporal-spatial-coverage",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: Multi-decadal for many sites (varies by watershed)\nLocation: Primarily United States, multiple ecoregions"
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "biogeochemistry/macrosheds.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nExcellent for comparative watershed biogeochemistry. Students can examine nutrient retention, weathering rates, or climate–biogeochemistry relationships across a wide range of sites. The R package and dashboard lower the barrier to access."
+  },
+  {
+    "objectID": "biogeochemistry/macrosheds.html#suggested-questions-and-analyses",
+    "href": "biogeochemistry/macrosheds.html#suggested-questions-and-analyses",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nCross-site comparison of nutrient export or retention\nRelationships between watershed attributes and stream chemistry\nLong-term trends in solute concentrations or loads\n\n\n\n← Previous: SC Wetland Fluxes\nBack to Biogeochemistry"
+  },
+  {
+    "objectID": "climate/california-downscaled.html",
+    "href": "climate/california-downscaled.html",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "",
+    "text": "← Previous: Niwot Ridge D1\nBack to Climate"
+  },
+  {
+    "objectID": "climate/california-downscaled.html#what-it-is",
+    "href": "climate/california-downscaled.html#what-it-is",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "What it is",
+    "text": "What it is\nHigh-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period)."
+  },
+  {
+    "objectID": "climate/california-downscaled.html#source-and-access",
+    "href": "climate/california-downscaled.html#source-and-access",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: edi.167.1\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.167.1\nDOI: (check metadata page)\nOriginal README: Climate_3_California_Downscaled_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "climate/california-downscaled.html#variables-and-contents",
+    "href": "climate/california-downscaled.html#variables-and-contents",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nGridded bioclimatic variables (temperature, precipitation, and derived indices) at 90 m resolution\nSuitable for spatial analysis and ecological modeling"
+  },
+  {
+    "objectID": "climate/california-downscaled.html#temporal-spatial-coverage",
+    "href": "climate/california-downscaled.html#temporal-spatial-coverage",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 1971–2000 (climate normal)\nLocation: California, USA"
+  },
+  {
+    "objectID": "climate/california-downscaled.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "climate/california-downscaled.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nIdeal for students interested in spatial climate patterns, downscaling methods, or linking climate to species distributions or ecosystem properties across California’s diverse landscapes."
+  },
+  {
+    "objectID": "climate/california-downscaled.html#suggested-questions-and-analyses",
+    "href": "climate/california-downscaled.html#suggested-questions-and-analyses",
+    "title": "Downscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nSpatial patterns of temperature or precipitation across ecoregions\nComparison of bioclimatic variables with ecological datasets\nUncertainty or validation exercises (if paired with station data)\n\n\n\n← Previous: Niwot Ridge D1\nBack to Climate"
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html",
+    "href": "climate/kbs-meteorology.html",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "",
+    "text": "Back to Climate\nNext: Niwot Ridge D1 →"
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html#what-it-is",
+    "href": "climate/kbs-meteorology.html#what-it-is",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "What it is",
+    "text": "What it is\nLong-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan. Includes both raw hourly data and quality-controlled daily and annual summaries."
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html#source-and-access",
+    "href": "climate/kbs-meteorology.html#source-and-access",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-kbs.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.2\nDOI (example recent version): https://doi.org/10.6073/pasta/f4744fe92e13bc84847fd8ff13435695\nOriginal README: Climate_1_KBS_Meteorology_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html#variables-and-contents",
+    "href": "climate/kbs-meteorology.html#variables-and-contents",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nDaily and hourly air temperature, precipitation, wind speed and direction, solar radiation, relative humidity\nSoil temperature and moisture\nSynthetic complete records supplemented from nearby stations when needed"
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html#temporal-spatial-coverage",
+    "href": "climate/kbs-meteorology.html#temporal-spatial-coverage",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 1941–present (most complete from 1988 onward)\nLocation: Kellogg Biological Station, Hickory Corners, Michigan, USA"
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "climate/kbs-meteorology.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nClassic long-term climate record suitable for trend analysis, extreme-event characterization, or linking climate variables to ecosystem processes. Multiple temporal resolutions are provided."
+  },
+  {
+    "objectID": "climate/kbs-meteorology.html#suggested-questions-and-analyses",
+    "href": "climate/kbs-meteorology.html#suggested-questions-and-analyses",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nLong-term temperature and precipitation trends\nChanges in extreme precipitation or heat events\nRelationships between climate variables and agricultural or ecological metrics (if paired with other KBS data)\n\n\n\nBack to Climate\nNext: Niwot Ridge D1 →"
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html",
+    "href": "hydrology/harvard-forest-hydro.html",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "",
+    "text": "← Previous: Hubbard Brook Streamflow\nBack to Hydrology\nNext: MacroSheds →"
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html#what-it-is",
+    "href": "hydrology/harvard-forest-hydro.html#what-it-is",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "What it is",
+    "text": "What it is\nLong-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts. Includes continuous automated stream and wetland water-level and discharge data."
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html#source-and-access",
+    "href": "hydrology/harvard-forest-hydro.html#source-and-access",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-hfr.70\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hfr.70\nDOI: (see metadata page for current version)\nOriginal README: Hydrology_2_HarvardForest_Hydro_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html#variables-and-contents",
+    "href": "hydrology/harvard-forest-hydro.html#variables-and-contents",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nStreamflow and water-level data from weirs and pipes\nContrasting wetland types (spruce-hemlock wetland vs. beaver swamp)\nNear-real-time updates available"
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html#temporal-spatial-coverage",
+    "href": "hydrology/harvard-forest-hydro.html#temporal-spatial-coverage",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2005–ongoing\nLocation: Harvard Forest, Petersham, Massachusetts, USA"
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "hydrology/harvard-forest-hydro.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nStudents can examine the role of headwater wetlands in regulating streamflow, compare adjacent watersheds with different topography and history, or study high-frequency hydrologic responses."
+  },
+  {
+    "objectID": "hydrology/harvard-forest-hydro.html#suggested-questions-and-analyses",
+    "href": "hydrology/harvard-forest-hydro.html#suggested-questions-and-analyses",
+    "title": "Prospect Hill Hydrological Stations at Harvard Forest (since 2005)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nWetland influence on streamflow dynamics\nComparison of the two contrasting watersheds\nEvent-based or seasonal hydrologic analysis\n\n\n\n← Previous: Hubbard Brook Streamflow\nBack to Hydrology\nNext: MacroSheds →"
+  },
+  {
+    "objectID": "hydrology/index.html",
+    "href": "hydrology/index.html",
+    "title": "Hydrology and Ecosystems",
+    "section": "",
+    "text": "MacroSheds is also listed under Biogeochemistry.\n\n1. Hubbard Brook Streamflow\nHubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present\nContinuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire.\nEDI package: knb-lter-hbr.2.15\n\n\n2. Harvard Forest Hydrology\nProspect Hill Hydrological Stations at Harvard Forest (since 2005)\nLong-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts.\nEDI package: knb-lter-hfr.70\n\n\n3. MacroSheds\nMacroSheds Watershed Synthesis (also listed under Biogeochemistry)\nMacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for &gt;200 small watersheds and is equally valuable for hydrology-focused projects.\nEDI package: edi.1262.2\n← Back to all subjects"
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html",
+    "href": "geophysics/ak-wildfire-permafrost.html",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "",
+    "text": "← Previous: Bonanza Creek Boreholes\nBack to Geophysics\nNext: VCR Seismic Stratigraphy →"
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html#what-it-is",
+    "href": "geophysics/ak-wildfire-permafrost.html#what-it-is",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "What it is",
+    "text": "What it is\nHourly soil temperature measurements at depths from 5 to 150 cm at paired burned and unburned sites in Interior Alaska. Designed to examine the effects of climate and wildfire on near-surface permafrost thermal regimes."
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html#source-and-access",
+    "href": "geophysics/ak-wildfire-permafrost.html#source-and-access",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-bnz.717.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-bnz.717.2\nDOI: https://doi.org/10.6073/pasta/275492a4d552c5b4612f1aa42d88bc46\nOriginal README: Geophysics_2_AK_Wildfire_Permafrost_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html#variables-and-contents",
+    "href": "geophysics/ak-wildfire-permafrost.html#variables-and-contents",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nHourly soil temperature at multiple depths\nBurned vs. unburned paired sites"
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html#temporal-spatial-coverage",
+    "href": "geophysics/ak-wildfire-permafrost.html#temporal-spatial-coverage",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2013–2018\nLocation: Interior Alaska"
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "geophysics/ak-wildfire-permafrost.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nStudents can investigate how wildfire alters the thermal structure of the active layer and upper permafrost—an important geophysical and ecological process in boreal and Arctic systems."
+  },
+  {
+    "objectID": "geophysics/ak-wildfire-permafrost.html#suggested-questions-and-analyses",
+    "href": "geophysics/ak-wildfire-permafrost.html#suggested-questions-and-analyses",
+    "title": "Interior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nDifferences in soil temperature profiles between burned and unburned sites\nSeasonal freeze–thaw dynamics\nDepth-dependent warming rates\n\n\n\n← Previous: Bonanza Creek Boreholes\nBack to Geophysics\nNext: VCR Seismic Stratigraphy →"
+  },
+  {
+    "objectID": "geophysics/index.html",
+    "href": "geophysics/index.html",
+    "title": "Earth and Planetary Geophysics",
+    "section": "",
+    "text": "EDI is primarily an ecological/environmental repository, so pure planetary geophysics datasets are limited. The options below emphasize geophysical measurements (thermal profiles, stratigraphy, seismic context) within Earth-system contexts.\n\n1. Bonanza Creek Boreholes\nBonanza Creek LTER: Borehole Temperature Data from Permafrost Site near Fairbanks, Alaska (2009–2021)\nTemperature profiles from deep boreholes (40–75 m) in permafrost near Fairbanks, Alaska.\nEDI package: knb-lter-bnz.792.2\n\n\n2. AK Wildfire & Permafrost\nInterior Alaska: Climate and Wildfire Effects on Permafrost Soil Temperature Regimes (Hourly Data, 2013–2018)\nHourly soil temperature measurements at depths from 5 to 150 cm at paired burned and unburned sites in Interior Alaska.\nEDI package: knb-lter-bnz.717.2\n\n\n3. VCR Seismic Stratigraphy\nTrend Surface Analysis and Seismic Stratigraphy of the Virginia Coast Reserve\nSediment grain-size, organic-matter, and stratigraphic data from vibracores, interpreted together with high-resolution seismic records to reconstruct the pre-transgression landscape and Holocene/Pleistocene boundary on the Virginia Coast Reserve (Hog Island Bay area).\nEDI package: knb-lter-vcr.15.19\n← Back to all subjects"
+  }
+]
