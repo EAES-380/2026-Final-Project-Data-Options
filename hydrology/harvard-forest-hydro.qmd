@@ -14,6 +14,41 @@ subtitle: "Hydrology and Ecosystems · Option 2"
 ## What it is
 Long-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts. Includes continuous automated stream and wetland water-level and discharge data.
 
+## Explanation of data
+
+**The big idea.** These data track how water moves through **two small watersheds** in the Prospect Hill Tract of Harvard Forest, Massachusetts, since 2005. (A *watershed* is all the land that drains to one point on a stream.) The README says the two watersheds contain contrasting **wetland types**: a **spruce-hemlock wetland** (a wet area with evergreen trees) and a **beaver swamp** (a wetland that formed behind a beaver dam). These are **headwater wetlands**, found near the start of a stream. They are interesting because wetlands can store water and release it slowly, which can smooth out the rise and fall of the stream.
+
+**What was measured?** The README lists *streamflow and water-level data from weirs and pipes*.
+
+- **Water level (stage)** is the height of the water. A **weir** is a small dam with a known shape; the height of water behind it tells you how much is flowing over it.
+- **Discharge** (streamflow) is how much water passes a point per unit of time. It is calculated from the water level.
+
+![A weir: stage (water level) behind a small dam is converted to discharge.](../images/weir-stage.svg){fig-alt="Side view of a weir with an arrow for stage, and a small graph showing discharge rising with stage."}
+
+**Continuous, automated data.** The README calls the measurements *continuous automated* and says there are *near-real-time updates*. So the record is dense and can still be growing, and the end date of your copy depends on when you download it. Check how often values are recorded (the README does not say).
+
+**Storms and seasons.** The README suggests *event-based or seasonal* analysis. An *event* is a storm, and the stream's response to it is shown on a graph called a **hydrograph**: flow rises as water arrives, peaks, and then slowly falls (the *recession*). Comparing the two watersheds' hydrographs for the same storm shows how their wetlands and landscapes affect the response. A *seasonal* analysis compares wet and dry parts of the year.
+
+**Comparing two sites.** The README describes the watersheds as having different *topography* (shape of the land) and *history*. When you compare them, remember that differences could come from the wetland type, the size, the slope or the land history, so say what you can and cannot conclude.
+
+::: {.callout-note appearance="simple"}
+**Not stated in the README:** the units, recording interval, the DOI, and which sensor is at which watershed. Check the [metadata page](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hfr.70) (the README says to see it for the current version).
+:::
+
+### Key terms
+
+| Term | Plain-language meaning | Typical units |
+|---|---|---|
+| Watershed | Land that drains to one point on a stream | n/a |
+| Headwater wetland | A wetland near the start of a stream | n/a |
+| Spruce-hemlock wetland | A wetland with spruce and hemlock trees | n/a |
+| Beaver swamp | A wetland formed by a beaver dam | n/a |
+| Weir | A small dam with a known shape used to measure flow | n/a |
+| Water level (stage) | Height of the water surface | Not given in README |
+| Discharge | Volume of water passing a point per time | Not given in README |
+| Hydrograph | A graph of stream flow over time | n/a |
+| Recession | The slow fall in flow after a storm peak | n/a |
+
 ## Source and access
 
 - **EDI package ID:** `knb-lter-hfr.70`
@@ -41,6 +76,12 @@ Students can examine the role of headwater wetlands in regulating streamflow, co
 - Wetland influence on streamflow dynamics
 - Comparison of the two contrasting watersheds
 - Event-based or seasonal hydrologic analysis
+
+## Using this dataset in your project
+
+::: {.project-link}
+Thinking about choosing this dataset? Your **proposal** needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The [Proposal page](../project-guide/proposal.qmd) has a one-page template, and the [Project guide](../project-guide/index.qmd) summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.
+:::
 
 ---
 

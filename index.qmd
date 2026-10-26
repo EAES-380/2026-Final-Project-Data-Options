@@ -3,6 +3,10 @@ title: "EAES 380 Final Project Dataset Options"
 subtitle: "Curated from the Environmental Data Initiative (EDI) data portal"
 ---
 
+::: {.start-here}
+**Start here:** new to the final project? Read the [Project guide](project-guide/index.qmd) for the kick-off steps, the proposal template, the presentation rules and the executive summary requirements, with the deadlines. Then pick a dataset below.
+:::
+
 Three options are provided for each of the four departmental subject areas. Each dataset has its own page here, built from its README, with a direct link to the EDI metadata page, a basic description, coverage, and suggested analyses.
 
 Datasets are curated from the [Environmental Data Initiative (EDI) data portal](https://portal.edirepository.org/).

@@ -1,0 +1,106 @@
+---
+title: "Presentation"
+subtitle: "Project guide · 50 points · 5 minutes maximum"
+engine: markdown
+---
+
+::: {.deadline}
+::: {.deadline-title}
+Deadline
+:::
+::: {.deadline-date}
+Final presentations Wed, Dec 2, 2026, 3:00–5:00 pm
+:::
+Worth 50 points. Format: 5 minutes maximum, with an R Markdown (xaringan) slide deck, presented live or as a pre-recorded video.
+
+::: {.deadline-small}
+Confirm with your instructor if anything changes.
+:::
+:::
+
+## The rules
+
+- **5 minutes maximum.** Each team member should say something substantial (about 1 minute each). The kick-off slides say each member contributes 1–2 slides.
+- **Live or recorded.** Present live during your workshop, or pre-record and submit a video to be played during the workshop.
+- **Use the template in your repo.** Prepare a slide deck with the template in your repo, which uses the `xaringan` package (R Markdown slides).
+- **Hide code you do not want shown.** Before you finalize, turn off any chunks you do not want displayed with `echo = FALSE`.
+- **Order.** The presentation line-up is generated randomly.
+- **Grading details** will be announced by your instructor closer to the date.
+- Save your slides as `presentation.Rmd` and `presentation.html` in your repo.
+
+## Do and don't
+
+::: {.columns}
+::: {.column width="48%"}
+### Do
+
+- Convey **what choices you made, why, and what you found**.
+- Tell the story of your analysis around one focused question.
+- Focus on quality, not quantity.
+- Give every team member something substantial to say.
+- Critique your methods and say how they could be improved.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+### Don't
+
+- Give an account of everything you tried ("then we did this, then we did this").
+- Be exhaustive: do not present every statistic or every visualization.
+- Visualize everything at once. It helps you, but it does not necessarily help the audience.
+- Leave code chunks showing that you do not want shown.
+:::
+:::
+
+## A short xaringan skeleton
+
+::: {.callout-warning appearance="simple"}
+**This is a template, not your results.** Start from the template in your own repo; this skeleton only shows how xaringan slides are structured. Slides are separated by `---`.
+:::
+
+`````markdown
+---
+title: "Your project title"
+subtitle: "Your group name"
+author: "Member 1, member 2, member 3"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+---
+
+# The question
+
+- One sentence on the dataset you used
+- The one question you asked
+
+---
+
+# Our approach and why
+
+- Key choices you made, and the reason for each
+
+```{r chart, echo=FALSE}
+# TEMPLATE PLACEHOLDER: a figure that supports the story
+```
+
+---
+
+# What we found
+
+- The result, in plain language
+
+---
+
+# Limitations and next steps
+
+- What you would improve
+`````
+
+::: {.pager}
+[← Proposal](proposal.qmd)
+
+[Next: Executive summary →](executive-summary.qmd)
+:::

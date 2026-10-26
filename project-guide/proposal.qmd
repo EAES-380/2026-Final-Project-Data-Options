@@ -1,0 +1,121 @@
+---
+title: "Proposal"
+subtitle: "Project guide · 20 points · about one page"
+engine: markdown
+---
+
+::: {.deadline}
+::: {.deadline-title}
+Deadline
+:::
+::: {.deadline-date}
+Proposal due Wed, Nov 11, 2026
+:::
+Worth 20 points. Format: about one page, written in R Markdown, saved in the `/proposal` folder of your repo.
+
+::: {.deadline-small}
+Confirm with your instructor if anything changes.
+:::
+:::
+
+## What it is
+
+A draft of the introduction section of your project, plus a data analysis plan and your dataset. The entire proposal should be about **1 page**. Use "Print Preview" to check the size of your .Rmd html output.
+
+## Sections
+
+**Section 1a: Description of dataset.** Cover:
+
+- Where the dataset comes from, what interests you about it, and why you chose it.
+- Its dimensions and variable names/types.
+- What each row (observation) is.
+- Whether the data seem "tidy".
+
+**Section 1b: Data and data dictionary.** Place your data in the `/data` folder, and add the dimensions and a data dictionary to the README in that folder. Then print the output of `glimpse()` or `skim()` of your data frame.
+
+**Section 2: Exploratory visualization.** Very preliminary exploratory data analysis, including some summary statistics and visualizations, along with some explanation of how they help you learn more about your data.
+
+**Section 3: Pose a question and a potential method.** What question could you answer with this dataset, and which method(s) do you believe will help answer it? You can update these later as you work on your project.
+
+## Grading (20 pts)
+
+| Part | Points |
+|---|---|
+| Data | 6 |
+| Proposal | 10 |
+| Workflow, organization and code quality | 2 |
+| Teamwork | 2 |
+| **Total** | **20** |
+
+After you receive feedback you can improve the proposal and re-submit. If you re-submit, your final score is the **average** of your first and second submissions.
+
+## Template: a one-page scaffold you can copy
+
+::: {.callout-warning appearance="simple"}
+**This is a template, not results.** Every name, file path and placeholder below is a stand-in. Replace it with your own dataset and write your own text. The code chunks are empty on purpose.
+:::
+
+Copy this into a new `.Rmd` file in your `/proposal` folder.
+
+`````markdown
+---
+title: "Your project title"
+author: "Group name: member 1, member 2, member 3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(skimr)
+```
+
+## 1a. Description of the dataset
+
+*Where does the dataset come from? Why did you choose it and what interests
+you about it? How many rows and columns? What is one row (one observation)?
+Does the data seem tidy?*
+
+## 1b. Data and data dictionary
+
+*Put your data in the /data folder and describe it (dimensions + data
+dictionary) in the README inside that folder.*
+
+```{r load-data}
+# TEMPLATE PLACEHOLDER: replace with your own file path
+# your_data <- read_csv("../data/your-data-file.csv")
+```
+
+```{r glimpse}
+# TEMPLATE PLACEHOLDER: use glimpse() or skim() on your data frame
+# glimpse(your_data)
+# skim(your_data)
+```
+
+## 2. Exploratory visualization
+
+*Show a few summary statistics and one or two preliminary figures. Explain
+what each one tells you about the data.*
+
+```{r eda}
+# TEMPLATE PLACEHOLDER: your summary statistics and figure(s) go here
+```
+
+## 3. Question and potential method
+
+*What question could you answer with this dataset? Which method(s) might
+help? You can update this later.*
+`````
+
+## Tips for a strong proposal
+
+- Keep it to about one page; focused beats exhaustive.
+- Make sure your dataset meets the [dataset requirements](index.qmd#choosing-a-dataset) (at least 50 rows, at least 10 variables, a mix of variable types, loads into R).
+- Each dataset page on this site has an "Explanation of data" section that can help you write Section 1a.
+- Commit, push and open a pull request often, and share the writing fairly: teamwork is graded.
+
+::: {.pager}
+[← Kick-off](kickoff.qmd)
+
+[Next: Presentation →](presentation.qmd)
+:::

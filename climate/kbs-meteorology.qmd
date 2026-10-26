@@ -12,6 +12,45 @@ subtitle: "Meteorology and Climate · Option 1"
 ## What it is
 Long-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan. Includes both raw hourly data and quality-controlled daily and annual summaries.
 
+## Explanation of data
+
+**The big idea.** This is a **weather station record** from the Kellogg Biological Station (KBS), an agricultural research site in southwest Michigan that belongs to the **LTER** (Long Term Ecological Research) network. *Weather* is what the atmosphere does on a given day. *Climate* is the long-term pattern of weather, usually judged over decades. A record that starts in 1941 is long enough to look at climate, not just weather.
+
+**What was measured?** The README lists these variables:
+
+- **Air temperature** and **precipitation** (rain and melted snow).
+- **Wind speed and direction.** By meteorology's usual convention, wind *direction* is where the wind blows *from*; confirm in the metadata.
+- **Solar radiation:** the amount of energy arriving from the sun.
+- **Relative humidity:** how much water vapor is in the air compared with the most the air could hold at that temperature, as a percentage.
+- **Soil temperature and soil moisture.**
+
+**Different time scales.** The README says you get *raw hourly* data plus *quality-controlled daily and annual summaries*. A *summary* squeezes many measurements into one number, such as a daily average or a daily total (average for temperature, total for precipitation is the usual choice, but check the metadata). *Quality-controlled* means someone has checked the values for obvious errors. Hourly data is good for daily cycles; daily and annual data are better for long-term trends.
+
+**Gaps and "synthetic" records.** The README says some records are *synthetic complete records supplemented from nearby stations when needed*. That means gaps in the KBS record were filled using data from other stations. When you analyze trends, remember that some values are estimates and look for columns that tell you which is which.
+
+**Record quality changes over time.** The README says the record starts in 1941 but is *most complete from 1988 onward*. Be careful with trends that cross from sparse to complete years: a change could be real or could be caused by differences in how the data were collected.
+
+**Extremes.** The README suggests studying *extreme precipitation or heat events*. An extreme is an unusually large value compared with the rest of the record (for example, a very rainy day). You can define one with a threshold, such as the top 1% of days, and then count how often it happens over time.
+
+::: {.callout-note appearance="simple"}
+**Not stated in the README:** the exact variable names, units and quality flags. Check the [metadata page](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.2).
+:::
+
+### Key terms
+
+| Term | Plain-language meaning | Typical units |
+|---|---|---|
+| Weather vs. climate | Short-term conditions vs. the long-term pattern | n/a |
+| Air temperature | How warm or cold the air is | Not given in README |
+| Precipitation | Rain and snow reaching the ground | Not given in README |
+| Relative humidity | Water vapor in the air as a share of the maximum it could hold | Percent (usual) |
+| Solar radiation | Energy arriving from the sun | Not given in README |
+| Soil temperature / moisture | How warm and how wet the soil is | Not given in README |
+| Quality-controlled | Checked for errors before release | n/a |
+| Synthetic record | A record with gaps filled using nearby stations | n/a |
+| Trend | A steady change over many years | n/a |
+| Extreme event | An unusually large value, such as a very hot day or a heavy rainfall | n/a |
+
 ## Source and access
 
 - **EDI package ID:** `knb-lter-kbs.2`
@@ -39,6 +78,12 @@ Classic long-term climate record suitable for trend analysis, extreme-event char
 - Long-term temperature and precipitation trends
 - Changes in extreme precipitation or heat events
 - Relationships between climate variables and agricultural or ecological metrics (if paired with other KBS data)
+
+## Using this dataset in your project
+
+::: {.project-link}
+Thinking about choosing this dataset? Your **proposal** needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The [Proposal page](../project-guide/proposal.qmd) has a one-page template, and the [Project guide](../project-guide/index.qmd) summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.
+:::
 
 ---
 

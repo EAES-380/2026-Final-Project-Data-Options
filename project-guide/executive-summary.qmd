@@ -1,0 +1,93 @@
+---
+title: "Executive summary"
+subtitle: "Project guide · 30 points · the README of your repo"
+engine: markdown
+---
+
+::: {.deadline}
+::: {.deadline-title}
+Deadline
+:::
+::: {.deadline-date}
+Executive summary due Wed, Dec 9, 2026, 5:00 pm
+:::
+Worth 30 points. Format: a brief summary in the README of your repository.
+
+::: {.deadline-small}
+Confirm with your instructor if anything changes.
+:::
+:::
+
+## What to include
+
+Along with your presentation slides, provide a brief summary of your project in the **README** of your repository. It should cover:
+
+1. **The dataset** you are using.
+2. **Your research question(s).**
+3. **Your methodology.**
+4. **Your findings.**
+
+The executive summary is evaluated on whether it **follows the guidance** and whether it is **concise but detailed enough**. Style and format count, so make sure code and outputs look good.
+
+## README.Rmd skeleton
+
+::: {.callout-warning appearance="simple"}
+**This is a template, not results.** Replace every placeholder with your own words. Knit `README.Rmd` to produce `README.md` and commit both.
+:::
+
+`````markdown
+---
+title: "Your project title"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+```
+
+## Dataset
+
+*What is the dataset, where does it come from, and what does each row
+represent?*
+
+## Research question(s)
+
+*State your question(s) in one or two sentences.*
+
+## Methodology
+
+*Which tidyverse methods or models did you use, and why? Keep it brief.*
+
+## Findings
+
+*What did you find? Include your key figure or table here.*
+
+```{r key-figure}
+# TEMPLATE PLACEHOLDER: your key figure or table
+```
+`````
+
+## Repo folder tree
+
+```
+your-group-repo/
+├── presentation.Rmd    # slides (source)
+├── presentation.html   # slides (rendered)
+├── README.Rmd          # executive summary (source)
+├── README.md           # executive summary (rendered)
+├── data/               # dataset (CSV or RDS) and data dictionary
+└── proposal/           # the project proposal
+```
+
+## Before you submit
+
+- Review the documents on GitHub to make sure you are happy with the final state.
+- Check that the data and code are properly formatted.
+- Make sure every team member has contributed, and that every member understands how and why the code works.
+
+::: {.pager}
+[← Presentation](presentation.qmd)
+
+[Back to the Project guide](index.qmd)
+:::

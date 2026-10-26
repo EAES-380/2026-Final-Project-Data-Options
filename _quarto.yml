@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - project-guide/*.qmd
     - biogeochemistry/*.qmd
     - climate/*.qmd
     - hydrology/*.qmd
@@ -23,6 +24,18 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: "Project guide"
+        menu:
+          - text: "Project guide overview"
+            href: project-guide/index.qmd
+          - text: "Kick-off"
+            href: project-guide/kickoff.qmd
+          - text: "Proposal"
+            href: project-guide/proposal.qmd
+          - text: "Presentation"
+            href: project-guide/presentation.qmd
+          - text: "Executive summary"
+            href: project-guide/executive-summary.qmd
       - text: "Biogeochemistry"
         menu:
           - text: "Biogeochemistry overview"

@@ -14,6 +14,40 @@ subtitle: "Meteorology and Climate · Option 2"
 ## What it is
 High-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m). Part of the Niwot Ridge LTER long-term monitoring program.
 
+## Explanation of data
+
+**The big idea.** Niwot Ridge is in the Colorado Front Range, and the **D1 station** sits at about **3,738 m (roughly 12,300 ft)** above sea level. That is an **alpine** site: very high in the mountains, where it is cold, windy and sunny and the weather can change quickly. The station is part of the **Niwot Ridge LTER** (Long Term Ecological Research) monitoring program.
+
+**What was measured?** The README lists:
+
+- **Air temperature** and **relative humidity** (water vapor in the air compared with the most the air could hold at that temperature).
+- **Wind speed and direction.** By meteorology's usual convention, direction is where the wind blows *from*; confirm in the metadata.
+- **Solar radiation:** the energy arriving from the sun.
+
+The README also says the data are *quality-flagged* and at *native resolution*. A **flag** is a code next to a value saying that it is good, estimated or suspicious. Native resolution means the data have not been averaged: you get a record every **10 minutes**. That is dense data: there are 144 records per day per variable.
+
+**What does 10-minute data let you do?** Because values are so frequent, you can see the *diurnal cycle*, a pattern that repeats every 24 hours (temperature usually climbs after sunrise and falls overnight). You can also look at *seasonal cycles* across the year, *extreme* wind or temperature events, and how fast conditions change. Before you plot, check the flags and decide how to treat flagged values, and think about whether to average to hourly or daily data so graphs are readable.
+
+**Why elevation matters.** High-elevation stations are generally colder and windier than low ones, which is why the README suggests comparing D1 with *lower-elevation stations*. That comparison needs data from another source, so check that it is available before choosing it.
+
+::: {.callout-note appearance="simple"}
+**Not stated in the README:** exact variable names, units and flag codes, and whether other variables (such as precipitation or snow) are included. Check the [metadata page](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nwt.273).
+:::
+
+### Key terms
+
+| Term | Plain-language meaning | Typical units |
+|---|---|---|
+| Alpine | High in the mountains, around and above the tree line | Elevation about 3,738 m here |
+| Air temperature | How warm or cold the air is | Not given in README |
+| Relative humidity | Water vapor in the air as a share of the maximum it could hold | Percent (usual) |
+| Wind speed / direction | How fast the wind blows and where it comes from | Not given in README |
+| Solar radiation | Energy arriving from the sun | Not given in README |
+| Quality flag | A code that marks a value as good, estimated or suspicious | n/a |
+| Native resolution | The original measurement frequency, with no averaging | 10 minutes |
+| Diurnal cycle | A pattern that repeats every 24 hours | n/a |
+| Seasonal cycle | A pattern that repeats every year | n/a |
+
 ## Source and access
 
 - **EDI package ID:** `knb-lter-nwt.273`
@@ -41,6 +75,12 @@ Students interested in alpine or mountain meteorology can examine high-elevation
 - Diurnal and seasonal temperature/wind cycles
 - Extreme wind or temperature events at high elevation
 - Comparison with lower-elevation stations
+
+## Using this dataset in your project
+
+::: {.project-link}
+Thinking about choosing this dataset? Your **proposal** needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The [Proposal page](../project-guide/proposal.qmd) has a one-page template, and the [Project guide](../project-guide/index.qmd) summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.
+:::
 
 ---
 

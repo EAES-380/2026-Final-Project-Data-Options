@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Project timeline</title>
+<desc id="d">A timeline with three milestones: proposal due Wednesday, November 11, 2026, worth 20 points; final presentations Wednesday, December 2, 2026, 3:00 to 5:00 pm, worth 50 points; executive summary due Wednesday, December 9, 2026 at 5:00 pm, worth 30 points.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0c2220"/></marker>
+<marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c08a34"/></marker>
+<marker id="arrb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6f86"/></marker>
+</defs>
+<style>
+text{fill:#0c2220;font-size:16px;paint-order:stroke;stroke:#fffdf5;stroke-width:4px;stroke-linejoin:round}
+.sm{font-size:14px}   .lg{font-size:18px;font-weight:700} .b{font-weight:700} .c{text-anchor:middle} .e{text-anchor:end}
+.gold{fill:#c08a34} .lt{fill:#f4eed8}
+.note{font-size:13px;font-style:italic;fill:#5b5133}
+</style>
+<rect width="760" height="256" fill="#fffdf5" stroke="#e3d9b3"/>
+<text x="380" y="32" class="lg c">Key dates for the final project (2026)</text><line x1="70" y1="130" x2="690" y2="130" stroke="#0c2220" stroke-width="5" stroke-linecap="round"/><circle cx="110" cy="130" r="16" fill="#c08a34" stroke="#0c2220" stroke-width="3"/><text x="110" y="88" class="c b">Proposal due</text><text x="110" y="180" class="c b">Wed, Nov 11, 2026</text><text x="110" y="202" class="c sm">20 pts</text><circle cx="380" cy="130" r="16" fill="#0c2220" stroke="#0c2220" stroke-width="3"/><text x="380" y="88" class="c b">Presentations</text><text x="380" y="180" class="c b">Wed, Dec 2, 2026</text><text x="380" y="202" class="c sm">50 pts · 3:00–5:00 pm</text><circle cx="650" cy="130" r="16" fill="#c08a34" stroke="#0c2220" stroke-width="3"/><text x="650" y="88" class="c b">Executive summary due</text><text x="650" y="180" class="c b">Wed, Dec 9, 2026</text><text x="650" y="202" class="c sm">30 pts · 5:00 pm</text><text x="380" y="240" class="note c">Spacing is not to scale. Confirm with your instructor if anything changes.</text>
+</svg>

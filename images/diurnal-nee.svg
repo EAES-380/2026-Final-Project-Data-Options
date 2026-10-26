@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Schematic diurnal cycle of NEE</title>
+<desc id="d">A schematic line graph of NEE over 24 hours. NEE is slightly positive at night, drops below zero around midday when photosynthesis takes up more CO2 than respiration releases, then returns to positive at night.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0c2220"/></marker>
+<marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c08a34"/></marker>
+<marker id="arrb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6f86"/></marker>
+</defs>
+<style>
+text{fill:#0c2220;font-size:16px;paint-order:stroke;stroke:#fffdf5;stroke-width:4px;stroke-linejoin:round}
+.sm{font-size:14px}   .lg{font-size:18px;font-weight:700} .b{font-weight:700} .c{text-anchor:middle} .e{text-anchor:end}
+.gold{fill:#c08a34} .lt{fill:#f4eed8}
+.note{font-size:13px;font-style:italic;fill:#5b5133}
+</style>
+<rect width="760" height="380" fill="#fffdf5" stroke="#e3d9b3"/>
+<line x1="80" y1="60" x2="80" y2="300" stroke="#0c2220" stroke-width="2"/><line x1="80" y1="300" x2="720" y2="300" stroke="#0c2220" stroke-width="2"/><line x1="80" y1="170" x2="720" y2="170" stroke="#0c2220" stroke-width="1.5" stroke-dasharray="6 4"/><rect x="240" y="60" width="320" height="240" fill="#c08a34" opacity=".12"/><path d="M80,140 L230,140 C290,140 300,265 400,265 C500,265 510,140 570,140 L720,140" fill="none" stroke="#c08a34" stroke-width="5"/><text x="76" y="116" class="e sm">NEE &gt; 0</text><text x="76" y="132" class="e sm">release</text><text x="76" y="210" class="e sm">NEE &lt; 0</text><text x="76" y="226" class="e sm">uptake</text><text x="76" y="175" class="e sm">0</text><line x1="80" y1="300" x2="80" y2="306" stroke="#0c2220" stroke-width="2"/><text x="80" y="326" class="c sm">midnight</text><line x1="240" y1="300" x2="240" y2="306" stroke="#0c2220" stroke-width="2"/><text x="240" y="326" class="c sm">6 am</text><line x1="400" y1="300" x2="400" y2="306" stroke="#0c2220" stroke-width="2"/><text x="400" y="326" class="c sm">noon</text><line x1="560" y1="300" x2="560" y2="306" stroke="#0c2220" stroke-width="2"/><text x="560" y="326" class="c sm">6 pm</text><line x1="720" y1="300" x2="720" y2="306" stroke="#0c2220" stroke-width="2"/><text x="720" y="326" class="c sm">midnight</text><text x="150" y="104" class="c sm">Night: no sunlight, so</text><text x="150" y="122" class="c sm">respiration only</text><text x="400" y="94" class="c sm b">Daytime: photosynthesis</text><text x="400" y="112" class="c sm b">can outweigh respiration</text><text x="650" y="104" class="c sm">Night again</text><text x="400" y="30" class="lg c">A typical daily (diurnal) NEE cycle</text><text x="400" y="360" class="note c">Schematic of the general shape only. Not real data, and the size and timing differ by ecosystem and season.</text>
+</svg>
