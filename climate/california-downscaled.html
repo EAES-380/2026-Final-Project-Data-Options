@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -249,6 +278,90 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>High-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period).</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> Climate is usually measured at weather stations, which are single points on a map. To study climate across a whole state you need values <em>everywhere</em>. This dataset gives you that as a <strong>grid</strong>: California is divided into square cells, each <strong>90 m</strong> on a side, and every cell has a value for each climate variable. Think of a photo made of pixels, where each pixel stores a temperature or a rainfall amount instead of a color.</p>
+<p><strong>What does “downscaled” mean?</strong> Large-scale climate data often come in coarse cells many kilometers wide. <em>Downscaling</em> uses extra information, such as terrain or station measurements, to estimate climate at a finer scale, so you can tell the cool valley floor from the sunny ridge. The README does not describe the downscaling method, so see the metadata for how it was done.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/downscaling.svg" class="img-fluid figure-img" alt="A four by four grid of large colored cells becomes a sixteen by sixteen grid of small colored cells, with an arrow labeled downscale."></p>
+<figcaption>Downscaling: a few coarse cells become many finer cells that show more local detail.</figcaption>
+</figure>
+</div>
+<p><strong>Bioclimatic variables.</strong> The README says the grids contain <em>bioclimatic variables</em>: temperature, precipitation and <em>derived indices</em> (numbers computed from the basic ones). Bioclimatic variables are summaries designed to matter for living things, for example the average yearly temperature, how much it rains in the driest part of the year, or how much the temperature varies through the year. These are examples of the idea: the exact list of variables is on the metadata page.</p>
+<p><strong>A climate normal.</strong> The README gives the period <strong>1971–2000</strong>. A <em>climate normal</em> is the average over 30 years, so this dataset describes “typical” historical California climate, not a single year. It is a snapshot in time, not a time series, so questions about year-to-year change or trends do not fit this dataset.</p>
+<p><strong>Historical, not projected.</strong> The README describes historical data, so this dataset is not a future projection. (Some downscaled climate datasets are built from <em>global climate models</em>, or GCMs, which simulate Earth’s climate, and from <em>scenarios</em> of future emissions. Check the metadata for what was used here; the README does not say.)</p>
+<p><strong>Working with gridded data.</strong> Gridded data is not a normal spreadsheet. It often comes as <em>raster</em> files, which are images where each cell holds a value, and you need an R package that reads rasters to load it (the README does not state the file format; check before you commit). You can convert a raster to a table with one row per cell, which is useful because a project needs at least 50 rows and 10 variables. Cells that are next to each other tend to be similar, which matters when you apply statistics that assume independent observations.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> the file format, the list of variables, the units and the DOI (the README says to check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.167.1">metadata page</a>).</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Grid / raster</td>
+<td>A map made of square cells, each holding a value</td>
+<td>Cell size 90 m</td>
+</tr>
+<tr class="even">
+<td>Resolution</td>
+<td>The size of each cell; smaller cells show more detail</td>
+<td>90 m</td>
+</tr>
+<tr class="odd">
+<td>Downscaling</td>
+<td>Estimating climate at a finer scale from coarser data</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Bioclimatic variable</td>
+<td>A temperature or rainfall summary chosen to matter for living things</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Derived index</td>
+<td>A number computed from other climate variables</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Climate normal</td>
+<td>A 30-year average of climate</td>
+<td>1971–2000 here</td>
+</tr>
+<tr class="odd">
+<td>GCM (global climate model)</td>
+<td>A computer model of Earth’s climate; often a starting point for downscaling</td>
+<td>n/a (see metadata)</td>
+</tr>
+<tr class="even">
+<td>Spatial pattern</td>
+<td>How a variable changes from place to place</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -294,6 +407,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Comparison of bioclimatic variables with ecological datasets</li>
 <li>Uncertainty or validation exercises (if paired with station data)</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../climate/niwot-ridge-d1.html">← Previous: Niwot Ridge D1</a></p>

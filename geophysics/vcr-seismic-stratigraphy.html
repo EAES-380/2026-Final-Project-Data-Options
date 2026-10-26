@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -249,6 +278,119 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Sediment grain-size, organic-matter, and stratigraphic data from vibracores, interpreted together with high-resolution seismic records to reconstruct the pre-transgression landscape and Holocene/Pleistocene boundary on the Virginia Coast Reserve (Hog Island Bay area).</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> The coast of Virginia is a landscape of barrier islands, marshes and shallow bays. Over thousands of years the sea has risen and the land has shifted. Under the bay floor, layers of sediment record that history, like the layers of a cake. Studying those layers is called <strong>stratigraphy</strong>. This dataset combines <strong>sediment cores</strong> taken near Hog Island Bay with <strong>seismic</strong> information, to reconstruct what the land looked like before the sea flooded it.</p>
+<p><strong>Time words.</strong> Two geologic time words appear in the README:</p>
+<ul>
+<li><strong>Pleistocene:</strong> the older geologic period (the last “ice ages”), when sea level was generally lower and this area was land.</li>
+<li><strong>Holocene:</strong> the younger period that began about 11,700 years ago and includes today.</li>
+</ul>
+<p>The <strong>Holocene/Pleistocene boundary</strong> is the surface where younger sediments sit on top of older ones. It is a map of the old landscape that was drowned. The README also lists a <em>300 YBP surface</em>, where <strong>YBP</strong> means <em>years before present</em> (a surface dated to about 300 years ago; see the metadata for how it is defined). <strong>Transgression</strong> means the sea moving landward as sea level rises.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/seismic-reflection.svg" class="img-fluid figure-img" alt="A boat sends sound pulses down through water to sediment layers. Echoes return from the boundary between younger and older sediments. A tube-shaped core sample is shown beside it."></p>
+<figcaption>A cartoon of seismic reflection: sound pulses travel through water and sediment, echoes return from boundaries, and a vibracore sample checks the layers.</figcaption>
+</figure>
+</div>
+<p><strong>Cores.</strong> The README says the data come from <strong>vibracores</strong>: a long tube is vibrated down into soft sediment and pulled out, giving a column you can look at layer by layer. The README says the cores were collected <em>prior to 1997</em>. From the cores you get:</p>
+<ul>
+<li><strong>Grain size:</strong> how big the particles are, from coarse sand to fine silt and clay. Grain size tells you about the energy of the water that deposited the sediment: fast water leaves coarse grains, calm water leaves fine ones.</li>
+<li><strong>Organic-matter content:</strong> how much of the sediment is made of once-living material, such as marsh plants.</li>
+</ul>
+<p><strong>Seismic reflection.</strong> The README says the core data are interpreted together with <em>high-resolution seismic records</em>. In a seismic-reflection survey, a boat sends <strong>sound pulses</strong> down through the water and the sediment. When the sound reaches a boundary between layers that differ in density or stiffness, part of it is reflected back to a receiver. How long the echo takes to return tells you how deep the boundary is. Cores are used to check what the layers really are. The README says the seismic information is <em>described in associated publications</em>, so the dataset itself may not contain raw seismic records. Check what is actually in the data tables.</p>
+<p><strong>Trend surface analysis.</strong> The title includes <em>trend surface analysis</em>, a statistical method that fits a smooth surface (like a gently tilted sheet) through scattered measurements, here to show how the depth of a boundary varies across the area. It is a way to map a surface from points. The README also suggests <em>paleotopography</em>, the shape of the land surface in the past.</p>
+<p><strong>Expect different kinds of data.</strong> This dataset mixes core measurements (grain size, organic matter) with horizon data (depths of the 300 YBP and Holocene/Pleistocene surfaces) and probably location columns. The README does not give the units, so check the metadata.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> column names, units, number of cores and how horizon depths are measured. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-vcr.15.19">metadata page</a>.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stratigraphy</td>
+<td>The study of layers of sediment or rock and what they reveal about the past</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Vibracore</td>
+<td>A tube vibrated into sediment to pull up a core</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Grain size</td>
+<td>How big the sediment particles are (sand, silt, clay)</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Organic matter</td>
+<td>Material from once-living things in the sediment</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Holocene</td>
+<td>The geologic period from about 11,700 years ago to today</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Pleistocene</td>
+<td>The older geologic period before the Holocene</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Holocene/Pleistocene boundary</td>
+<td>The surface where younger sediment sits on older sediment</td>
+<td>Depth (see metadata)</td>
+</tr>
+<tr class="even">
+<td>YBP</td>
+<td>Years before present</td>
+<td>Years</td>
+</tr>
+<tr class="odd">
+<td>Transgression</td>
+<td>Sea moving landward as sea level rises</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Seismic reflection</td>
+<td>Using echoes of sound to map layers below the surface</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Trend surface</td>
+<td>A smooth surface fitted through scattered measurements</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Paleotopography</td>
+<td>The shape of the land surface in the past</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -295,6 +437,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Reconstruction of paleotopography</li>
 <li>Relationship between stratigraphy and modern coastal processes</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../geophysics/ak-wildfire-permafrost.html">← Previous: AK Wildfire &amp; Permafrost</a></p>

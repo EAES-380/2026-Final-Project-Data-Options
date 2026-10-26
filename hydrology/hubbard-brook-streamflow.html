@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -249,6 +278,108 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Continuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire. One of the longest continuous watershed hydrology records in the United States.</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> A <strong>watershed</strong> is all of the land that drains to one point on a stream, like a bowl that funnels rain to a single drain. This dataset records how much water leaves <strong>nine small watersheds</strong> (12–77 hectares each; a hectare is about the size of a soccer field) at the Hubbard Brook Experimental Forest in New Hampshire, every day since 1956. It is one of the longest watershed records in the United States.</p>
+<p><strong>What is streamflow?</strong> <em>Streamflow</em> (also called <em>discharge</em>) is how much water flows past a point on a stream. For small watersheds like these, flow is commonly measured at the <strong>outlet</strong> with a gauge on a small dam called a <strong>weir</strong>. A sensor records how high the water is (the <em>stage</em>), and that height is converted to flow. (The README does not describe the instruments in detail, so check the metadata.)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/weir-stage.svg" class="img-fluid figure-img" alt="Side view of a weir with an arrow for stage, and a small graph showing discharge rising with stage."></p>
+<figcaption>A weir: stage (water level) behind a small dam is converted to discharge.</figcaption>
+</figure>
+</div>
+<p><strong>Units: mm/day.</strong> The README gives streamflow in <strong>millimeters per day</strong>. That may look odd for a flow, but it is clever: it is the volume of water divided by the watershed’s area, so it is the <em>depth</em> of water that would cover the whole watershed. That makes a 12-hectare watershed directly comparable with a 77-hectare one.</p>
+<p><strong>The water budget.</strong> Where does rain go? A watershed’s water budget says: <strong>P = Q + ET + ΔS</strong>.</p>
+<ul>
+<li><strong>P (precipitation):</strong> rain and snow that fall.</li>
+<li><strong>Q (streamflow):</strong> water that leaves in the stream. This is the variable in this dataset.</li>
+<li><strong>ET (evapotranspiration):</strong> water that returns to the air by evaporation and by <em>transpiration</em> (plants releasing water vapor through their leaves).</li>
+<li><strong>ΔS (change in storage):</strong> the change in water held in soil, groundwater and snow.</li>
+</ul>
+<p>Over many years, storage changes little, so rain is roughly split between streamflow and ET. <em>This dataset only has Q.</em> It does not include P or ET, so you need other data to close the budget.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/water-budget.svg" class="img-fluid figure-img" alt="Cross-section of a watershed with arrows for precipitation, streamflow, evapotranspiration and storage, and the equation P equals Q plus ET plus change in storage."></p>
+<figcaption>A watershed water budget: P = Q + ET + ΔS.</figcaption>
+</figure>
+</div>
+<p><strong>Reference vs.&nbsp;experimental watersheds.</strong> The README says some watersheds are <em>reference</em> (left alone, as a baseline) and some were <em>experimentally manipulated</em>. Its suggested analyses mention <em>deforestation experiments</em> such as clear-cutting. Trees pump a lot of water back to the air, so one idea you could test is whether cutting trees changes streamflow. Compare treated watersheds with reference watersheds, and look at the data rather than assuming the answer.</p>
+<p><strong>A caution on the instruments.</strong> The README notes a <em>transition from chart-recorder to digital sensors</em>. A change in equipment can change how data look, so check whether a jump in your data lines up with that transition.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> which watersheds are reference or treated, and when each treatment took place. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hbr.2.15">metadata page</a>.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Watershed</td>
+<td>All the land draining to one point on a stream</td>
+<td>12–77 ha here</td>
+</tr>
+<tr class="even">
+<td>Streamflow / discharge</td>
+<td>Water flowing past a point in the stream</td>
+<td>mm/day</td>
+</tr>
+<tr class="odd">
+<td>Weir</td>
+<td>A small dam with a known shape used to measure flow</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Stage</td>
+<td>Height of the water surface</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Evapotranspiration (ET)</td>
+<td>Water returned to the air by evaporation and plants</td>
+<td>Not in this dataset</td>
+</tr>
+<tr class="even">
+<td>Water budget</td>
+<td>Accounting of water in, out and stored: P = Q + ET + ΔS</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Reference watershed</td>
+<td>A watershed left undisturbed as a baseline</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Experimental (manipulated) watershed</td>
+<td>A watershed where researchers changed something, such as cutting trees</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Chart recorder vs.&nbsp;digital sensor</td>
+<td>Old paper-chart vs.&nbsp;electronic way of recording water level</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -295,6 +426,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Long-term trends or variability in discharge</li>
 <li>Comparison among watersheds with different treatments or characteristics</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../hydrology/index.html">Back to Hydrology</a></p>

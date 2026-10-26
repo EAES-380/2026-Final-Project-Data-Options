@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -250,6 +279,98 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Long-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts. Includes continuous automated stream and wetland water-level and discharge data.</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> These data track how water moves through <strong>two small watersheds</strong> in the Prospect Hill Tract of Harvard Forest, Massachusetts, since 2005. (A <em>watershed</em> is all the land that drains to one point on a stream.) The README says the two watersheds contain contrasting <strong>wetland types</strong>: a <strong>spruce-hemlock wetland</strong> (a wet area with evergreen trees) and a <strong>beaver swamp</strong> (a wetland that formed behind a beaver dam). These are <strong>headwater wetlands</strong>, found near the start of a stream. They are interesting because wetlands can store water and release it slowly, which can smooth out the rise and fall of the stream.</p>
+<p><strong>What was measured?</strong> The README lists <em>streamflow and water-level data from weirs and pipes</em>.</p>
+<ul>
+<li><strong>Water level (stage)</strong> is the height of the water. A <strong>weir</strong> is a small dam with a known shape; the height of water behind it tells you how much is flowing over it.</li>
+<li><strong>Discharge</strong> (streamflow) is how much water passes a point per unit of time. It is calculated from the water level.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/weir-stage.svg" class="img-fluid figure-img" alt="Side view of a weir with an arrow for stage, and a small graph showing discharge rising with stage."></p>
+<figcaption>A weir: stage (water level) behind a small dam is converted to discharge.</figcaption>
+</figure>
+</div>
+<p><strong>Continuous, automated data.</strong> The README calls the measurements <em>continuous automated</em> and says there are <em>near-real-time updates</em>. So the record is dense and can still be growing, and the end date of your copy depends on when you download it. Check how often values are recorded (the README does not say).</p>
+<p><strong>Storms and seasons.</strong> The README suggests <em>event-based or seasonal</em> analysis. An <em>event</em> is a storm, and the stream’s response to it is shown on a graph called a <strong>hydrograph</strong>: flow rises as water arrives, peaks, and then slowly falls (the <em>recession</em>). Comparing the two watersheds’ hydrographs for the same storm shows how their wetlands and landscapes affect the response. A <em>seasonal</em> analysis compares wet and dry parts of the year.</p>
+<p><strong>Comparing two sites.</strong> The README describes the watersheds as having different <em>topography</em> (shape of the land) and <em>history</em>. When you compare them, remember that differences could come from the wetland type, the size, the slope or the land history, so say what you can and cannot conclude.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> the units, recording interval, the DOI, and which sensor is at which watershed. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-hfr.70">metadata page</a> (the README says to see it for the current version).</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Watershed</td>
+<td>Land that drains to one point on a stream</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Headwater wetland</td>
+<td>A wetland near the start of a stream</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Spruce-hemlock wetland</td>
+<td>A wetland with spruce and hemlock trees</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Beaver swamp</td>
+<td>A wetland formed by a beaver dam</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Weir</td>
+<td>A small dam with a known shape used to measure flow</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Water level (stage)</td>
+<td>Height of the water surface</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Discharge</td>
+<td>Volume of water passing a point per time</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Hydrograph</td>
+<td>A graph of stream flow over time</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Recession</td>
+<td>The slow fall in flow after a storm peak</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -296,6 +417,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Comparison of the two contrasting watersheds</li>
 <li>Event-based or seasonal hydrologic analysis</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../hydrology/hubbard-brook-streamflow.html">← Previous: Hubbard Brook Streamflow</a></p>

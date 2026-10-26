@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -250,6 +279,93 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>High-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m). Part of the Niwot Ridge LTER long-term monitoring program.</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> Niwot Ridge is in the Colorado Front Range, and the <strong>D1 station</strong> sits at about <strong>3,738 m (roughly 12,300 ft)</strong> above sea level. That is an <strong>alpine</strong> site: very high in the mountains, where it is cold, windy and sunny and the weather can change quickly. The station is part of the <strong>Niwot Ridge LTER</strong> (Long Term Ecological Research) monitoring program.</p>
+<p><strong>What was measured?</strong> The README lists:</p>
+<ul>
+<li><strong>Air temperature</strong> and <strong>relative humidity</strong> (water vapor in the air compared with the most the air could hold at that temperature).</li>
+<li><strong>Wind speed and direction.</strong> By meteorology’s usual convention, direction is where the wind blows <em>from</em>; confirm in the metadata.</li>
+<li><strong>Solar radiation:</strong> the energy arriving from the sun.</li>
+</ul>
+<p>The README also says the data are <em>quality-flagged</em> and at <em>native resolution</em>. A <strong>flag</strong> is a code next to a value saying that it is good, estimated or suspicious. Native resolution means the data have not been averaged: you get a record every <strong>10 minutes</strong>. That is dense data: there are 144 records per day per variable.</p>
+<p><strong>What does 10-minute data let you do?</strong> Because values are so frequent, you can see the <em>diurnal cycle</em>, a pattern that repeats every 24 hours (temperature usually climbs after sunrise and falls overnight). You can also look at <em>seasonal cycles</em> across the year, <em>extreme</em> wind or temperature events, and how fast conditions change. Before you plot, check the flags and decide how to treat flagged values, and think about whether to average to hourly or daily data so graphs are readable.</p>
+<p><strong>Why elevation matters.</strong> High-elevation stations are generally colder and windier than low ones, which is why the README suggests comparing D1 with <em>lower-elevation stations</em>. That comparison needs data from another source, so check that it is available before choosing it.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> exact variable names, units and flag codes, and whether other variables (such as precipitation or snow) are included. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nwt.273">metadata page</a>.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alpine</td>
+<td>High in the mountains, around and above the tree line</td>
+<td>Elevation about 3,738 m here</td>
+</tr>
+<tr class="even">
+<td>Air temperature</td>
+<td>How warm or cold the air is</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Relative humidity</td>
+<td>Water vapor in the air as a share of the maximum it could hold</td>
+<td>Percent (usual)</td>
+</tr>
+<tr class="even">
+<td>Wind speed / direction</td>
+<td>How fast the wind blows and where it comes from</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Solar radiation</td>
+<td>Energy arriving from the sun</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Quality flag</td>
+<td>A code that marks a value as good, estimated or suspicious</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Native resolution</td>
+<td>The original measurement frequency, with no averaging</td>
+<td>10 minutes</td>
+</tr>
+<tr class="even">
+<td>Diurnal cycle</td>
+<td>A pattern that repeats every 24 hours</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Seasonal cycle</td>
+<td>A pattern that repeats every year</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -296,6 +412,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Extreme wind or temperature events at high elevation</li>
 <li>Comparison with lower-elevation stations</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../climate/kbs-meteorology.html">← Previous: KBS Meteorology</a></p>

@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -250,6 +279,120 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Paired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023).</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> Wetland soils hold a lot of carbon, and they can release two greenhouse gases: <strong>carbon dioxide (CO₂)</strong> and <strong>methane (CH₄)</strong>. This dataset pairs measurements of those gas fluxes with measurements of the soil beneath, so you can ask <em>why</em> some spots release more gas than others. The data come from two kinds of coastal wetland in Georgetown County, South Carolina, measured about monthly in 2022–2023: a <strong>tidal salt marsh</strong> and an <strong>impounded brackish wetland</strong>.</p>
+<ul>
+<li><em>Tidal salt marsh:</em> flooded by ocean tides, so the water is salty.</li>
+<li><em>Impounded wetland:</em> a wetland where a berm or dike holds water in, which changes how often and how deeply it floods. <em>Brackish</em> water is in between fresh and ocean water in saltiness.</li>
+</ul>
+<p><strong>What is a flux, and what is a chamber?</strong> A <em>flux</em> is how much gas moves across a surface per unit area per unit time. To measure it here, researchers use <strong>chambers</strong>: closed boxes placed over the ground. Gas that leaks out of the soil and plants builds up inside the sealed space, and the <em>rate of increase</em> in concentration tells you the flux. A steeper rise means a larger flux. In the usual convention a positive flux is gas going from the wetland into the air (confirm this in the metadata).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/chamber.svg" class="img-fluid figure-img" alt="Cartoon of a sealed chamber on marsh soil with arrows for methane and carbon dioxide and a small graph of rising gas concentration over time."></p>
+<figcaption>A closed chamber over marsh plants and soil, with CH₄ and CO₂ entering the chamber and an inset showing concentration rising over time.</figcaption>
+</figure>
+</div>
+<p>The README names three chamber types: <strong>whole-plant</strong>, <strong>plant-adjacent</strong> and <strong>non-vegetated</strong>. It does not define them, so read the metadata before you compare them. The general idea is to separate the effect of plants from the effect of bare soil. Many wetland plants can also move gas between the soil and the air through their stems, which is one reason plants matter for methane.</p>
+<p><strong>Soil measurements.</strong> Soil cores were taken at two depths (0–10 cm and 10–50 cm). The README lists these variables:</p>
+<ul>
+<li><strong>Carbon (C) and nitrogen (N) concentrations</strong> and the <strong>C:N ratio</strong>. C:N is the amount of carbon relative to nitrogen. It is often used as a rough sign of how easily microbes can break down the organic matter.</li>
+<li><strong>Moisture</strong> (how wet the soil is) and <strong>pH</strong> (how acidic or basic it is).</li>
+<li><strong>Conductivity:</strong> how well the soil water carries electricity. It is usually a stand-in for how salty the water is, but check the metadata.</li>
+<li><strong>Organic matter:</strong> the part of the soil made from once-living material.</li>
+<li><strong>Root biomass:</strong> the weight of roots in the soil.</li>
+<li><strong>mcrA gene copy numbers:</strong> <em>mcrA</em> is a gene that <strong>methanogens</strong> (microbes that produce methane) use. Counting its copies is a way to estimate how many methane-producing microbes are present.</li>
+</ul>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> the units, the exact chamber method, and how chamber and soil measurements are matched in time and place. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1828.3">metadata page</a> before you combine tables.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CH₄ (methane)</td>
+<td>A potent greenhouse gas made by microbes in oxygen-poor soils</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>CO₂</td>
+<td>Carbon dioxide, the main carbon greenhouse gas</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Flux</td>
+<td>Gas moving across a surface per area per time</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Chamber</td>
+<td>A closed box placed over the ground to catch emitted gas</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Tidal salt marsh</td>
+<td>Coastal wetland flooded by ocean tides</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Impounded wetland</td>
+<td>Wetland where a berm or dike holds water in</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Brackish</td>
+<td>Salinity between fresh water and seawater</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>C:N ratio</td>
+<td>Carbon relative to nitrogen in the soil</td>
+<td>Ratio (no units)</td>
+</tr>
+<tr class="odd">
+<td>Conductivity</td>
+<td>How well soil water conducts electricity (often a salinity proxy)</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Organic matter</td>
+<td>Soil material from once-living things</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>mcrA gene copies</td>
+<td>A count that estimates how many methane-making microbes are present</td>
+<td>Copies (see metadata)</td>
+</tr>
+<tr class="even">
+<td>Core depths</td>
+<td>Soil samples at 0–10 cm and 10–50 cm</td>
+<td>cm</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -295,6 +438,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Comparison of salt marsh vs.&nbsp;impounded wetland</li>
 <li>Drivers of spatial and temporal variability in fluxes</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../biogeochemistry/gce-eddy-covariance.html">← Previous: GCE Eddy Covariance</a></p>

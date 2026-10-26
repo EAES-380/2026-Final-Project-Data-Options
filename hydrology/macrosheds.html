@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,8 +238,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#why-useful-for-hydrology-ecosystems-students" id="toc-why-useful-for-hydrology-ecosystems-students" class="nav-link" data-scroll-target="#why-useful-for-hydrology-ecosystems-students">Why useful for Hydrology &amp; Ecosystems students</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -247,6 +276,94 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>See the dedicated Biogeochemistry README for full details. MacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for &gt;200 small watersheds and is equally valuable for hydrology-focused projects.</p>
 </section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p>This page covers the <strong>same dataset</strong> as the <a href="../biogeochemistry/macrosheds.html">Biogeochemistry MacroSheds page</a>, which has the full explanation of solutes, concentration and load. Here is the short version for a <strong>water-focused</strong> project.</p>
+<p><strong>The big idea.</strong> A <strong>watershed</strong> is all of the land that drains to one point on a stream. MacroSheds combines daily measurements from more than 200 small watersheds across the United States, with consistent formatting (<em>harmonized</em>) so you can compare them.</p>
+<p><strong>What matters most for hydrology?</strong></p>
+<ul>
+<li><strong>Discharge (streamflow):</strong> how much water flows past a point in the stream per unit of time (daily in this dataset).</li>
+<li><strong>Precipitation:</strong> rain and snow falling on the watershed, where available.</li>
+<li><strong>Watershed attributes:</strong> climate, geology, terrain, vegetation and land cover, which help explain why watersheds behave differently.</li>
+</ul>
+<p><strong>Runoff generation.</strong> The README suggests studying <em>controls on runoff generation</em>. <em>Runoff</em> is the part of precipitation that ends up in the stream. A watershed’s <strong>water budget</strong> shows where rain goes: <strong>P = Q + ET + ΔS</strong>. Precipitation (P) leaves as streamflow (Q) and evapotranspiration (ET, water returned to the air by evaporation and plants), or is held back as a change in storage (ΔS, in soil, groundwater and snow). Comparing Q to P across watersheds, and relating that to attributes like climate, vegetation and terrain, is a natural project.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/water-budget.svg" class="img-fluid figure-img" alt="Cross-section of a watershed with arrows for precipitation, streamflow, evapotranspiration and storage, and the equation P equals Q plus ET plus change in storage."></p>
+<figcaption>A watershed water budget: P = Q + ET + ΔS.</figcaption>
+</figure>
+</div>
+<p><strong>Integration with chemistry.</strong> The dataset also has stream chemistry, so you can ask how flow and chemistry are linked. A <strong>concentration</strong> (dissolved amount per volume of water) combined with <strong>discharge</strong> gives a <strong>load</strong> (how much leaves per time). See the Biogeochemistry page for details.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> units, which sites have precipitation, and how long each record is. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1262.2">metadata page</a>, the <a href="https://macrosheds.org">dashboard</a> or the R package.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Watershed</td>
+<td>Land that drains to one point on a stream</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Discharge</td>
+<td>Volume of water passing a point in the stream per time</td>
+<td>Not given in README (daily)</td>
+</tr>
+<tr class="odd">
+<td>Precipitation</td>
+<td>Rain and snow falling on the watershed</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Runoff</td>
+<td>The part of precipitation that ends up in the stream</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Evapotranspiration (ET)</td>
+<td>Water returned to the air by evaporation and plants</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Water budget</td>
+<td>P = Q + ET + ΔS</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Watershed attributes</td>
+<td>Descriptors of climate, geology, terrain, vegetation and land cover</td>
+<td>Varies</td>
+</tr>
+<tr class="even">
+<td>Harmonized</td>
+<td>Put into a common format so sites can be compared</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
 <ul>
@@ -270,6 +387,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="why-useful-for-hydrology-ecosystems-students" class="level2">
 <h2 class="anchored" data-anchor-id="why-useful-for-hydrology-ecosystems-students">Why useful for Hydrology &amp; Ecosystems students</h2>
 <p>Enables multi-site comparative hydrology, examination of controls on runoff generation, and integration of hydrologic and biogeochemical data.</p>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../hydrology/harvard-forest-hydro.html">← Previous: Harvard Forest Hydrology</a></p>

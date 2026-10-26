@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -250,6 +279,99 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Hourly soil temperature measurements at depths from 5 to 150 cm at paired burned and unburned sites in Interior Alaska. Designed to examine the effects of climate and wildfire on near-surface permafrost thermal regimes.</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> Wildfire can burn trees and the <strong>organic layer</strong> (moss and partly decayed plants) on the forest floor. That organic layer works like a blanket that insulates the ground. Researchers want to know how losing it, along with climate, changes the temperature of the soil and the <strong>permafrost</strong> underneath. <em>Permafrost</em> is ground that stays at or below 0 °C for at least two years in a row. Above it is the <strong>active layer</strong>, the top layer that thaws in summer and refreezes in winter.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/active-layer.svg" class="img-fluid figure-img" alt="Two side-by-side soil cross-sections, one with green trees and one with burned trunks, each with temperature sensors at several depths and a dashed line for the permafrost table."></p>
+<figcaption>Paired unburned and burned sites with sensors at several depths in each soil column, showing the organic layer, mineral soil, the active layer and the permafrost table.</figcaption>
+</figure>
+</div>
+<p><strong>How the study is designed.</strong> The README describes <em>paired burned and unburned sites</em>. <em>Paired</em> means each burned site has a nearby unburned comparison site, so that differences are more likely to be due to the fire than to differences in the landscape. This is a common way to study an effect when you cannot run a controlled experiment. The README says the data are <strong>hourly soil temperatures</strong> at <strong>depths from 5 to 150 cm</strong>, from <strong>2013 to 2018</strong>, in Interior Alaska. That is a <em>time series at many depths</em>: one set of columns per depth, or one row per depth and time, so check how your data file is organized.</p>
+<p><strong>What do you compare?</strong> The README suggests three ideas:</p>
+<ul>
+<li><em>Temperature profiles at burned vs.&nbsp;unburned sites:</em> compare temperature versus depth for the same date or season.</li>
+<li><em>Freeze–thaw dynamics:</em> <em>freeze–thaw</em> is the seasonal change between frozen and thawed soil. You can see it when soil temperature at a given depth crosses 0 °C.</li>
+<li><em>Depth-dependent warming rates:</em> does the soil warm faster near the surface or deeper down, and does that differ between burned and unburned sites?</li>
+</ul>
+<p><strong>What the README does not tell you.</strong> It does not say how severe each fire was (<em>burn severity</em> is how much of the vegetation and organic layer was consumed), how long ago each site burned, or what the units are (temperature is almost certainly in degrees Celsius, but verify). Do not assume the burned sites are warmer or colder: test it with the data.</p>
+<p><strong>Hourly data.</strong> With one record per hour, there are 24 per day, which is a lot of data. Plan whether to average to daily values (for example, daily mean at each depth) so that graphs are readable.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> units, site locations, burn severity and years since fire. Check the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-bnz.717.2">metadata page</a>.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Wildfire</td>
+<td>An uncontrolled fire in a natural area</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Permafrost</td>
+<td>Ground at or below 0 °C for at least two years</td>
+<td>Temperature (verify unit)</td>
+</tr>
+<tr class="odd">
+<td>Active layer</td>
+<td>Top layer that thaws in summer and refreezes in winter</td>
+<td>Depth in cm</td>
+</tr>
+<tr class="even">
+<td>Organic layer</td>
+<td>Moss and partly decayed plants on top of the mineral soil; insulates the ground</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Paired sites</td>
+<td>A burned site matched with a nearby unburned site for comparison</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Soil temperature</td>
+<td>How warm the soil is at a given depth</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Depth</td>
+<td>Distance below the ground surface</td>
+<td>5–150 cm</td>
+</tr>
+<tr class="even">
+<td>Freeze–thaw</td>
+<td>The seasonal switch between frozen and thawed soil</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Hourly data</td>
+<td>One measurement per hour</td>
+<td>1 hour</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -295,6 +417,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Seasonal freeze–thaw dynamics</li>
 <li>Depth-dependent warming rates</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../geophysics/bnz-boreholes.html">← Previous: Bonanza Creek Boreholes</a></p>

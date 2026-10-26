@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -249,6 +278,110 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>A harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks.</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> A <strong>watershed</strong> is all the land that drains to one point on a stream, like a bowl that funnels rain to a single drain. MacroSheds gathers measurements from more than 200 small watersheds across the United States and puts them in one consistent format (the README calls this <em>harmonized</em>). The data come from several research networks: <strong>LTER</strong> (Long Term Ecological Research), <strong>CZO/CZNet</strong> (Critical Zone Observatories) and <strong>NEON</strong> (National Ecological Observatory Network).</p>
+<p><strong>What is in it?</strong> For each watershed you can find:</p>
+<ul>
+<li><strong>Discharge:</strong> how much water flows past a point in the stream per unit of time. The README says this is daily.</li>
+<li><strong>Solutes and chemistry:</strong> substances dissolved in the water, such as ions and nutrients (the README says “multiple ions and nutrients”).</li>
+<li><strong>Precipitation and precipitation chemistry</strong> where available.</li>
+<li><strong>Watershed attributes:</strong> facts about the land, such as climate, geology, terrain, vegetation and land cover. The README says they are aligned with <em>CAMELS-style</em> predictors, meaning they follow the format of a well-known set of watershed descriptors.</li>
+</ul>
+<p><strong>Concentration versus load.</strong> A <em>concentration</em> is how much of a dissolved substance is in a given volume of water, like how strong a drink is. A <em>load</em> (also called <em>export</em> or <em>flux</em>) is how much of that substance leaves the watershed over a period of time. Load depends on both concentration and discharge: a strong drink in a tiny cup carries less than a weak drink in a huge bucket. Dividing the load by watershed area gives a <em>yield</em>, which lets you compare large and small watersheds fairly. The README suggests studying <em>nutrient export or retention</em>: export is what leaves in the stream, and retention is what the watershed holds back (for example in plants and soil).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/concentration-load.svg" class="img-fluid figure-img" alt="Three cards showing concentration, multiplied by discharge, equals load, with a note that dividing by watershed area gives yield."></p>
+<figcaption>Concentration times discharge equals load; load divided by watershed area equals yield.</figcaption>
+</figure>
+</div>
+<p><strong>Weathering.</strong> The README also mentions <em>weathering rates</em>. Weathering is the slow breakdown of rock, which releases dissolved ions into water, so stream chemistry can carry a fingerprint of the local geology.</p>
+<p><strong>How to start.</strong> Because the dataset is large and varies by site (time spans differ by watershed), the README points to an <strong>R package</strong> and a <strong>dashboard</strong> that make it easier to pick sites and download them. Start with a few watersheds rather than all 200.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> which specific solutes are included, the units, and which watersheds have the longest records. Use the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1262.2">metadata page</a>, the <a href="https://macrosheds.org">dashboard</a> and the <a href="https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lol2.10325">data paper</a> for details.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Watershed</td>
+<td>All the land that drains to one point on a stream</td>
+<td>Area (see attributes)</td>
+</tr>
+<tr class="even">
+<td>Discharge</td>
+<td>Volume of water passing a point in the stream per time</td>
+<td>Not given in README (daily values)</td>
+</tr>
+<tr class="odd">
+<td>Solute</td>
+<td>A substance dissolved in water</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Concentration</td>
+<td>Amount of a solute per volume of water</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Load / export / flux</td>
+<td>Mass of a solute leaving the watershed per time</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Yield</td>
+<td>Load divided by watershed area</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Retention</td>
+<td>Nutrient held back in the watershed instead of leaving in the stream</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Precipitation chemistry</td>
+<td>What is dissolved in rain or snow</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Watershed attributes</td>
+<td>Descriptors of climate, geology, terrain, vegetation and land cover</td>
+<td>Varies</td>
+</tr>
+<tr class="even">
+<td>Weathering</td>
+<td>Slow breakdown of rock that releases dissolved ions</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Harmonized</td>
+<td>Put into a common format so sites can be compared</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -298,6 +431,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Relationships between watershed attributes and stream chemistry</li>
 <li>Long-term trends in solute concentrations or loads</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../biogeochemistry/sc-wetland-fluxes.html">← Previous: SC Wetland Fluxes</a></p>

@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ca28da0872513c43fabbe9b1476a8bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1e8de378ed429744ff51b8e67e922d5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,6 +95,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project-guide" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Project guide</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-project-guide">    
+        <li>
+    <a class="dropdown-item" href="../project-guide/index.html">
+ <span class="dropdown-text">Project guide overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/kickoff.html">
+ <span class="dropdown-text">Kick-off</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/proposal.html">
+ <span class="dropdown-text">Proposal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/presentation.html">
+ <span class="dropdown-text">Presentation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../project-guide/executive-summary.html">
+ <span class="dropdown-text">Executive summary</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-biogeochemistry" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Biogeochemistry</span>
@@ -211,11 +238,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link active" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#explanation-of-data" id="toc-explanation-of-data" class="nav-link" data-scroll-target="#explanation-of-data">Explanation of data</a></li>
   <li><a href="#source-and-access" id="toc-source-and-access" class="nav-link" data-scroll-target="#source-and-access">Source and access</a></li>
   <li><a href="#variables-and-contents" id="toc-variables-and-contents" class="nav-link" data-scroll-target="#variables-and-contents">Variables and contents</a></li>
   <li><a href="#temporal-spatial-coverage" id="toc-temporal-spatial-coverage" class="nav-link" data-scroll-target="#temporal-spatial-coverage">Temporal &amp; spatial coverage</a></li>
   <li><a href="#why-this-dataset-is-useful-for-final-projects" id="toc-why-this-dataset-is-useful-for-final-projects" class="nav-link" data-scroll-target="#why-this-dataset-is-useful-for-final-projects">Why this dataset is useful for final projects</a></li>
   <li><a href="#suggested-questions-and-analyses" id="toc-suggested-questions-and-analyses" class="nav-link" data-scroll-target="#suggested-questions-and-analyses">Suggested questions and analyses</a></li>
+  <li><a href="#using-this-dataset-in-your-project" id="toc-using-this-dataset-in-your-project" class="nav-link" data-scroll-target="#using-this-dataset-in-your-project">Using this dataset in your project</a></li>
   </ul>
 </nav>
     </div>
@@ -249,6 +278,140 @@ ul.task-list li input[type="checkbox"] {
 <section id="what-it-is" class="level2">
 <h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
 <p>Science-ready vertical carbon fluxes measured by eddy covariance (EC) over a <em>Spartina alterniflora</em> tidal salt marsh on Sapelo Island, Georgia (GCE-LTER). Covers a full decade of continuous measurements.</p>
+</section>
+<section id="explanation-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="explanation-of-data">Explanation of data</h2>
+<p><strong>The big idea.</strong> Plants take carbon dioxide (CO₂) out of the air to build their tissues, and plants and soil microbes put CO₂ back into the air when they respire. This dataset tracks that two-way traffic over a tidal salt marsh on Sapelo Island, Georgia, for about ten years. Coastal marshes like this one are often called <strong>blue carbon</strong> ecosystems because they can store carbon.</p>
+<p><strong>What is a flux?</strong> A <em>flux</em> is how much of something crosses a surface, per unit of surface area, per unit of time. Think of counting how many people walk through a doorway each minute. Here the “doorway” is the marsh surface and the “people” are CO₂ molecules, moving <em>vertically</em> between the marsh and the air above it.</p>
+<p><strong>How is it measured? Eddy covariance.</strong> Air near the ground is turbulent: it is full of small swirls called <em>eddies</em> that carry air up and down. An <em>eddy covariance</em> (EC) tower sits above the marsh with two instruments:</p>
+<ul>
+<li>a <strong>sonic anemometer</strong>, which measures wind speed in three directions (including straight up or down) using sound pulses, and</li>
+<li>a <strong>gas analyzer</strong>, which measures how much CO₂ is in the air.</li>
+</ul>
+<p>If upward-moving air tends to carry <em>more</em> CO₂ than downward-moving air, the marsh is releasing CO₂. If upward air carries <em>less</em>, the marsh is taking CO₂ up. The statistical link between vertical wind and CO₂ is called a <em>covariance</em>, which is where the method gets its name. The tower mostly “sees” the marsh upwind of it, called the <strong>footprint</strong>. The README says the dataset records what fraction of the footprint was tall, medium or short marsh habitat (it does not define those height classes here, so check the metadata page).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/ec-tower.svg" class="img-fluid figure-img" alt="Cartoon of a tower in a marsh with a sonic anemometer and a gas analyzer at the top and curved arrows showing eddies of air moving CO2 up and down."></p>
+<figcaption>An eddy covariance tower: a sonic anemometer and a gas analyzer near the top, with swirling eddies carrying CO₂ up from and down to the marsh.</figcaption>
+</figure>
+</div>
+<p><strong>NEE, GPP and ER (Reco).</strong> The three headline variables fit together like a bank account:</p>
+<ul>
+<li><strong>GPP (gross primary production)</strong> is the total CO₂ the plants pull in through photosynthesis. It is like your gross paycheck.</li>
+<li><strong>ER (ecosystem respiration, also written Reco)</strong> is the CO₂ released by plants and soil microbes. It is like your spending.</li>
+<li><strong>NEE (net ecosystem exchange)</strong> is the net result that the tower actually sees: NEE = ER − GPP (with GPP written as a positive number). It is like your balance change.</li>
+</ul>
+<p><strong>Sign convention.</strong> In this convention, a <strong>negative NEE means the ecosystem is taking up CO₂</strong> (a sink), and a positive NEE means it is releasing CO₂ (a source). Some datasets flip the sign, so confirm it on the metadata page before you interpret a graph.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/carbon-flux.svg" class="img-fluid figure-img" alt="Diagram with a downward arrow labeled GPP, an upward arrow labeled ER, and the equation NEE equals ER minus GPP."></p>
+<figcaption>Carbon flux diagram: CO₂ goes into the plants as GPP and out as ER; NEE = ER − GPP.</figcaption>
+</figure>
+</div>
+<p>Good to know: a tower measures <strong>NEE</strong> directly. GPP and ER are not measured directly. They are <em>estimated</em> by splitting NEE into two pieces, a step called <strong>flux partitioning</strong>. That is why the README suggests comparing methods.</p>
+<p><strong>Daily and seasonal cycles.</strong> A <em>diurnal cycle</em> is a pattern that repeats every 24 hours. At night there is no sunlight, so there is no photosynthesis and respiration dominates (NEE is positive). In daylight, photosynthesis usually rises and can outweigh respiration (NEE dips negative). A <em>seasonal cycle</em> is the same idea across the year: in many ecosystems uptake is strongest in the growing season. The 30-minute data let you see the daily cycle, while the daily and annual data let you see seasons and yearly totals. Check which pattern your own data actually show.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/diurnal-nee.svg" class="img-fluid figure-img" alt="Schematic line graph of NEE over 24 hours, positive at night and dipping below zero around noon."></p>
+<figcaption>Schematic of a typical diurnal NEE cycle: slightly positive at night, negative around midday.</figcaption>
+</figure>
+</div>
+<p><strong>Gaps and uncertainty.</strong> Towers sometimes miss data (power loss, bad weather, instrument problems). <em>Gap-filling</em> means estimating values for the missing periods. The README mentions comparing gap-filled with observed periods, so look for a column or flag that tells them apart. The dataset also gives <strong>95% confidence intervals</strong>, a range that very likely contains the true value, as an estimate of uncertainty.</p>
+<p><strong>Supporting variables.</strong> The README lists air temperature, humidity, <strong>VPD</strong> and <strong>water-table height</strong>. <em>Relative humidity</em> is how much water vapor is in the air compared with the most it could hold at that temperature. <em>VPD (vapor pressure deficit)</em> is the gap between those two amounts, so it measures how “thirsty” the air is. <em>Water-table height</em> is the level of the water relative to the ground. On a tidal marsh it may be linked to the tides, but the README does not say, so check the metadata.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Not stated in the README:</strong> the units of NEE, GPP and ER, the exact variable names, and the sign convention used here. Those details are on the <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12">metadata page</a>. Eddy covariance fluxes are commonly reported as an amount of CO₂ (or carbon) per area per time, but confirm before you plot.</p>
+</div>
+</div>
+</div>
+<section id="key-terms" class="level3">
+<h3 class="anchored" data-anchor-id="key-terms">Key terms</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Plain-language meaning</th>
+<th>Typical units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Flux</td>
+<td>Amount of something crossing a surface per area per time</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Eddy covariance (EC)</td>
+<td>Tower method that links vertical wind to gas concentration to get a flux</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Sonic anemometer</td>
+<td>Instrument that measures 3-D wind using sound</td>
+<td>n/a</td>
+</tr>
+<tr class="even">
+<td>Gas analyzer</td>
+<td>Instrument that measures CO₂ in the air</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>NEE</td>
+<td>Net CO₂ exchange; NEE = ER − GPP; negative means net uptake</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>GPP</td>
+<td>Total CO₂ taken up by photosynthesis</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>ER (Reco)</td>
+<td>CO₂ released by plant and microbe respiration</td>
+<td>Not given in README</td>
+</tr>
+<tr class="even">
+<td>Footprint</td>
+<td>The patch of marsh upwind that the tower measures</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>Diurnal cycle</td>
+<td>Pattern that repeats every 24 hours</td>
+<td>30-minute data</td>
+</tr>
+<tr class="even">
+<td>Gap-filling</td>
+<td>Estimating values for missing measurements</td>
+<td>n/a</td>
+</tr>
+<tr class="odd">
+<td>95% confidence interval</td>
+<td>Range likely to contain the true value</td>
+<td>Same as the variable</td>
+</tr>
+<tr class="even">
+<td>VPD</td>
+<td>How “thirsty” the air is (gap between water vapor held and the most it could hold)</td>
+<td>Not given in README</td>
+</tr>
+<tr class="odd">
+<td>Water-table height</td>
+<td>Level of the water relative to the ground</td>
+<td>Not given in README</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="source-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="source-and-access">Source and access</h2>
@@ -296,6 +459,12 @@ ul.task-list li input[type="checkbox"] {
 <li>Response of NEE/GPP to water-table height or temperature</li>
 <li>Comparison of gap-filled vs.&nbsp;observed periods</li>
 </ul>
+</section>
+<section id="using-this-dataset-in-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="using-this-dataset-in-your-project">Using this dataset in your project</h2>
+<div class="project-link">
+<p>Thinking about choosing this dataset? Your <strong>proposal</strong> needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The <a href="../project-guide/proposal.html">Proposal page</a> has a one-page template, and the <a href="../project-guide/index.html">Project guide</a> summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.</p>
+</div>
 <hr>
 <div class="pager">
 <p><a href="../biogeochemistry/index.html">Back to Biogeochemistry</a></p>
