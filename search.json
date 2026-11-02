@@ -130,7 +130,7 @@
     "href": "hydrology/macrosheds.html",
     "title": "MacroSheds Watershed Synthesis (also listed under Biogeochemistry)",
     "section": "",
-    "text": "← Previous: Harvard Forest Hydrology\nBack to Hydrology"
+    "text": "← Previous: Harvard Forest Hydrology\nBack to Hydrology\nNext: CROCUS Sap Flow →"
   },
   {
     "objectID": "hydrology/macrosheds.html#what-it-is",
@@ -165,7 +165,7 @@
     "href": "hydrology/macrosheds.html#using-this-dataset-in-your-project",
     "title": "MacroSheds Watershed Synthesis (also listed under Biogeochemistry)",
     "section": "Using this dataset in your project",
-    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: Harvard Forest Hydrology\nBack to Hydrology"
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: Harvard Forest Hydrology\nBack to Hydrology\nNext: CROCUS Sap Flow →"
   },
   {
     "objectID": "hydrology/hubbard-brook-streamflow.html",
@@ -231,515 +231,130 @@
     "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\nBack to Hydrology\nNext: Harvard Forest Hydrology →"
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html",
-    "href": "climate/niwot-ridge-d1.html",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html",
+    "href": "hydrology/crocus-sap-flow.html",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "",
-    "text": "← Previous: KBS Meteorology\nBack to Climate\nNext: California Downscaled Grids →"
+    "text": "← Previous: MacroSheds\nBack to Hydrology"
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#what-it-is",
-    "href": "climate/niwot-ridge-d1.html#what-it-is",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#what-it-is",
+    "href": "hydrology/crocus-sap-flow.html#what-it-is",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "What it is",
-    "text": "What it is\nHigh-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m). Part of the Niwot Ridge LTER long-term monitoring program."
+    "text": "What it is\nUncorrected sap velocity measurements from urban trees at five sites in Chicago, Illinois, collected with heat ratio method (HRM) sensors as part of the DOE CROCUS (Community Research on Climate and Urban Science) project. The trees include street trees and trees in urban parks. This dataset is published on the DOE ESS-DIVE / LBNL data repository, not on EDI."
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#explanation-of-data",
-    "href": "climate/niwot-ridge-d1.html#explanation-of-data",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#explanation-of-data",
+    "href": "hydrology/crocus-sap-flow.html#explanation-of-data",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Explanation of data",
-    "text": "Explanation of data\nThe big idea. Niwot Ridge is in the Colorado Front Range, and the D1 station sits at about 3,738 m (roughly 12,300 ft) above sea level. That is an alpine site: very high in the mountains, where it is cold, windy and sunny and the weather can change quickly. The station is part of the Niwot Ridge LTER (Long Term Ecological Research) monitoring program.\nWhat was measured? The README lists:\n\nAir temperature and relative humidity (water vapor in the air compared with the most the air could hold at that temperature).\nWind speed and direction. By meteorology’s usual convention, direction is where the wind blows from; confirm in the metadata.\nSolar radiation: the energy arriving from the sun.\n\nThe README also says the data are quality-flagged and at native resolution. A flag is a code next to a value saying that it is good, estimated or suspicious. Native resolution means the data have not been averaged: you get a record every 10 minutes. That is dense data: there are 144 records per day per variable.\nWhat does 10-minute data let you do? Because values are so frequent, you can see the diurnal cycle, a pattern that repeats every 24 hours (temperature usually climbs after sunrise and falls overnight). You can also look at seasonal cycles across the year, extreme wind or temperature events, and how fast conditions change. Before you plot, check the flags and decide how to treat flagged values, and think about whether to average to hourly or daily data so graphs are readable.\nWhy elevation matters. High-elevation stations are generally colder and windier than low ones, which is why the README suggests comparing D1 with lower-elevation stations. That comparison needs data from another source, so check that it is available before choosing it.\n\n\n\n\n\n\nNot stated in the README: exact variable names, units and flag codes, and whether other variables (such as precipitation or snow) are included. Check the metadata page.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nAlpine\nHigh in the mountains, around and above the tree line\nElevation about 3,738 m here\n\n\nAir temperature\nHow warm or cold the air is\nNot given in README\n\n\nRelative humidity\nWater vapor in the air as a share of the maximum it could hold\nPercent (usual)\n\n\nWind speed / direction\nHow fast the wind blows and where it comes from\nNot given in README\n\n\nSolar radiation\nEnergy arriving from the sun\nNot given in README\n\n\nQuality flag\nA code that marks a value as good, estimated or suspicious\nn/a\n\n\nNative resolution\nThe original measurement frequency, with no averaging\n10 minutes\n\n\nDiurnal cycle\nA pattern that repeats every 24 hours\nn/a\n\n\nSeasonal cycle\nA pattern that repeats every year\nn/a"
+    "text": "Explanation of data\nThe big idea. Trees are giant water pumps. Water enters the roots from the soil, travels up the trunk as sap (in the wood, or xylem), and leaves through tiny pores in the leaves as water vapor. That last step is called transpiration. It cools the tree and the air around it, which matters a lot in a hot city. Measuring how fast sap moves tells you how much water a tree is using and when.\nHow is sap speed measured? The dataset description says these sensors use the heat ratio method (HRM) (ICT International SFM1x sensors). Three thin needles go into the trunk: a heater in the middle and a temperature needle above and below it. The heater gives a short pulse of heat. If sap is moving upward, it carries more of that heat to the upper needle. The ratio of warming at the two needles is turned into a sap velocity, in cm/hr.\n\n\n\nA tree moves water from soil to leaves; a heat ratio sensor measures how fast the sap carries a heat pulse upward.\n\n\nInner and outer probes. Each sensor reports sap velocity from an inner and an outer measurement point, at different depths in the wood. Sap often moves at different speeds at different depths, so you can compare them.\nRaw data and quality flags. These are raw, uncorrected values. They are not corrected for wood anatomy or species differences, so treat them as relative speeds, and be careful comparing absolute numbers between species. Each value has a quality-control flag made from 3 “yes/no” checks (a 3-bit code):\n\nPhysical range: the value is below −10 or above 60 cm/hr.\nStep spike: the value jumps by more than 36 cm/hr from the previous one.\nStuck sensor: more than 10 identical values in a row.\n\nDecide (and explain in your project) how you handle flagged values.\nUrban trees and linked data. Data were sent wirelessly (LoRaWAN) to Sage Network nodes, and each record has a Sage Node ID. The same nodes measured things like air quality and wind speed, published as linked CROCUS datasets (their DOIs are in the data package). That lets you ask how weather affects tree water use.\n\n\n\n\n\n\nNot stated in the dataset description: the exact start and end dates (the title says 2024–2025), the number of trees or sensors at each site, the probe depths, the file names and column names, and how the flag bits are coded. Check the data package and its file-level metadata.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nSap\nWater (with dissolved nutrients) moving up through the wood\nn/a\n\n\nXylem\nThe water-carrying tissue in wood\nn/a\n\n\nTranspiration\nWater leaving leaves as vapor\nn/a\n\n\nSap velocity\nHow fast sap moves up the trunk\ncm/hr\n\n\nHeat ratio method (HRM)\nMeasuring sap speed from how a heat pulse spreads up vs. down\nn/a\n\n\nInner / outer probe\nMeasurement points at two depths in the wood\nn/a\n\n\nDBH\nDiameter at breast height: trunk width about 1.3 m above ground\ncm\n\n\nQC flag\nA code marking values that failed automatic checks\n3-bit code\n\n\nSage node\nA sensor station that collects the wireless data\nn/a\n\n\nDiurnal cycle\nThe day–night pattern (sap is usually faster by day)\nn/a"
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#source-and-access",
-    "href": "climate/niwot-ridge-d1.html#source-and-access",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#source-and-access",
+    "href": "hydrology/crocus-sap-flow.html#source-and-access",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Source and access",
-    "text": "Source and access\n\nEDI package ID: knb-lter-nwt.273\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nwt.273\nDOI (example): https://doi.org/10.6073/pasta/e06669d42e1314dd93160d091022a717\nOriginal README: Climate_2_NiwotRidge_D1_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+    "text": "Source and access\n\nRepository: DOE ESS-DIVE / LBNL data repository (not EDI)\nRecord page: https://www.osti.gov/biblio/3013822\nDOI: https://doi.org/10.15485/3013822\nCitation: Berkelhammer, M., Kaludi, B., Lee, J., Negri, C., Collis, S., Muradyan, P., et al. (2026). Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025). https://doi.org/10.15485/3013822\nLead author profile: Max Berkelhammer on Google Scholar\nOriginal README: Hydrology_4_CROCUS_SapFlow_README.md\n\n\n\n\n\n\n\nNote on access: This dataset is not on EDI, so the EDI access notes do not apply. Follow the DOI to the ESS-DIVE landing page to download the CSV files. ESS-DIVE may ask you to accept its data use terms."
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#variables-and-contents",
-    "href": "climate/niwot-ridge-d1.html#variables-and-contents",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#variables-and-contents",
+    "href": "hydrology/crocus-sap-flow.html#variables-and-contents",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Variables and contents",
-    "text": "Variables and contents\n\nAir temperature, relative humidity, wind speed and direction, solar radiation\nQuality-flagged native-resolution data\nSuitable for alpine climate and meteorology studies"
+    "text": "Variables and contents\n\nSensor ID, tree identification number, GPS coordinates\nTree species (common and scientific names) and diameter at breast height (DBH, cm)\nUncorrected sap velocity (cm/hr) from inner and outer probes\nSage Node identifiers (to link with air quality and wind data)\nQuality-control flags (3-bit: physical range, step spike, stuck sensor)\nTimestamps in local Chicago time (CDT/CST); CSV format\nSpecies: sugar maple, silver maple, red maple, swamp white oak, American elm, honey locust, cottonwood, tree of heaven"
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#temporal-spatial-coverage",
-    "href": "climate/niwot-ridge-d1.html#temporal-spatial-coverage",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#temporal-spatial-coverage",
+    "href": "hydrology/crocus-sap-flow.html#temporal-spatial-coverage",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Temporal & spatial coverage",
-    "text": "Temporal & spatial coverage\n\nTime: 2014–ongoing (10-minute resolution)\nLocation: Niwot Ridge, Colorado Front Range, USA (high-elevation alpine)"
+    "text": "Temporal & spatial coverage\n\nTime: 2024–2025, at 15–20 minute intervals depending on the sensor\nLocation: Chicago, Illinois, USA: Chicago State University (CSU), Northeastern Illinois University (NEIU), Northwestern University (NU), University of Illinois Chicago (UIC), and West Woodlawn “Blacks in Green” (BIG)"
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#why-this-dataset-is-useful-for-final-projects",
-    "href": "climate/niwot-ridge-d1.html#why-this-dataset-is-useful-for-final-projects",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "hydrology/crocus-sap-flow.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Why this dataset is useful for final projects",
-    "text": "Why this dataset is useful for final projects\nStudents interested in alpine or mountain meteorology can examine high-elevation climate variability, wind patterns, or radiation regimes. High temporal resolution supports diurnal cycle analyses."
+    "text": "Why this dataset is useful for final projects\nStudents can explore how urban trees use water in their own city, compare species, tree sizes and neighborhoods, look at daily and seasonal cycles, and connect tree water use to weather and air quality data from the same sensor nodes."
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#suggested-questions-and-analyses",
-    "href": "climate/niwot-ridge-d1.html#suggested-questions-and-analyses",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#suggested-questions-and-analyses",
+    "href": "hydrology/crocus-sap-flow.html#suggested-questions-and-analyses",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Suggested questions and analyses",
-    "text": "Suggested questions and analyses\n\nDiurnal and seasonal temperature/wind cycles\nExtreme wind or temperature events at high elevation\nComparison with lower-elevation stations"
+    "text": "Suggested questions and analyses\n\nDaily (diurnal) and seasonal patterns of sap velocity\nDifferences among species, DBH classes or sites\nInner vs. outer probe comparison\nHow quality-control choices change your results\nLinks between sap velocity and weather (linked CROCUS datasets)"
   },
   {
-    "objectID": "climate/niwot-ridge-d1.html#using-this-dataset-in-your-project",
-    "href": "climate/niwot-ridge-d1.html#using-this-dataset-in-your-project",
-    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "objectID": "hydrology/crocus-sap-flow.html#using-this-dataset-in-your-project",
+    "href": "hydrology/crocus-sap-flow.html#using-this-dataset-in-your-project",
+    "title": "Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)",
     "section": "Using this dataset in your project",
-    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: KBS Meteorology\nBack to Climate\nNext: California Downscaled Grids →"
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: MacroSheds\nBack to Hydrology"
   },
   {
-    "objectID": "climate/index.html",
-    "href": "climate/index.html",
-    "title": "Meteorology and Climate",
+    "objectID": "climate/kbs-meteorology.html",
+    "href": "climate/kbs-meteorology.html",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "",
-    "text": "1. KBS Meteorology\nLTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)\nLong-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan.\nEDI package: knb-lter-kbs.2\n\n\n2. Niwot Ridge D1\nClimate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)\nHigh-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m).\nEDI package: knb-lter-nwt.273\n\n\n3. California Downscaled Grids\nDownscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000\nHigh-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period).\nEDI package: edi.167.1\n← Back to all subjects"
+    "text": "Back to Climate\nNext: Niwot Ridge D1 →"
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html",
-    "href": "biogeochemistry/sc-wetland-fluxes.html",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
-    "section": "",
-    "text": "← Previous: GCE Eddy Covariance\nBack to Biogeochemistry\nNext: MacroSheds →"
-  },
-  {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#what-it-is",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#what-it-is",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#what-it-is",
+    "href": "climate/kbs-meteorology.html#what-it-is",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "What it is",
-    "text": "What it is\nPaired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023)."
+    "text": "What it is\nLong-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan. Includes both raw hourly data and quality-controlled daily and annual summaries."
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#explanation-of-data",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#explanation-of-data",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#explanation-of-data",
+    "href": "climate/kbs-meteorology.html#explanation-of-data",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Explanation of data",
-    "text": "Explanation of data\nThe big idea. Wetland soils hold a lot of carbon, and they can release two greenhouse gases: carbon dioxide (CO₂) and methane (CH₄). This dataset pairs measurements of those gas fluxes with measurements of the soil beneath, so you can ask why some spots release more gas than others. The data come from two kinds of coastal wetland in Georgetown County, South Carolina, measured about monthly in 2022–2023: a tidal salt marsh and an impounded brackish wetland.\n\nTidal salt marsh: flooded by ocean tides, so the water is salty.\nImpounded wetland: a wetland where a berm or dike holds water in, which changes how often and how deeply it floods. Brackish water is in between fresh and ocean water in saltiness.\n\nWhat is a flux, and what is a chamber? A flux is how much gas moves across a surface per unit area per unit time. To measure it here, researchers use chambers: closed boxes placed over the ground. Gas that leaks out of the soil and plants builds up inside the sealed space, and the rate of increase in concentration tells you the flux. A steeper rise means a larger flux. In the usual convention a positive flux is gas going from the wetland into the air (confirm this in the metadata).\n\n\n\nA closed chamber over marsh plants and soil, with CH₄ and CO₂ entering the chamber and an inset showing concentration rising over time.\n\n\nThe README names three chamber types: whole-plant, plant-adjacent and non-vegetated. It does not define them, so read the metadata before you compare them. The general idea is to separate the effect of plants from the effect of bare soil. Many wetland plants can also move gas between the soil and the air through their stems, which is one reason plants matter for methane.\nSoil measurements. Soil cores were taken at two depths (0–10 cm and 10–50 cm). The README lists these variables:\n\nCarbon (C) and nitrogen (N) concentrations and the C:N ratio. C:N is the amount of carbon relative to nitrogen. It is often used as a rough sign of how easily microbes can break down the organic matter.\nMoisture (how wet the soil is) and pH (how acidic or basic it is).\nConductivity: how well the soil water carries electricity. It is usually a stand-in for how salty the water is, but check the metadata.\nOrganic matter: the part of the soil made from once-living material.\nRoot biomass: the weight of roots in the soil.\nmcrA gene copy numbers: mcrA is a gene that methanogens (microbes that produce methane) use. Counting its copies is a way to estimate how many methane-producing microbes are present.\n\n\n\n\n\n\n\nNot stated in the README: the units, the exact chamber method, and how chamber and soil measurements are matched in time and place. Check the metadata page before you combine tables.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nCH₄ (methane)\nA potent greenhouse gas made by microbes in oxygen-poor soils\nNot given in README\n\n\nCO₂\nCarbon dioxide, the main carbon greenhouse gas\nNot given in README\n\n\nFlux\nGas moving across a surface per area per time\nNot given in README\n\n\nChamber\nA closed box placed over the ground to catch emitted gas\nn/a\n\n\nTidal salt marsh\nCoastal wetland flooded by ocean tides\nn/a\n\n\nImpounded wetland\nWetland where a berm or dike holds water in\nn/a\n\n\nBrackish\nSalinity between fresh water and seawater\nn/a\n\n\nC:N ratio\nCarbon relative to nitrogen in the soil\nRatio (no units)\n\n\nConductivity\nHow well soil water conducts electricity (often a salinity proxy)\nNot given in README\n\n\nOrganic matter\nSoil material from once-living things\nNot given in README\n\n\nmcrA gene copies\nA count that estimates how many methane-making microbes are present\nCopies (see metadata)\n\n\nCore depths\nSoil samples at 0–10 cm and 10–50 cm\ncm"
+    "text": "Explanation of data\nThe big idea. This is a weather station record from the Kellogg Biological Station (KBS), an agricultural research site in southwest Michigan that belongs to the LTER (Long Term Ecological Research) network. Weather is what the atmosphere does on a given day. Climate is the long-term pattern of weather, usually judged over decades. A record that starts in 1941 is long enough to look at climate, not just weather.\nWhat was measured? The README lists these variables:\n\nAir temperature and precipitation (rain and melted snow).\nWind speed and direction. By meteorology’s usual convention, wind direction is where the wind blows from; confirm in the metadata.\nSolar radiation: the amount of energy arriving from the sun.\nRelative humidity: how much water vapor is in the air compared with the most the air could hold at that temperature, as a percentage.\nSoil temperature and soil moisture.\n\nDifferent time scales. The README says you get raw hourly data plus quality-controlled daily and annual summaries. A summary squeezes many measurements into one number, such as a daily average or a daily total (average for temperature, total for precipitation is the usual choice, but check the metadata). Quality-controlled means someone has checked the values for obvious errors. Hourly data is good for daily cycles; daily and annual data are better for long-term trends.\nGaps and “synthetic” records. The README says some records are synthetic complete records supplemented from nearby stations when needed. That means gaps in the KBS record were filled using data from other stations. When you analyze trends, remember that some values are estimates and look for columns that tell you which is which.\nRecord quality changes over time. The README says the record starts in 1941 but is most complete from 1988 onward. Be careful with trends that cross from sparse to complete years: a change could be real or could be caused by differences in how the data were collected.\nExtremes. The README suggests studying extreme precipitation or heat events. An extreme is an unusually large value compared with the rest of the record (for example, a very rainy day). You can define one with a threshold, such as the top 1% of days, and then count how often it happens over time.\n\n\n\n\n\n\nNot stated in the README: the exact variable names, units and quality flags. Check the metadata page.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nWeather vs. climate\nShort-term conditions vs. the long-term pattern\nn/a\n\n\nAir temperature\nHow warm or cold the air is\nNot given in README\n\n\nPrecipitation\nRain and snow reaching the ground\nNot given in README\n\n\nRelative humidity\nWater vapor in the air as a share of the maximum it could hold\nPercent (usual)\n\n\nSolar radiation\nEnergy arriving from the sun\nNot given in README\n\n\nSoil temperature / moisture\nHow warm and how wet the soil is\nNot given in README\n\n\nQuality-controlled\nChecked for errors before release\nn/a\n\n\nSynthetic record\nA record with gaps filled using nearby stations\nn/a\n\n\nTrend\nA steady change over many years\nn/a\n\n\nExtreme event\nAn unusually large value, such as a very hot day or a heavy rainfall\nn/a"
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#source-and-access",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#source-and-access",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#source-and-access",
+    "href": "climate/kbs-meteorology.html#source-and-access",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Source and access",
-    "text": "Source and access\n\nEDI package ID: edi.1828.3\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1828.3\nDOI: https://doi.org/10.6073/pasta/08bab7404a446ab8c3d6607eb796aed8\nOriginal README: Biogeochem_2_SC_WetlandFluxes_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+    "text": "Source and access\n\nEDI package ID: knb-lter-kbs.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.2\nDOI (example recent version): https://doi.org/10.6073/pasta/f4744fe92e13bc84847fd8ff13435695\nOriginal README: Climate_1_KBS_Meteorology_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#variables-and-contents",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#variables-and-contents",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#variables-and-contents",
+    "href": "climate/kbs-meteorology.html#variables-and-contents",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Variables and contents",
-    "text": "Variables and contents\n\nSoil cores (0–10 cm and 10–50 cm): C and N concentrations, C:N ratios, moisture, pH, conductivity, organic matter, root biomass, mcrA gene copy numbers\nChamber fluxes: whole-plant, plant-adjacent, and non-vegetated chambers for CH₄ and CO₂"
+    "text": "Variables and contents\n\nDaily and hourly air temperature, precipitation, wind speed and direction, solar radiation, relative humidity\nSoil temperature and moisture\nSynthetic complete records supplemented from nearby stations when needed"
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#temporal-spatial-coverage",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#temporal-spatial-coverage",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#temporal-spatial-coverage",
+    "href": "climate/kbs-meteorology.html#temporal-spatial-coverage",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Temporal & spatial coverage",
-    "text": "Temporal & spatial coverage\n\nTime: 2022–2023 (approximately monthly)\nLocation: Georgetown County, South Carolina, USA"
+    "text": "Temporal & spatial coverage\n\nTime: 1941–present (most complete from 1988 onward)\nLocation: Kellogg Biological Station, Hickory Corners, Michigan, USA"
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#why-this-dataset-is-useful-for-final-projects",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#why-this-dataset-is-useful-for-final-projects",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "climate/kbs-meteorology.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Why this dataset is useful for final projects",
-    "text": "Why this dataset is useful for final projects\nIdeal for students interested in plant–microbe–soil interactions controlling wetland greenhouse-gas emissions. Combines process measurements (fluxes) with mechanistic soil variables."
+    "text": "Why this dataset is useful for final projects\nClassic long-term climate record suitable for trend analysis, extreme-event characterization, or linking climate variables to ecosystem processes. Multiple temporal resolutions are provided."
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#suggested-questions-and-analyses",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#suggested-questions-and-analyses",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#suggested-questions-and-analyses",
+    "href": "climate/kbs-meteorology.html#suggested-questions-and-analyses",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Suggested questions and analyses",
-    "text": "Suggested questions and analyses\n\nRelationships between plant presence, soil properties, and CH₄ fluxes\nComparison of salt marsh vs. impounded wetland\nDrivers of spatial and temporal variability in fluxes"
+    "text": "Suggested questions and analyses\n\nLong-term temperature and precipitation trends\nChanges in extreme precipitation or heat events\nRelationships between climate variables and agricultural or ecological metrics (if paired with other KBS data)"
   },
   {
-    "objectID": "biogeochemistry/sc-wetland-fluxes.html#using-this-dataset-in-your-project",
-    "href": "biogeochemistry/sc-wetland-fluxes.html#using-this-dataset-in-your-project",
-    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "objectID": "climate/kbs-meteorology.html#using-this-dataset-in-your-project",
+    "href": "climate/kbs-meteorology.html#using-this-dataset-in-your-project",
+    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
     "section": "Using this dataset in your project",
-    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: GCE Eddy Covariance\nBack to Biogeochemistry\nNext: MacroSheds →"
-  },
-  {
-    "objectID": "biogeochemistry/index.html",
-    "href": "biogeochemistry/index.html",
-    "title": "Biogeochemistry and Geobiology",
-    "section": "",
-    "text": "1. GCE Eddy Covariance\nEddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)\nScience-ready vertical carbon fluxes measured by eddy covariance (EC) over a Spartina alterniflora tidal salt marsh on Sapelo Island, Georgia (GCE-LTER).\nEDI package: knb-lter-gce.858.12\n\n\n2. SC Wetland Fluxes\nChamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina\nPaired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023).\nEDI package: edi.1828.3\n\n\n3. MacroSheds\nMacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds\nA harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks.\nEDI package: edi.1262.2\n← Back to all subjects"
-  },
-  {
-    "objectID": "project-guide/proposal.html",
-    "href": "project-guide/proposal.html",
-    "title": "Proposal",
-    "section": "",
-    "text": "Deadline\n\n\nProposal due Wed, Nov 11, 2026\n\nWorth 20 points. Format: about one page, written in R Markdown, saved in the /proposal folder of your repo.\n\nConfirm with your instructor if anything changes."
-  },
-  {
-    "objectID": "project-guide/proposal.html#what-it-is",
-    "href": "project-guide/proposal.html#what-it-is",
-    "title": "Proposal",
-    "section": "What it is",
-    "text": "What it is\nA draft of the introduction section of your project, plus a data analysis plan and your dataset. The entire proposal should be about 1 page. Use “Print Preview” to check the size of your .Rmd html output."
-  },
-  {
-    "objectID": "project-guide/proposal.html#sections",
-    "href": "project-guide/proposal.html#sections",
-    "title": "Proposal",
-    "section": "Sections",
-    "text": "Sections\nSection 1a: Description of dataset. Cover:\n\nWhere the dataset comes from, what interests you about it, and why you chose it.\nIts dimensions and variable names/types.\nWhat each row (observation) is.\nWhether the data seem “tidy”.\n\nSection 1b: Data and data dictionary. Place your data in the /data folder, and add the dimensions and a data dictionary to the README in that folder. Then print the output of glimpse() or skim() of your data frame.\nSection 2: Exploratory visualization. Very preliminary exploratory data analysis, including some summary statistics and visualizations, along with some explanation of how they help you learn more about your data.\nSection 3: Pose a question and a potential method. What question could you answer with this dataset, and which method(s) do you believe will help answer it? You can update these later as you work on your project."
-  },
-  {
-    "objectID": "project-guide/proposal.html#grading-20-pts",
-    "href": "project-guide/proposal.html#grading-20-pts",
-    "title": "Proposal",
-    "section": "Grading (20 pts)",
-    "text": "Grading (20 pts)\n\n\n\nPart\nPoints\n\n\n\n\nData\n6\n\n\nProposal\n10\n\n\nWorkflow, organization and code quality\n2\n\n\nTeamwork\n2\n\n\nTotal\n20\n\n\n\nAfter you receive feedback you can improve the proposal and re-submit. If you re-submit, your final score is the average of your first and second submissions."
-  },
-  {
-    "objectID": "project-guide/proposal.html#template-a-one-page-scaffold-you-can-copy",
-    "href": "project-guide/proposal.html#template-a-one-page-scaffold-you-can-copy",
-    "title": "Proposal",
-    "section": "Template: a one-page scaffold you can copy",
-    "text": "Template: a one-page scaffold you can copy\n\n\n\n\n\n\nThis is a template, not results. Every name, file path and placeholder below is a stand-in. Replace it with your own dataset and write your own text. The code chunks are empty on purpose.\n\n\n\nCopy this into a new .Rmd file in your /proposal folder.\n---\ntitle: \"Your project title\"\nauthor: \"Group name: member 1, member 2, member 3\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)\nlibrary(tidyverse)\nlibrary(skimr)\n```\n\n## 1a. Description of the dataset\n\n*Where does the dataset come from? Why did you choose it and what interests\nyou about it? How many rows and columns? What is one row (one observation)?\nDoes the data seem tidy?*\n\n## 1b. Data and data dictionary\n\n*Put your data in the /data folder and describe it (dimensions + data\ndictionary) in the README inside that folder.*\n\n```{r load-data}\n# TEMPLATE PLACEHOLDER: replace with your own file path\n# your_data &lt;- read_csv(\"../data/your-data-file.csv\")\n```\n\n```{r glimpse}\n# TEMPLATE PLACEHOLDER: use glimpse() or skim() on your data frame\n# glimpse(your_data)\n# skim(your_data)\n```\n\n## 2. Exploratory visualization\n\n*Show a few summary statistics and one or two preliminary figures. Explain\nwhat each one tells you about the data.*\n\n```{r eda}\n# TEMPLATE PLACEHOLDER: your summary statistics and figure(s) go here\n```\n\n## 3. Question and potential method\n\n*What question could you answer with this dataset? Which method(s) might\nhelp? You can update this later.*"
-  },
-  {
-    "objectID": "project-guide/proposal.html#tips-for-a-strong-proposal",
-    "href": "project-guide/proposal.html#tips-for-a-strong-proposal",
-    "title": "Proposal",
-    "section": "Tips for a strong proposal",
-    "text": "Tips for a strong proposal\n\nKeep it to about one page; focused beats exhaustive.\nMake sure your dataset meets the dataset requirements (at least 50 rows, at least 10 variables, a mix of variable types, loads into R).\nEach dataset page on this site has an “Explanation of data” section that can help you write Section 1a.\nCommit, push and open a pull request often, and share the writing fairly: teamwork is graded.\n\n\n← Kick-off\nNext: Presentation →"
-  },
-  {
-    "objectID": "project-guide/kickoff.html",
-    "href": "project-guide/kickoff.html",
-    "title": "Kick-off",
-    "section": "",
-    "text": "First deadline: Proposal\n\n\nDue Wed, Nov 11, 2026\n\nKick-off work is the start of your proposal (20 pts). Later dates are on the Project guide.\n\nConfirm with your instructor if anything changes."
-  },
-  {
-    "objectID": "project-guide/kickoff.html#why",
-    "href": "project-guide/kickoff.html#why",
-    "title": "Kick-off",
-    "section": "Why?",
-    "text": "Why?\n\nMimic the project-based work and skills of a real data scientist.\nApply your skills to a dataset of your choosing, including EAESy (earth and environmental science) data.\nBecause this should be more useful (and fun?) than a big final exam."
-  },
-  {
-    "objectID": "project-guide/kickoff.html#how",
-    "href": "project-guide/kickoff.html#how",
-    "title": "Kick-off",
-    "section": "How?",
-    "text": "How?\n\nPick a dataset and apply the data science workflow.\nConduct a focused (not exhaustive) analysis. Demonstrate that you can ask a question and answer it with analysis results, code in R and combine code with text to produce .Rmd reports, and interpret and communicate results.\nDo whatever you want, but use tidyverse packages in R and RStudio.\nFocus on quality, not quantity, in code and results.\nCollaborate in small groups (graduate students have an independent option)."
-  },
-  {
-    "objectID": "project-guide/kickoff.html#what",
-    "href": "project-guide/kickoff.html#what",
-    "title": "Kick-off",
-    "section": "What?",
-    "text": "What?\nEach group (or graduate student) will complete:\n\n\n\nDeliverable\nPoints\nFormat\n\n\n\n\nProposal\n20\nOne page maximum, in R Markdown, describing (1) your dataset, (2) an exploratory visualization, and (3) one question you may pose and some tidyverse methods that may help answer it\n\n\nPresentation\n50\n5 minutes maximum, R Markdown with the xaringan package; each group member contributes 1–2 slides; tell the story of your analysis (what choices you made and why), not all the different things you tried\n\n\nExecutive summary\n30\nA brief summary of your project in the README of your GitHub repo; style and format matter, so make sure code and outputs look good\n\n\n\nLab time is used for the projects. Groups form from shared interest and confidence level. Request and resolve any group changes early. Starter repos are released by your instructor at the proper kick-off."
-  },
-  {
-    "objectID": "project-guide/kickoff.html#kick-off-activities",
-    "href": "project-guide/kickoff.html#kick-off-activities",
-    "title": "Kick-off",
-    "section": "Kick-off activities",
-    "text": "Kick-off activities\nWork through these with your group:\n\n1. Form groups. Pick a group name, and include any remote classmates.\n2. Pick a dataset with your instructor’s help. Choose from the options on this site or elsewhere (NASA, NOAA, WMO, Dryad, etc.), or from your own project (graduate students only). Discuss your options and interests as a group.\n3. Self-organize. How will you divide up the proposal? How, where and when will you meet outside class? Take 3 minutes to think about 5 “challenges” you might face during this project.\n4. Start working on the proposal. Fork the group repo and familiarize yourselves with the files. Add to your proposal, commit, push, create a pull request and merge. Your proposal needs a description of the dataset including a data dictionary, an exploratory visualization figure (with some narrative), and a question you could pose with a possible method for answering it."
-  },
-  {
-    "objectID": "project-guide/kickoff.html#git-workflow-in-a-group-repo",
-    "href": "project-guide/kickoff.html#git-workflow-in-a-group-repo",
-    "title": "Kick-off",
-    "section": "Git workflow in a group repo",
-    "text": "Git workflow in a group repo\n\n\n\nThe group git workflow: fork, edit, commit, push, pull request, merge.\n\n\nCommit and push often. Merge conflicts will happen when teammates edit the same lines; that is normal and expected.\n\n← Project guide\nNext: Proposal →"
-  },
-  {
-    "objectID": "project-guide/executive-summary.html",
-    "href": "project-guide/executive-summary.html",
-    "title": "Executive summary",
-    "section": "",
-    "text": "Deadline\n\n\nExecutive summary due Wed, Dec 9, 2026, 5:00 pm\n\nWorth 30 points. Format: a brief summary in the README of your repository.\n\nConfirm with your instructor if anything changes."
-  },
-  {
-    "objectID": "project-guide/executive-summary.html#what-to-include",
-    "href": "project-guide/executive-summary.html#what-to-include",
-    "title": "Executive summary",
-    "section": "What to include",
-    "text": "What to include\nAlong with your presentation slides, provide a brief summary of your project in the README of your repository. It should cover:\n\nThe dataset you are using.\nYour research question(s).\nYour methodology.\nYour findings.\n\nThe executive summary is evaluated on whether it follows the guidance and whether it is concise but detailed enough. Style and format count, so make sure code and outputs look good."
-  },
-  {
-    "objectID": "project-guide/executive-summary.html#readme.rmd-skeleton",
-    "href": "project-guide/executive-summary.html#readme.rmd-skeleton",
-    "title": "Executive summary",
-    "section": "README.Rmd skeleton",
-    "text": "README.Rmd skeleton\n\n\n\n\n\n\nThis is a template, not results. Replace every placeholder with your own words. Knit README.Rmd to produce README.md and commit both.\n\n\n\n---\ntitle: \"Your project title\"\noutput: github_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)\nlibrary(tidyverse)\n```\n\n## Dataset\n\n*What is the dataset, where does it come from, and what does each row\nrepresent?*\n\n## Research question(s)\n\n*State your question(s) in one or two sentences.*\n\n## Methodology\n\n*Which tidyverse methods or models did you use, and why? Keep it brief.*\n\n## Findings\n\n*What did you find? Include your key figure or table here.*\n\n```{r key-figure}\n# TEMPLATE PLACEHOLDER: your key figure or table\n```"
-  },
-  {
-    "objectID": "project-guide/executive-summary.html#repo-folder-tree",
-    "href": "project-guide/executive-summary.html#repo-folder-tree",
-    "title": "Executive summary",
-    "section": "Repo folder tree",
-    "text": "Repo folder tree\nyour-group-repo/\n├── presentation.Rmd    # slides (source)\n├── presentation.html   # slides (rendered)\n├── README.Rmd          # executive summary (source)\n├── README.md           # executive summary (rendered)\n├── data/               # dataset (CSV or RDS) and data dictionary\n└── proposal/           # the project proposal"
-  },
-  {
-    "objectID": "project-guide/executive-summary.html#before-you-submit",
-    "href": "project-guide/executive-summary.html#before-you-submit",
-    "title": "Executive summary",
-    "section": "Before you submit",
-    "text": "Before you submit\n\nReview the documents on GitHub to make sure you are happy with the final state.\nCheck that the data and code are properly formatted.\nMake sure every team member has contributed, and that every member understands how and why the code works.\n\n\n← Presentation\nBack to the Project guide"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "EAES 380 Final Project Dataset Options",
-    "section": "",
-    "text": "Start here: new to the final project? Read the Project guide for the kick-off steps, the proposal template, the presentation rules and the executive summary requirements, with the deadlines. Then pick a dataset below.\nThree options are provided for each of the four departmental subject areas. Each dataset has its own page here, built from its README, with a direct link to the EDI metadata page, a basic description, coverage, and suggested analyses.\nDatasets are curated from the Environmental Data Initiative (EDI) data portal."
-  },
-  {
-    "objectID": "index.html#choose-a-subject",
-    "href": "index.html#choose-a-subject",
-    "title": "EAES 380 Final Project Dataset Options",
-    "section": "Choose a subject",
-    "text": "Choose a subject\n\n\n\nBiogeochemistry and Geobiology\n\n\n\nGCE Eddy Covariance\n\n\nSC Wetland Fluxes\n\n\nMacroSheds\n\n\nExplore Biogeochemistry →\n\n\n\nMeteorology and Climate\n\n\n\nKBS Meteorology\n\n\nNiwot Ridge D1\n\n\nCalifornia Downscaled Grids\n\n\nExplore Climate →\n\n\n\nHydrology and Ecosystems\n\n\n\nHubbard Brook Streamflow\n\n\nHarvard Forest Hydrology\n\n\nMacroSheds\n\n\nExplore Hydrology →\n\n\n\nEarth and Planetary Geophysics\n\n\n\nBonanza Creek Boreholes\n\n\nAK Wildfire & Permafrost\n\n\nVCR Seismic Stratigraphy\n\n\nExplore Geophysics →"
-  },
-  {
-    "objectID": "index.html#how-to-choose-a-dataset",
-    "href": "index.html#how-to-choose-a-dataset",
-    "title": "EAES 380 Final Project Dataset Options",
-    "section": "How to choose a dataset",
-    "text": "How to choose a dataset\nUse the dataset pages to compare options side by side. Each page tells you what the dataset is, where it comes from, what it contains, and which analyses it suits.\n\nStart with your interest. Pick the subject area closest to what you want to learn about, then read its three options.\nCheck the coverage. Every page lists the time span and location. Look for a record long enough, or frequent enough, for your question (for example, 10-minute data supports diurnal cycles, while multi-decade records support trend analysis).\nRead the suggested analyses. Each page lists analyses the dataset supports. Ask whether one of them could become your project question.\nCheck how easy it is to access. Open the EDI metadata page linked on each dataset page. If you hit an authentication prompt, see the access note above. MacroSheds also has an R package and a dashboard linked on its page.\nAsk for help if needed. The EDI package ID is listed on every page so you can point to the exact dataset."
-  },
-  {
-    "objectID": "index.html#all-12-datasets-at-a-glance",
-    "href": "index.html#all-12-datasets-at-a-glance",
-    "title": "EAES 380 Final Project Dataset Options",
-    "section": "All 12 datasets at a glance",
-    "text": "All 12 datasets at a glance\n\n\n\nSubject\nDataset\nPackage\n\n\n\n\nBiogeochemistry\nGCE Eddy Covariance Carbon Fluxes (Georgia salt marsh, 2014–2024)\nknb-lter-gce.858.12\n\n\nBiogeochemistry\nSC Coastal Wetland Chamber Fluxes & Soil Biogeochemistry (2022–2023)\nedi.1828.3\n\n\nBiogeochemistry\nMacroSheds Multi-Watershed Biogeochemical Synthesis\nedi.1262.2\n\n\nClimate\nKellogg Biological Station Long-Term Meteorology (Michigan, 1941–present)\nknb-lter-kbs.2\n\n\nClimate\nNiwot Ridge D1 Alpine Climate Station (Colorado, 10-minute data)\nknb-lter-nwt.273\n\n\nClimate\nDownscaled 90 m Climate Grids for California (1971–2000 bioclimatic variables)\nedi.167.1\n\n\nHydrology\nHubbard Brook Daily Streamflow (New Hampshire, 1956–present)\nknb-lter-hbr.2.15\n\n\nHydrology\nHarvard Forest Prospect Hill Hydrological Stations (since 2005)\nknb-lter-hfr.70\n\n\nHydrology\nMacroSheds (also listed under Biogeochemistry)\nedi.1262.2\n\n\nGeophysics\nBonanza Creek Deep Borehole Permafrost Temperatures (Alaska, 2009–2021)\nknb-lter-bnz.792.2\n\n\nGeophysics\nInterior Alaska Wildfire Effects on Permafrost Soil Temperatures (hourly, 2013–2018)\nknb-lter-bnz.717.2\n\n\nGeophysics\nVirginia Coast Reserve Stratigraphy & Seismic Context\nknb-lter-vcr.15.19\n\n\n\nHydrology also lists MacroSheds (the same EDI package, edi.1262.2, as under Biogeochemistry)."
-  },
-  {
-    "objectID": "index.html#about-this-site",
-    "href": "index.html#about-this-site",
-    "title": "EAES 380 Final Project Dataset Options",
-    "section": "About this site",
-    "text": "About this site\nThe original README files remain in the GitHub repository. This site organizes the same content by subject so it is easier to browse."
-  },
-  {
-    "objectID": "project-guide/index.html",
-    "href": "project-guide/index.html",
-    "title": "Project guide",
-    "section": "",
-    "text": "This guide helps you get started. You will eventually work from your own group repository (graduate students may work independently), so treat this site as a map and your group repo as the place where the work lives. If anything here conflicts with what your instructor tells you, follow your instructor."
-  },
-  {
-    "objectID": "project-guide/index.html#key-dates",
-    "href": "project-guide/index.html#key-dates",
-    "title": "Project guide",
-    "section": "Key dates",
-    "text": "Key dates\n\n\n\nTimeline of the proposal, presentations and executive summary deadlines.\n\n\n\n\n\nDeliverable\nDue\nPoints\n\n\n\n\nProposal\nWed, Nov 11, 2026\n20\n\n\nPresentation\nWed, Dec 2, 2026, 3:00–5:00 pm\n50\n\n\nExecutive summary\nWed, Dec 9, 2026, 5:00 pm\n30\n\n\n\n\nConfirm with your instructor if anything changes."
-  },
-  {
-    "objectID": "project-guide/index.html#at-a-glance",
-    "href": "project-guide/index.html#at-a-glance",
-    "title": "Project guide",
-    "section": "At a glance",
-    "text": "At a glance\nIn a nutshell: pick a dataset, any dataset, and apply your data science workflow. Submit a proposal, give a 5-minute presentation (or share a pre-recording), and write up a README executive summary.\n\n\nKick-off\nWhy we do the project, how it works, and the four first activities.\n\n\nProposal\n20 pts. About one page in R Markdown, with a copy-and-paste template.\n\n\nPresentation\n50 pts. 5 minutes maximum, slides built with xaringan.\n\n\nExecutive summary\n30 pts. A brief write-up in your repo’s README.\n\n\nEveryone applies the data science skills from the course to a dataset of their choosing. Following the data science workflow, you will import, tidy and transform (wrangle), visualize and communicate your data. The last two units cover modeling, including hypothesis tests. The project includes text narrative explaining your code and thought process in an .Rmd file, just like all semester.\n\nUndergraduates choose a dataset as a group, based on interests.\nGraduate students can work independently (or collaborate) on their own datasets, and are graded the same as undergraduates even though the work may exceed class expectations."
-  },
-  {
-    "objectID": "project-guide/index.html#the-data-science-workflow",
-    "href": "project-guide/index.html#the-data-science-workflow",
-    "title": "Project guide",
-    "section": "The data science workflow",
-    "text": "The data science workflow\n\n\n\nThe data science workflow: Import, Tidy, Transform, Visualize, Model, Communicate.\n\n\nYour project should walk through this cycle for a focused question. Use tidyverse packages in R and RStudio."
-  },
-  {
-    "objectID": "project-guide/index.html#choosing-a-dataset",
-    "href": "project-guide/index.html#choosing-a-dataset",
-    "title": "Project guide",
-    "section": "Choosing a dataset",
-    "text": "Choosing a dataset\nPick a manageable dataset: readily accessible and large enough that multiple relationships can be explored.\n\nAt least 50 observations (rows) and at least 10 variables.\nVariables should include categorical, discrete numerical and continuous numerical variables.\nIf the data come in a format we have not met in class, make sure you can load it into R (this can be tricky). Ask for help before it is too late.\nDo not reuse datasets used in class examples, homework or labs.\n\nThe 12 options are on this site: start from the home page. You can also explore other sources, such as NASA, NOAA, WMO or Dryad, and graduate students may use their own project data."
-  },
-  {
-    "objectID": "project-guide/index.html#grading",
-    "href": "project-guide/index.html#grading",
-    "title": "Project guide",
-    "section": "Grading",
-    "text": "Grading\n\n\n\nDeliverable\nPoints\n\n\n\n\nProposal\n20\n\n\nPresentation\n50\n\n\nExecutive summary\n30\n\n\nTotal\n100\n\n\n\nProposal breakdown (20 pts): Data 6, Proposal 10, Workflow/organization/code quality 2, Teamwork 2. After feedback you can improve and re-submit. If you re-submit, your final proposal score is the average of the first and second submissions.\nMarking criteria (how the whole project is assessed):\n\nContent: the quality of the research and/or policy question, and the relevance of the data to those questions.\nAccuracy: are statistical procedures carried out and explained correctly?\nWriting and presentation: the quality of the statistical presentation, writing and explanations.\nCreativity and critical thought: is the project carefully thought out, are limitations considered, and did time and effort go into planning and implementation?"
-  },
-  {
-    "objectID": "project-guide/index.html#repo-organization",
-    "href": "project-guide/index.html#repo-organization",
-    "title": "Project guide",
-    "section": "Repo organization",
-    "text": "Repo organization\nYour project repository should contain:\nyour-group-repo/\n├── presentation.Rmd    # your slides (source)\n├── presentation.html   # your slides (rendered)\n├── README.Rmd          # your write-up (source)\n├── README.md           # your write-up (rendered)\n├── data/               # dataset (CSV or RDS) and data dictionary\n└── proposal/           # the project proposal\nStyle and format count, so make sure everything looks good and the data and code are properly formatted."
-  },
-  {
-    "objectID": "project-guide/index.html#tips",
-    "href": "project-guide/index.html#tips",
-    "title": "Project guide",
-    "section": "Tips",
-    "text": "Tips\n\nYou are working in the same repo as your teammates, so merge conflicts will happen and issues will arise, and that is fine. Commit and push often, and ask questions when stuck.\nReview the marking guidelines and ask questions if expectations are unclear.\nMake sure each team member contributes in quality and quantity. The instructor reviews commits by team member.\nSet aside time to work together and apart.\nWhen you are done, review the documents on GitHub to make sure you are happy with the final state.\nTeamwork: complete the assignment as a team. All members are expected to contribute equally, and team evaluations are given at the end. Anyone judged not to have contributed sufficiently will have their grade penalized.\nEvery team member must understand how and why all of the code and approaches work."
-  },
-  {
-    "objectID": "project-guide/index.html#deliverable-pages",
-    "href": "project-guide/index.html#deliverable-pages",
-    "title": "Project guide",
-    "section": "Deliverable pages",
-    "text": "Deliverable pages\n\nKick-off →\nProposal →\nPresentation →\nExecutive summary →"
-  },
-  {
-    "objectID": "project-guide/presentation.html",
-    "href": "project-guide/presentation.html",
-    "title": "Presentation",
-    "section": "",
-    "text": "Deadline\n\n\nFinal presentations Wed, Dec 2, 2026, 3:00–5:00 pm\n\nWorth 50 points. Format: 5 minutes maximum, with an R Markdown (xaringan) slide deck, presented live or as a pre-recorded video.\n\nConfirm with your instructor if anything changes."
-  },
-  {
-    "objectID": "project-guide/presentation.html#the-rules",
-    "href": "project-guide/presentation.html#the-rules",
-    "title": "Presentation",
-    "section": "The rules",
-    "text": "The rules\n\n5 minutes maximum. Each team member should say something substantial (about 1 minute each). The kick-off slides say each member contributes 1–2 slides.\nLive or recorded. Present live during your workshop, or pre-record and submit a video to be played during the workshop.\nUse the template in your repo. Prepare a slide deck with the template in your repo, which uses the xaringan package (R Markdown slides).\nHide code you do not want shown. Before you finalize, turn off any chunks you do not want displayed with echo = FALSE.\nOrder. The presentation line-up is generated randomly.\nGrading details will be announced by your instructor closer to the date.\nSave your slides as presentation.Rmd and presentation.html in your repo."
-  },
-  {
-    "objectID": "project-guide/presentation.html#do-and-dont",
-    "href": "project-guide/presentation.html#do-and-dont",
-    "title": "Presentation",
-    "section": "Do and don’t",
-    "text": "Do and don’t\n\n\n\nDo\n\nConvey what choices you made, why, and what you found.\nTell the story of your analysis around one focused question.\nFocus on quality, not quantity.\nGive every team member something substantial to say.\nCritique your methods and say how they could be improved.\n\n\n\n\n\n\nDon’t\n\nGive an account of everything you tried (“then we did this, then we did this”).\nBe exhaustive: do not present every statistic or every visualization.\nVisualize everything at once. It helps you, but it does not necessarily help the audience.\nLeave code chunks showing that you do not want shown."
-  },
-  {
-    "objectID": "project-guide/presentation.html#a-short-xaringan-skeleton",
-    "href": "project-guide/presentation.html#a-short-xaringan-skeleton",
-    "title": "Presentation",
-    "section": "A short xaringan skeleton",
-    "text": "A short xaringan skeleton\n\n\n\n\n\n\nThis is a template, not your results. Start from the template in your own repo; this skeleton only shows how xaringan slides are structured. Slides are separated by ---.\n\n\n\n---\ntitle: \"Your project title\"\nsubtitle: \"Your group name\"\nauthor: \"Member 1, member 2, member 3\"\noutput:\n  xaringan::moon_reader:\n    lib_dir: libs\n    nature:\n      highlightStyle: github\n      countIncrementalSlides: false\n---\n\n# The question\n\n- One sentence on the dataset you used\n- The one question you asked\n\n---\n\n# Our approach and why\n\n- Key choices you made, and the reason for each\n\n```{r chart, echo=FALSE}\n# TEMPLATE PLACEHOLDER: a figure that supports the story\n```\n\n---\n\n# What we found\n\n- The result, in plain language\n\n---\n\n# Limitations and next steps\n\n- What you would improve\n\n← Proposal\nNext: Executive summary →"
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html",
-    "href": "biogeochemistry/gce-eddy-covariance.html",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "",
-    "text": "Back to Biogeochemistry\nNext: SC Wetland Fluxes →"
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#what-it-is",
-    "href": "biogeochemistry/gce-eddy-covariance.html#what-it-is",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "What it is",
-    "text": "What it is\nScience-ready vertical carbon fluxes measured by eddy covariance (EC) over a Spartina alterniflora tidal salt marsh on Sapelo Island, Georgia (GCE-LTER). Covers a full decade of continuous measurements."
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#explanation-of-data",
-    "href": "biogeochemistry/gce-eddy-covariance.html#explanation-of-data",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Explanation of data",
-    "text": "Explanation of data\nThe big idea. Plants take carbon dioxide (CO₂) out of the air to build their tissues, and plants and soil microbes put CO₂ back into the air when they respire. This dataset tracks that two-way traffic over a tidal salt marsh on Sapelo Island, Georgia, for about ten years. Coastal marshes like this one are often called blue carbon ecosystems because they can store carbon.\nWhat is a flux? A flux is how much of something crosses a surface, per unit of surface area, per unit of time. Think of counting how many people walk through a doorway each minute. Here the “doorway” is the marsh surface and the “people” are CO₂ molecules, moving vertically between the marsh and the air above it.\nHow is it measured? Eddy covariance. Air near the ground is turbulent: it is full of small swirls called eddies that carry air up and down. An eddy covariance (EC) tower sits above the marsh with two instruments:\n\na sonic anemometer, which measures wind speed in three directions (including straight up or down) using sound pulses, and\na gas analyzer, which measures how much CO₂ is in the air.\n\nIf upward-moving air tends to carry more CO₂ than downward-moving air, the marsh is releasing CO₂. If upward air carries less, the marsh is taking CO₂ up. The statistical link between vertical wind and CO₂ is called a covariance, which is where the method gets its name. The tower mostly “sees” the marsh upwind of it, called the footprint. The README says the dataset records what fraction of the footprint was tall, medium or short marsh habitat (it does not define those height classes here, so check the metadata page).\n\n\n\nAn eddy covariance tower: a sonic anemometer and a gas analyzer near the top, with swirling eddies carrying CO₂ up from and down to the marsh.\n\n\nNEE, GPP and ER (Reco). The three headline variables fit together like a bank account:\n\nGPP (gross primary production) is the total CO₂ the plants pull in through photosynthesis. It is like your gross paycheck.\nER (ecosystem respiration, also written Reco) is the CO₂ released by plants and soil microbes. It is like your spending.\nNEE (net ecosystem exchange) is the net result that the tower actually sees: NEE = ER − GPP (with GPP written as a positive number). It is like your balance change.\n\nSign convention. In this dataset, a negative NEE means the ecosystem is taking up CO₂ (a net sink), and a positive NEE means it is releasing CO₂ to the atmosphere (a net source).\n\n\n\nCarbon flux diagram: CO₂ goes into the plants as GPP and out as ER; NEE = ER − GPP.\n\n\nGood to know: a tower measures NEE directly. GPP and ER are not measured directly. They are estimated by splitting NEE into two pieces, a step called flux partitioning. That is why the README suggests comparing methods.\nDaily and seasonal cycles. A diurnal cycle is a pattern that repeats every 24 hours. At night there is no sunlight, so there is no photosynthesis and respiration dominates (NEE is positive). In daylight, photosynthesis usually rises and can outweigh respiration (NEE dips negative). A seasonal cycle is the same idea across the year: in many ecosystems uptake is strongest in the growing season. The 30-minute data let you see the daily cycle, while the daily and annual data let you see seasons and yearly totals. Check which pattern your own data actually show.\n\n\n\nSchematic of a typical diurnal NEE cycle: slightly positive at night, negative around midday.\n\n\nGaps and uncertainty. Towers sometimes miss data (power loss, bad weather, instrument problems). Gap-filling means estimating values for the missing periods. The README mentions comparing gap-filled with observed periods, so look for a column or flag that tells them apart. The dataset also gives 95% confidence intervals, a range that very likely contains the true value, as an estimate of uncertainty.\nSupporting variables. The README lists air temperature, humidity, VPD and water-table height. Relative humidity is how much water vapor is in the air compared with the most it could hold at that temperature. VPD (vapor pressure deficit) is the gap between those two amounts, so it measures how “thirsty” the air is. Water-table height is the level of the water relative to the ground. On a tidal marsh it may be linked to the tides, but the README does not say, so check the metadata.\n\n\n\n\n\n\nNot stated in the README: the units of NEE, GPP and ER, and the exact variable names. Those details are on the metadata page. Eddy covariance fluxes are commonly reported as an amount of CO₂ (or carbon) per area per time, but confirm before you plot.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nFlux\nAmount of something crossing a surface per area per time\nNot given in README\n\n\nEddy covariance (EC)\nTower method that links vertical wind to gas concentration to get a flux\nn/a\n\n\nSonic anemometer\nInstrument that measures 3-D wind using sound\nn/a\n\n\nGas analyzer\nInstrument that measures CO₂ in the air\nn/a\n\n\nNEE\nNet CO₂ exchange; NEE = ER − GPP; negative means net uptake\nNot given in README\n\n\nGPP\nTotal CO₂ taken up by photosynthesis\nNot given in README\n\n\nER (Reco)\nCO₂ released by plant and microbe respiration\nNot given in README\n\n\nFootprint\nThe patch of marsh upwind that the tower measures\nn/a\n\n\nDiurnal cycle\nPattern that repeats every 24 hours\n30-minute data\n\n\nGap-filling\nEstimating values for missing measurements\nn/a\n\n\n95% confidence interval\nRange likely to contain the true value\nSame as the variable\n\n\nVPD\nHow “thirsty” the air is (gap between water vapor held and the most it could hold)\nNot given in README\n\n\nWater-table height\nLevel of the water relative to the ground\nNot given in README"
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#source-and-access",
-    "href": "biogeochemistry/gce-eddy-covariance.html#source-and-access",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Source and access",
-    "text": "Source and access\n\nEDI package ID: knb-lter-gce.858.12\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12\nDOI: https://doi.org/10.6073/pasta/796a1d1461efd426a3b5d3c7d8109eda\nOriginal README: Biogeochem_1_GCE_EddyCovariance_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#variables-and-contents",
-    "href": "biogeochemistry/gce-eddy-covariance.html#variables-and-contents",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Variables and contents",
-    "text": "Variables and contents\n\n30-minute, daily, and annual net ecosystem exchange (NEE), ecosystem respiration (ER), and gross primary production (GPP)\nUncertainty estimates (95% confidence intervals)\nSupporting biophysical variables (air temperature, humidity, VPD, water-table height, etc.)\nHabitat composition of the flux footprint (tall/medium/short marsh)"
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#temporal-spatial-coverage",
-    "href": "biogeochemistry/gce-eddy-covariance.html#temporal-spatial-coverage",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Temporal & spatial coverage",
-    "text": "Temporal & spatial coverage\n\nTime: 2014–2024\nLocation: Western Sapelo Island, Georgia, USA (Duplin River / Barn Creek marsh)"
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#why-this-dataset-is-useful-for-final-projects",
-    "href": "biogeochemistry/gce-eddy-covariance.html#why-this-dataset-is-useful-for-final-projects",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Why this dataset is useful for final projects",
-    "text": "Why this dataset is useful for final projects\nStudents can explore seasonal and interannual patterns in coastal blue-carbon fluxes, relationships between water-table dynamics and carbon exchange, or gap-filling and flux-partitioning methods. The processed products are relatively ready for analysis in R or Python."
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#suggested-questions-and-analyses",
-    "href": "biogeochemistry/gce-eddy-covariance.html#suggested-questions-and-analyses",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Suggested questions and analyses",
-    "text": "Suggested questions and analyses\n\nSeasonal and annual carbon budgets\nResponse of NEE/GPP to water-table height or temperature\nComparison of gap-filled vs. observed periods"
-  },
-  {
-    "objectID": "biogeochemistry/gce-eddy-covariance.html#using-this-dataset-in-your-project",
-    "href": "biogeochemistry/gce-eddy-covariance.html#using-this-dataset-in-your-project",
-    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
-    "section": "Using this dataset in your project",
-    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\nBack to Biogeochemistry\nNext: SC Wetland Fluxes →"
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html",
-    "href": "biogeochemistry/macrosheds.html",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "",
-    "text": "← Previous: SC Wetland Fluxes\nBack to Biogeochemistry"
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#what-it-is",
-    "href": "biogeochemistry/macrosheds.html#what-it-is",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "What it is",
-    "text": "What it is\nA harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks."
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#explanation-of-data",
-    "href": "biogeochemistry/macrosheds.html#explanation-of-data",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Explanation of data",
-    "text": "Explanation of data\nThe big idea. A watershed is all the land that drains to one point on a stream, like a bowl that funnels rain to a single drain. MacroSheds gathers measurements from more than 200 small watersheds across the United States and puts them in one consistent format (the README calls this harmonized). The data come from several research networks: LTER (Long Term Ecological Research), CZO/CZNet (Critical Zone Observatories) and NEON (National Ecological Observatory Network).\nWhat is in it? For each watershed you can find:\n\nDischarge: how much water flows past a point in the stream per unit of time. The README says this is daily.\nSolutes and chemistry: substances dissolved in the water, such as ions and nutrients (the README says “multiple ions and nutrients”).\nPrecipitation and precipitation chemistry where available.\nWatershed attributes: facts about the land, such as climate, geology, terrain, vegetation and land cover. The README says they are aligned with CAMELS-style predictors, meaning they follow the format of a well-known set of watershed descriptors.\n\nConcentration versus load. A concentration is how much of a dissolved substance is in a given volume of water, like how strong a drink is. A load (also called export or flux) is how much of that substance leaves the watershed over a period of time. Load depends on both concentration and discharge: a strong drink in a tiny cup carries less than a weak drink in a huge bucket. Dividing the load by watershed area gives a yield, which lets you compare large and small watersheds fairly. The README suggests studying nutrient export or retention: export is what leaves in the stream, and retention is what the watershed holds back (for example in plants and soil).\n\n\n\nConcentration times discharge equals load; load divided by watershed area equals yield.\n\n\nWeathering. The README also mentions weathering rates. Weathering is the slow breakdown of rock, which releases dissolved ions into water, so stream chemistry can carry a fingerprint of the local geology.\nHow to start. Because the dataset is large and varies by site (time spans differ by watershed), the README points to an R package and a dashboard that make it easier to pick sites and download them. Start with a few watersheds rather than all 200.\n\n\n\n\n\n\nNot stated in the README: which specific solutes are included, the units, and which watersheds have the longest records. Use the metadata page, the dashboard and the data paper for details.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nWatershed\nAll the land that drains to one point on a stream\nArea (see attributes)\n\n\nDischarge\nVolume of water passing a point in the stream per time\nNot given in README (daily values)\n\n\nSolute\nA substance dissolved in water\nn/a\n\n\nConcentration\nAmount of a solute per volume of water\nNot given in README\n\n\nLoad / export / flux\nMass of a solute leaving the watershed per time\nNot given in README\n\n\nYield\nLoad divided by watershed area\nNot given in README\n\n\nRetention\nNutrient held back in the watershed instead of leaving in the stream\nn/a\n\n\nPrecipitation chemistry\nWhat is dissolved in rain or snow\nNot given in README\n\n\nWatershed attributes\nDescriptors of climate, geology, terrain, vegetation and land cover\nVaries\n\n\nWeathering\nSlow breakdown of rock that releases dissolved ions\nn/a\n\n\nHarmonized\nPut into a common format so sites can be compared\nn/a"
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#source-and-access",
-    "href": "biogeochemistry/macrosheds.html#source-and-access",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Source and access",
-    "text": "Source and access\n\nEDI package ID: edi.1262.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1262.2\nDOI: https://doi.org/10.6073/pasta/5ffad974009ff64d0cfc2183c816790b\nData paper: https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lol2.10325\nDashboard: https://macrosheds.org\nR package: https://github.com/MacroSHEDS/macrosheds\nOriginal README: Biogeochem_3_MacroSheds_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#variables-and-contents",
-    "href": "biogeochemistry/macrosheds.html#variables-and-contents",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Variables and contents",
-    "text": "Variables and contents\n\nDaily time series of discharge and solute chemistry (multiple ions and nutrients)\nPrecipitation and precipitation chemistry where available\nComprehensive watershed attributes (climate, geology, terrain, vegetation, land cover) aligned with CAMELS-style predictors"
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#temporal-spatial-coverage",
-    "href": "biogeochemistry/macrosheds.html#temporal-spatial-coverage",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Temporal & spatial coverage",
-    "text": "Temporal & spatial coverage\n\nTime: Multi-decadal for many sites (varies by watershed)\nLocation: Primarily United States, multiple ecoregions"
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#why-this-dataset-is-useful-for-final-projects",
-    "href": "biogeochemistry/macrosheds.html#why-this-dataset-is-useful-for-final-projects",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Why this dataset is useful for final projects",
-    "text": "Why this dataset is useful for final projects\nExcellent for comparative watershed biogeochemistry. Students can examine nutrient retention, weathering rates, or climate–biogeochemistry relationships across a wide range of sites. The R package and dashboard lower the barrier to access."
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#suggested-questions-and-analyses",
-    "href": "biogeochemistry/macrosheds.html#suggested-questions-and-analyses",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Suggested questions and analyses",
-    "text": "Suggested questions and analyses\n\nCross-site comparison of nutrient export or retention\nRelationships between watershed attributes and stream chemistry\nLong-term trends in solute concentrations or loads"
-  },
-  {
-    "objectID": "biogeochemistry/macrosheds.html#using-this-dataset-in-your-project",
-    "href": "biogeochemistry/macrosheds.html#using-this-dataset-in-your-project",
-    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
-    "section": "Using this dataset in your project",
-    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: SC Wetland Fluxes\nBack to Biogeochemistry"
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\nBack to Climate\nNext: Niwot Ridge D1 →"
   },
   {
     "objectID": "climate/california-downscaled.html",
@@ -805,67 +420,515 @@
     "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: Niwot Ridge D1\nBack to Climate"
   },
   {
-    "objectID": "climate/kbs-meteorology.html",
-    "href": "climate/kbs-meteorology.html",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html",
+    "href": "biogeochemistry/macrosheds.html",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "",
-    "text": "Back to Climate\nNext: Niwot Ridge D1 →"
+    "text": "← Previous: SC Wetland Fluxes\nBack to Biogeochemistry"
   },
   {
-    "objectID": "climate/kbs-meteorology.html#what-it-is",
-    "href": "climate/kbs-meteorology.html#what-it-is",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#what-it-is",
+    "href": "biogeochemistry/macrosheds.html#what-it-is",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "What it is",
-    "text": "What it is\nLong-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan. Includes both raw hourly data and quality-controlled daily and annual summaries."
+    "text": "What it is\nA harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks."
   },
   {
-    "objectID": "climate/kbs-meteorology.html#explanation-of-data",
-    "href": "climate/kbs-meteorology.html#explanation-of-data",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#explanation-of-data",
+    "href": "biogeochemistry/macrosheds.html#explanation-of-data",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Explanation of data",
-    "text": "Explanation of data\nThe big idea. This is a weather station record from the Kellogg Biological Station (KBS), an agricultural research site in southwest Michigan that belongs to the LTER (Long Term Ecological Research) network. Weather is what the atmosphere does on a given day. Climate is the long-term pattern of weather, usually judged over decades. A record that starts in 1941 is long enough to look at climate, not just weather.\nWhat was measured? The README lists these variables:\n\nAir temperature and precipitation (rain and melted snow).\nWind speed and direction. By meteorology’s usual convention, wind direction is where the wind blows from; confirm in the metadata.\nSolar radiation: the amount of energy arriving from the sun.\nRelative humidity: how much water vapor is in the air compared with the most the air could hold at that temperature, as a percentage.\nSoil temperature and soil moisture.\n\nDifferent time scales. The README says you get raw hourly data plus quality-controlled daily and annual summaries. A summary squeezes many measurements into one number, such as a daily average or a daily total (average for temperature, total for precipitation is the usual choice, but check the metadata). Quality-controlled means someone has checked the values for obvious errors. Hourly data is good for daily cycles; daily and annual data are better for long-term trends.\nGaps and “synthetic” records. The README says some records are synthetic complete records supplemented from nearby stations when needed. That means gaps in the KBS record were filled using data from other stations. When you analyze trends, remember that some values are estimates and look for columns that tell you which is which.\nRecord quality changes over time. The README says the record starts in 1941 but is most complete from 1988 onward. Be careful with trends that cross from sparse to complete years: a change could be real or could be caused by differences in how the data were collected.\nExtremes. The README suggests studying extreme precipitation or heat events. An extreme is an unusually large value compared with the rest of the record (for example, a very rainy day). You can define one with a threshold, such as the top 1% of days, and then count how often it happens over time.\n\n\n\n\n\n\nNot stated in the README: the exact variable names, units and quality flags. Check the metadata page.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nWeather vs. climate\nShort-term conditions vs. the long-term pattern\nn/a\n\n\nAir temperature\nHow warm or cold the air is\nNot given in README\n\n\nPrecipitation\nRain and snow reaching the ground\nNot given in README\n\n\nRelative humidity\nWater vapor in the air as a share of the maximum it could hold\nPercent (usual)\n\n\nSolar radiation\nEnergy arriving from the sun\nNot given in README\n\n\nSoil temperature / moisture\nHow warm and how wet the soil is\nNot given in README\n\n\nQuality-controlled\nChecked for errors before release\nn/a\n\n\nSynthetic record\nA record with gaps filled using nearby stations\nn/a\n\n\nTrend\nA steady change over many years\nn/a\n\n\nExtreme event\nAn unusually large value, such as a very hot day or a heavy rainfall\nn/a"
+    "text": "Explanation of data\nThe big idea. A watershed is all the land that drains to one point on a stream, like a bowl that funnels rain to a single drain. MacroSheds gathers measurements from more than 200 small watersheds across the United States and puts them in one consistent format (the README calls this harmonized). The data come from several research networks: LTER (Long Term Ecological Research), CZO/CZNet (Critical Zone Observatories) and NEON (National Ecological Observatory Network).\nWhat is in it? For each watershed you can find:\n\nDischarge: how much water flows past a point in the stream per unit of time. The README says this is daily.\nSolutes and chemistry: substances dissolved in the water, such as ions and nutrients (the README says “multiple ions and nutrients”).\nPrecipitation and precipitation chemistry where available.\nWatershed attributes: facts about the land, such as climate, geology, terrain, vegetation and land cover. The README says they are aligned with CAMELS-style predictors, meaning they follow the format of a well-known set of watershed descriptors.\n\nConcentration versus load. A concentration is how much of a dissolved substance is in a given volume of water, like how strong a drink is. A load (also called export or flux) is how much of that substance leaves the watershed over a period of time. Load depends on both concentration and discharge: a strong drink in a tiny cup carries less than a weak drink in a huge bucket. Dividing the load by watershed area gives a yield, which lets you compare large and small watersheds fairly. The README suggests studying nutrient export or retention: export is what leaves in the stream, and retention is what the watershed holds back (for example in plants and soil).\n\n\n\nConcentration times discharge equals load; load divided by watershed area equals yield.\n\n\nWeathering. The README also mentions weathering rates. Weathering is the slow breakdown of rock, which releases dissolved ions into water, so stream chemistry can carry a fingerprint of the local geology.\nHow to start. Because the dataset is large and varies by site (time spans differ by watershed), the README points to an R package and a dashboard that make it easier to pick sites and download them. Start with a few watersheds rather than all 200.\n\n\n\n\n\n\nNot stated in the README: which specific solutes are included, the units, and which watersheds have the longest records. Use the metadata page, the dashboard and the data paper for details.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nWatershed\nAll the land that drains to one point on a stream\nArea (see attributes)\n\n\nDischarge\nVolume of water passing a point in the stream per time\nNot given in README (daily values)\n\n\nSolute\nA substance dissolved in water\nn/a\n\n\nConcentration\nAmount of a solute per volume of water\nNot given in README\n\n\nLoad / export / flux\nMass of a solute leaving the watershed per time\nNot given in README\n\n\nYield\nLoad divided by watershed area\nNot given in README\n\n\nRetention\nNutrient held back in the watershed instead of leaving in the stream\nn/a\n\n\nPrecipitation chemistry\nWhat is dissolved in rain or snow\nNot given in README\n\n\nWatershed attributes\nDescriptors of climate, geology, terrain, vegetation and land cover\nVaries\n\n\nWeathering\nSlow breakdown of rock that releases dissolved ions\nn/a\n\n\nHarmonized\nPut into a common format so sites can be compared\nn/a"
   },
   {
-    "objectID": "climate/kbs-meteorology.html#source-and-access",
-    "href": "climate/kbs-meteorology.html#source-and-access",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#source-and-access",
+    "href": "biogeochemistry/macrosheds.html#source-and-access",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Source and access",
-    "text": "Source and access\n\nEDI package ID: knb-lter-kbs.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.2\nDOI (example recent version): https://doi.org/10.6073/pasta/f4744fe92e13bc84847fd8ff13435695\nOriginal README: Climate_1_KBS_Meteorology_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+    "text": "Source and access\n\nEDI package ID: edi.1262.2\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1262.2\nDOI: https://doi.org/10.6073/pasta/5ffad974009ff64d0cfc2183c816790b\nData paper: https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lol2.10325\nDashboard: https://macrosheds.org\nR package: https://github.com/MacroSHEDS/macrosheds\nOriginal README: Biogeochem_3_MacroSheds_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
   },
   {
-    "objectID": "climate/kbs-meteorology.html#variables-and-contents",
-    "href": "climate/kbs-meteorology.html#variables-and-contents",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#variables-and-contents",
+    "href": "biogeochemistry/macrosheds.html#variables-and-contents",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Variables and contents",
-    "text": "Variables and contents\n\nDaily and hourly air temperature, precipitation, wind speed and direction, solar radiation, relative humidity\nSoil temperature and moisture\nSynthetic complete records supplemented from nearby stations when needed"
+    "text": "Variables and contents\n\nDaily time series of discharge and solute chemistry (multiple ions and nutrients)\nPrecipitation and precipitation chemistry where available\nComprehensive watershed attributes (climate, geology, terrain, vegetation, land cover) aligned with CAMELS-style predictors"
   },
   {
-    "objectID": "climate/kbs-meteorology.html#temporal-spatial-coverage",
-    "href": "climate/kbs-meteorology.html#temporal-spatial-coverage",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#temporal-spatial-coverage",
+    "href": "biogeochemistry/macrosheds.html#temporal-spatial-coverage",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Temporal & spatial coverage",
-    "text": "Temporal & spatial coverage\n\nTime: 1941–present (most complete from 1988 onward)\nLocation: Kellogg Biological Station, Hickory Corners, Michigan, USA"
+    "text": "Temporal & spatial coverage\n\nTime: Multi-decadal for many sites (varies by watershed)\nLocation: Primarily United States, multiple ecoregions"
   },
   {
-    "objectID": "climate/kbs-meteorology.html#why-this-dataset-is-useful-for-final-projects",
-    "href": "climate/kbs-meteorology.html#why-this-dataset-is-useful-for-final-projects",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "biogeochemistry/macrosheds.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Why this dataset is useful for final projects",
-    "text": "Why this dataset is useful for final projects\nClassic long-term climate record suitable for trend analysis, extreme-event characterization, or linking climate variables to ecosystem processes. Multiple temporal resolutions are provided."
+    "text": "Why this dataset is useful for final projects\nExcellent for comparative watershed biogeochemistry. Students can examine nutrient retention, weathering rates, or climate–biogeochemistry relationships across a wide range of sites. The R package and dashboard lower the barrier to access."
   },
   {
-    "objectID": "climate/kbs-meteorology.html#suggested-questions-and-analyses",
-    "href": "climate/kbs-meteorology.html#suggested-questions-and-analyses",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#suggested-questions-and-analyses",
+    "href": "biogeochemistry/macrosheds.html#suggested-questions-and-analyses",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Suggested questions and analyses",
-    "text": "Suggested questions and analyses\n\nLong-term temperature and precipitation trends\nChanges in extreme precipitation or heat events\nRelationships between climate variables and agricultural or ecological metrics (if paired with other KBS data)"
+    "text": "Suggested questions and analyses\n\nCross-site comparison of nutrient export or retention\nRelationships between watershed attributes and stream chemistry\nLong-term trends in solute concentrations or loads"
   },
   {
-    "objectID": "climate/kbs-meteorology.html#using-this-dataset-in-your-project",
-    "href": "climate/kbs-meteorology.html#using-this-dataset-in-your-project",
-    "title": "LTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)",
+    "objectID": "biogeochemistry/macrosheds.html#using-this-dataset-in-your-project",
+    "href": "biogeochemistry/macrosheds.html#using-this-dataset-in-your-project",
+    "title": "MacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds",
     "section": "Using this dataset in your project",
-    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\nBack to Climate\nNext: Niwot Ridge D1 →"
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: SC Wetland Fluxes\nBack to Biogeochemistry"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html",
+    "href": "biogeochemistry/gce-eddy-covariance.html",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "",
+    "text": "Back to Biogeochemistry\nNext: SC Wetland Fluxes →"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#what-it-is",
+    "href": "biogeochemistry/gce-eddy-covariance.html#what-it-is",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "What it is",
+    "text": "What it is\nScience-ready vertical carbon fluxes measured by eddy covariance (EC) over a Spartina alterniflora tidal salt marsh on Sapelo Island, Georgia (GCE-LTER). Covers a full decade of continuous measurements."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#explanation-of-data",
+    "href": "biogeochemistry/gce-eddy-covariance.html#explanation-of-data",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Explanation of data",
+    "text": "Explanation of data\nThe big idea. Plants take carbon dioxide (CO₂) out of the air to build their tissues, and plants and soil microbes put CO₂ back into the air when they respire. This dataset tracks that two-way traffic over a tidal salt marsh on Sapelo Island, Georgia, for about ten years. Coastal marshes like this one are often called blue carbon ecosystems because they can store carbon.\nWhat is a flux? A flux is how much of something crosses a surface, per unit of surface area, per unit of time. Think of counting how many people walk through a doorway each minute. Here the “doorway” is the marsh surface and the “people” are CO₂ molecules, moving vertically between the marsh and the air above it.\nHow is it measured? Eddy covariance. Air near the ground is turbulent: it is full of small swirls called eddies that carry air up and down. An eddy covariance (EC) tower sits above the marsh with two instruments:\n\na sonic anemometer, which measures wind speed in three directions (including straight up or down) using sound pulses, and\na gas analyzer, which measures how much CO₂ is in the air.\n\nIf upward-moving air tends to carry more CO₂ than downward-moving air, the marsh is releasing CO₂. If upward air carries less, the marsh is taking CO₂ up. The statistical link between vertical wind and CO₂ is called a covariance, which is where the method gets its name. The tower mostly “sees” the marsh upwind of it, called the footprint. The README says the dataset records what fraction of the footprint was tall, medium or short marsh habitat (it does not define those height classes here, so check the metadata page).\n\n\n\nAn eddy covariance tower: a sonic anemometer and a gas analyzer near the top, with swirling eddies carrying CO₂ up from and down to the marsh.\n\n\nNEE, GPP and ER (Reco). The three headline variables fit together like a bank account:\n\nGPP (gross primary production) is the total CO₂ the plants pull in through photosynthesis. It is like your gross paycheck.\nER (ecosystem respiration, also written Reco) is the CO₂ released by plants and soil microbes. It is like your spending.\nNEE (net ecosystem exchange) is the net result that the tower actually sees: NEE = ER − GPP (with GPP written as a positive number). It is like your balance change.\n\nSign convention. In this dataset, a negative NEE means the ecosystem is taking up CO₂ (a net sink), and a positive NEE means it is releasing CO₂ to the atmosphere (a net source).\n\n\n\nCarbon flux diagram: CO₂ goes into the plants as GPP and out as ER; NEE = ER − GPP.\n\n\nGood to know: a tower measures NEE directly. GPP and ER are not measured directly. They are estimated by splitting NEE into two pieces, a step called flux partitioning. That is why the README suggests comparing methods.\nDaily and seasonal cycles. A diurnal cycle is a pattern that repeats every 24 hours. At night there is no sunlight, so there is no photosynthesis and respiration dominates (NEE is positive). In daylight, photosynthesis usually rises and can outweigh respiration (NEE dips negative). A seasonal cycle is the same idea across the year: in many ecosystems uptake is strongest in the growing season. The 30-minute data let you see the daily cycle, while the daily and annual data let you see seasons and yearly totals. Check which pattern your own data actually show.\n\n\n\nSchematic of a typical diurnal NEE cycle: slightly positive at night, negative around midday.\n\n\nGaps and uncertainty. Towers sometimes miss data (power loss, bad weather, instrument problems). Gap-filling means estimating values for the missing periods. The README mentions comparing gap-filled with observed periods, so look for a column or flag that tells them apart. The dataset also gives 95% confidence intervals, a range that very likely contains the true value, as an estimate of uncertainty.\nSupporting variables. The README lists air temperature, humidity, VPD and water-table height. Relative humidity is how much water vapor is in the air compared with the most it could hold at that temperature. VPD (vapor pressure deficit) is the gap between those two amounts, so it measures how “thirsty” the air is. Water-table height is the level of the water relative to the ground. On a tidal marsh it may be linked to the tides, but the README does not say, so check the metadata.\n\n\n\n\n\n\nNot stated in the README: the units of NEE, GPP and ER, and the exact variable names. Those details are on the metadata page. Eddy covariance fluxes are commonly reported as an amount of CO₂ (or carbon) per area per time, but confirm before you plot.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nFlux\nAmount of something crossing a surface per area per time\nNot given in README\n\n\nEddy covariance (EC)\nTower method that links vertical wind to gas concentration to get a flux\nn/a\n\n\nSonic anemometer\nInstrument that measures 3-D wind using sound\nn/a\n\n\nGas analyzer\nInstrument that measures CO₂ in the air\nn/a\n\n\nNEE\nNet CO₂ exchange; NEE = ER − GPP; negative means net uptake\nNot given in README\n\n\nGPP\nTotal CO₂ taken up by photosynthesis\nNot given in README\n\n\nER (Reco)\nCO₂ released by plant and microbe respiration\nNot given in README\n\n\nFootprint\nThe patch of marsh upwind that the tower measures\nn/a\n\n\nDiurnal cycle\nPattern that repeats every 24 hours\n30-minute data\n\n\nGap-filling\nEstimating values for missing measurements\nn/a\n\n\n95% confidence interval\nRange likely to contain the true value\nSame as the variable\n\n\nVPD\nHow “thirsty” the air is (gap between water vapor held and the most it could hold)\nNot given in README\n\n\nWater-table height\nLevel of the water relative to the ground\nNot given in README"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#source-and-access",
+    "href": "biogeochemistry/gce-eddy-covariance.html#source-and-access",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-gce.858.12\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-gce.858.12\nDOI: https://doi.org/10.6073/pasta/796a1d1461efd426a3b5d3c7d8109eda\nOriginal README: Biogeochem_1_GCE_EddyCovariance_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#variables-and-contents",
+    "href": "biogeochemistry/gce-eddy-covariance.html#variables-and-contents",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\n30-minute, daily, and annual net ecosystem exchange (NEE), ecosystem respiration (ER), and gross primary production (GPP)\nUncertainty estimates (95% confidence intervals)\nSupporting biophysical variables (air temperature, humidity, VPD, water-table height, etc.)\nHabitat composition of the flux footprint (tall/medium/short marsh)"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#temporal-spatial-coverage",
+    "href": "biogeochemistry/gce-eddy-covariance.html#temporal-spatial-coverage",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2014–2024\nLocation: Western Sapelo Island, Georgia, USA (Duplin River / Barn Creek marsh)"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "biogeochemistry/gce-eddy-covariance.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nStudents can explore seasonal and interannual patterns in coastal blue-carbon fluxes, relationships between water-table dynamics and carbon exchange, or gap-filling and flux-partitioning methods. The processed products are relatively ready for analysis in R or Python."
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#suggested-questions-and-analyses",
+    "href": "biogeochemistry/gce-eddy-covariance.html#suggested-questions-and-analyses",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nSeasonal and annual carbon budgets\nResponse of NEE/GPP to water-table height or temperature\nComparison of gap-filled vs. observed periods"
+  },
+  {
+    "objectID": "biogeochemistry/gce-eddy-covariance.html#using-this-dataset-in-your-project",
+    "href": "biogeochemistry/gce-eddy-covariance.html#using-this-dataset-in-your-project",
+    "title": "Eddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)",
+    "section": "Using this dataset in your project",
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\nBack to Biogeochemistry\nNext: SC Wetland Fluxes →"
+  },
+  {
+    "objectID": "project-guide/presentation.html",
+    "href": "project-guide/presentation.html",
+    "title": "Presentation",
+    "section": "",
+    "text": "Deadline\n\n\nFinal presentations Wed, Dec 2, 2026, 3:00–5:00 pm\n\nWorth 50 points. Format: 5 minutes maximum, with an R Markdown (xaringan) slide deck, presented live or as a pre-recorded video.\n\nConfirm with your instructor if anything changes."
+  },
+  {
+    "objectID": "project-guide/presentation.html#the-rules",
+    "href": "project-guide/presentation.html#the-rules",
+    "title": "Presentation",
+    "section": "The rules",
+    "text": "The rules\n\n5 minutes maximum. Each team member should say something substantial (about 1 minute each). The kick-off slides say each member contributes 1–2 slides.\nLive or recorded. Present live during your workshop, or pre-record and submit a video to be played during the workshop.\nUse the template in your repo. Prepare a slide deck with the template in your repo, which uses the xaringan package (R Markdown slides).\nHide code you do not want shown. Before you finalize, turn off any chunks you do not want displayed with echo = FALSE.\nOrder. The presentation line-up is generated randomly.\nGrading details will be announced by your instructor closer to the date.\nSave your slides as presentation.Rmd and presentation.html in your repo."
+  },
+  {
+    "objectID": "project-guide/presentation.html#do-and-dont",
+    "href": "project-guide/presentation.html#do-and-dont",
+    "title": "Presentation",
+    "section": "Do and don’t",
+    "text": "Do and don’t\n\n\n\nDo\n\nConvey what choices you made, why, and what you found.\nTell the story of your analysis around one focused question.\nFocus on quality, not quantity.\nGive every team member something substantial to say.\nCritique your methods and say how they could be improved.\n\n\n\n\n\n\nDon’t\n\nGive an account of everything you tried (“then we did this, then we did this”).\nBe exhaustive: do not present every statistic or every visualization.\nVisualize everything at once. It helps you, but it does not necessarily help the audience.\nLeave code chunks showing that you do not want shown."
+  },
+  {
+    "objectID": "project-guide/presentation.html#a-short-xaringan-skeleton",
+    "href": "project-guide/presentation.html#a-short-xaringan-skeleton",
+    "title": "Presentation",
+    "section": "A short xaringan skeleton",
+    "text": "A short xaringan skeleton\n\n\n\n\n\n\nThis is a template, not your results. Start from the template in your own repo; this skeleton only shows how xaringan slides are structured. Slides are separated by ---.\n\n\n\n---\ntitle: \"Your project title\"\nsubtitle: \"Your group name\"\nauthor: \"Member 1, member 2, member 3\"\noutput:\n  xaringan::moon_reader:\n    lib_dir: libs\n    nature:\n      highlightStyle: github\n      countIncrementalSlides: false\n---\n\n# The question\n\n- One sentence on the dataset you used\n- The one question you asked\n\n---\n\n# Our approach and why\n\n- Key choices you made, and the reason for each\n\n```{r chart, echo=FALSE}\n# TEMPLATE PLACEHOLDER: a figure that supports the story\n```\n\n---\n\n# What we found\n\n- The result, in plain language\n\n---\n\n# Limitations and next steps\n\n- What you would improve\n\n← Proposal\nNext: Executive summary →"
+  },
+  {
+    "objectID": "project-guide/index.html",
+    "href": "project-guide/index.html",
+    "title": "Project guide",
+    "section": "",
+    "text": "This guide helps you get started. You will eventually work from your own group repository (graduate students may work independently), so treat this site as a map and your group repo as the place where the work lives. If anything here conflicts with what your instructor tells you, follow your instructor."
+  },
+  {
+    "objectID": "project-guide/index.html#key-dates",
+    "href": "project-guide/index.html#key-dates",
+    "title": "Project guide",
+    "section": "Key dates",
+    "text": "Key dates\n\n\n\nTimeline of the proposal, presentations and executive summary deadlines.\n\n\n\n\n\nDeliverable\nDue\nPoints\n\n\n\n\nProposal\nWed, Nov 11, 2026\n20\n\n\nPresentation\nWed, Dec 2, 2026, 3:00–5:00 pm\n50\n\n\nExecutive summary\nWed, Dec 9, 2026, 5:00 pm\n30\n\n\n\n\nConfirm with your instructor if anything changes."
+  },
+  {
+    "objectID": "project-guide/index.html#at-a-glance",
+    "href": "project-guide/index.html#at-a-glance",
+    "title": "Project guide",
+    "section": "At a glance",
+    "text": "At a glance\nIn a nutshell: pick a dataset, any dataset, and apply your data science workflow. Submit a proposal, give a 5-minute presentation (or share a pre-recording), and write up a README executive summary.\n\n\nKick-off\nWhy we do the project, how it works, and the four first activities.\n\n\nProposal\n20 pts. About one page in R Markdown, with a copy-and-paste template.\n\n\nPresentation\n50 pts. 5 minutes maximum, slides built with xaringan.\n\n\nExecutive summary\n30 pts. A brief write-up in your repo’s README.\n\n\nEveryone applies the data science skills from the course to a dataset of their choosing. Following the data science workflow, you will import, tidy and transform (wrangle), visualize and communicate your data. The last two units cover modeling, including hypothesis tests. The project includes text narrative explaining your code and thought process in an .Rmd file, just like all semester.\n\nUndergraduates choose a dataset as a group, based on interests.\nGraduate students can work independently (or collaborate) on their own datasets, and are graded the same as undergraduates even though the work may exceed class expectations."
+  },
+  {
+    "objectID": "project-guide/index.html#the-data-science-workflow",
+    "href": "project-guide/index.html#the-data-science-workflow",
+    "title": "Project guide",
+    "section": "The data science workflow",
+    "text": "The data science workflow\n\n\n\nThe data science workflow: Import, Tidy, Transform, Visualize, Model, Communicate.\n\n\nYour project should walk through this cycle for a focused question. Use tidyverse packages in R and RStudio."
+  },
+  {
+    "objectID": "project-guide/index.html#choosing-a-dataset",
+    "href": "project-guide/index.html#choosing-a-dataset",
+    "title": "Project guide",
+    "section": "Choosing a dataset",
+    "text": "Choosing a dataset\nPick a manageable dataset: readily accessible and large enough that multiple relationships can be explored.\n\nAt least 50 observations (rows) and at least 10 variables.\nVariables should include categorical, discrete numerical and continuous numerical variables.\nIf the data come in a format we have not met in class, make sure you can load it into R (this can be tricky). Ask for help before it is too late.\nDo not reuse datasets used in class examples, homework or labs.\n\nThe 12 options are on this site: start from the home page. You can also explore other sources, such as NASA, NOAA, WMO or Dryad, and graduate students may use their own project data."
+  },
+  {
+    "objectID": "project-guide/index.html#grading",
+    "href": "project-guide/index.html#grading",
+    "title": "Project guide",
+    "section": "Grading",
+    "text": "Grading\n\n\n\nDeliverable\nPoints\n\n\n\n\nProposal\n20\n\n\nPresentation\n50\n\n\nExecutive summary\n30\n\n\nTotal\n100\n\n\n\nProposal breakdown (20 pts): Data 6, Proposal 10, Workflow/organization/code quality 2, Teamwork 2. After feedback you can improve and re-submit. If you re-submit, your final proposal score is the average of the first and second submissions.\nMarking criteria (how the whole project is assessed):\n\nContent: the quality of the research and/or policy question, and the relevance of the data to those questions.\nAccuracy: are statistical procedures carried out and explained correctly?\nWriting and presentation: the quality of the statistical presentation, writing and explanations.\nCreativity and critical thought: is the project carefully thought out, are limitations considered, and did time and effort go into planning and implementation?"
+  },
+  {
+    "objectID": "project-guide/index.html#repo-organization",
+    "href": "project-guide/index.html#repo-organization",
+    "title": "Project guide",
+    "section": "Repo organization",
+    "text": "Repo organization\nYour project repository should contain:\nyour-group-repo/\n├── presentation.Rmd    # your slides (source)\n├── presentation.html   # your slides (rendered)\n├── README.Rmd          # your write-up (source)\n├── README.md           # your write-up (rendered)\n├── data/               # dataset (CSV or RDS) and data dictionary\n└── proposal/           # the project proposal\nStyle and format count, so make sure everything looks good and the data and code are properly formatted."
+  },
+  {
+    "objectID": "project-guide/index.html#tips",
+    "href": "project-guide/index.html#tips",
+    "title": "Project guide",
+    "section": "Tips",
+    "text": "Tips\n\nYou are working in the same repo as your teammates, so merge conflicts will happen and issues will arise, and that is fine. Commit and push often, and ask questions when stuck.\nReview the marking guidelines and ask questions if expectations are unclear.\nMake sure each team member contributes in quality and quantity. The instructor reviews commits by team member.\nSet aside time to work together and apart.\nWhen you are done, review the documents on GitHub to make sure you are happy with the final state.\nTeamwork: complete the assignment as a team. All members are expected to contribute equally, and team evaluations are given at the end. Anyone judged not to have contributed sufficiently will have their grade penalized.\nEvery team member must understand how and why all of the code and approaches work."
+  },
+  {
+    "objectID": "project-guide/index.html#deliverable-pages",
+    "href": "project-guide/index.html#deliverable-pages",
+    "title": "Project guide",
+    "section": "Deliverable pages",
+    "text": "Deliverable pages\n\nKick-off →\nProposal →\nPresentation →\nExecutive summary →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "",
+    "text": "Start here: new to the final project? Read the Project guide for the kick-off steps, the proposal template, the presentation rules and the executive summary requirements, with the deadlines. Then pick a dataset below.\nThree options are provided for each of the four departmental subject areas (four for Hydrology). Each dataset has its own page here, built from its README, with a direct link to the EDI metadata page, a basic description, coverage, and suggested analyses.\nDatasets are curated from the Environmental Data Initiative (EDI) data portal."
+  },
+  {
+    "objectID": "index.html#choose-a-subject",
+    "href": "index.html#choose-a-subject",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "Choose a subject",
+    "text": "Choose a subject\n\n\n\nBiogeochemistry and Geobiology\n\n\n\nGCE Eddy Covariance\n\n\nSC Wetland Fluxes\n\n\nMacroSheds\n\n\nExplore Biogeochemistry →\n\n\n\nMeteorology and Climate\n\n\n\nKBS Meteorology\n\n\nNiwot Ridge D1\n\n\nCalifornia Downscaled Grids\n\n\nExplore Climate →\n\n\n\nHydrology and Ecosystems\n\n\n\nHubbard Brook Streamflow\n\n\nHarvard Forest Hydrology\n\n\nMacroSheds\n\n\nExplore Hydrology →\n\n\n\nEarth and Planetary Geophysics\n\n\n\nBonanza Creek Boreholes\n\n\nAK Wildfire & Permafrost\n\n\nVCR Seismic Stratigraphy\n\n\nExplore Geophysics →"
+  },
+  {
+    "objectID": "index.html#how-to-choose-a-dataset",
+    "href": "index.html#how-to-choose-a-dataset",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "How to choose a dataset",
+    "text": "How to choose a dataset\nUse the dataset pages to compare options side by side. Each page tells you what the dataset is, where it comes from, what it contains, and which analyses it suits.\n\nStart with your interest. Pick the subject area closest to what you want to learn about, then read its three options.\nCheck the coverage. Every page lists the time span and location. Look for a record long enough, or frequent enough, for your question (for example, 10-minute data supports diurnal cycles, while multi-decade records support trend analysis).\nRead the suggested analyses. Each page lists analyses the dataset supports. Ask whether one of them could become your project question.\nCheck how easy it is to access. Open the EDI metadata page linked on each dataset page. If you hit an authentication prompt, see the access note above. MacroSheds also has an R package and a dashboard linked on its page.\nAsk for help if needed. The EDI package ID is listed on every page so you can point to the exact dataset."
+  },
+  {
+    "objectID": "index.html#all-13-datasets-at-a-glance",
+    "href": "index.html#all-13-datasets-at-a-glance",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "All 13 datasets at a glance",
+    "text": "All 13 datasets at a glance\n\n\n\nSubject\nDataset\nPackage\n\n\n\n\nBiogeochemistry\nGCE Eddy Covariance Carbon Fluxes (Georgia salt marsh, 2014–2024)\nknb-lter-gce.858.12\n\n\nBiogeochemistry\nSC Coastal Wetland Chamber Fluxes & Soil Biogeochemistry (2022–2023)\nedi.1828.3\n\n\nBiogeochemistry\nMacroSheds Multi-Watershed Biogeochemical Synthesis\nedi.1262.2\n\n\nClimate\nKellogg Biological Station Long-Term Meteorology (Michigan, 1941–present)\nknb-lter-kbs.2\n\n\nClimate\nNiwot Ridge D1 Alpine Climate Station (Colorado, 10-minute data)\nknb-lter-nwt.273\n\n\nClimate\nDownscaled 90 m Climate Grids for California (1971–2000 bioclimatic variables)\nedi.167.1\n\n\nHydrology\nHubbard Brook Daily Streamflow (New Hampshire, 1956–present)\nknb-lter-hbr.2.15\n\n\nHydrology\nHarvard Forest Prospect Hill Hydrological Stations (since 2005)\nknb-lter-hfr.70\n\n\nHydrology\nMacroSheds (also listed under Biogeochemistry)\nedi.1262.2\n\n\nHydrology\nCROCUS Urban Tree Sap Velocity (Chicago, 2024–2025)\nDOI 10.15485/3013822 (ESS-DIVE)\n\n\nGeophysics\nBonanza Creek Deep Borehole Permafrost Temperatures (Alaska, 2009–2021)\nknb-lter-bnz.792.2\n\n\nGeophysics\nInterior Alaska Wildfire Effects on Permafrost Soil Temperatures (hourly, 2013–2018)\nknb-lter-bnz.717.2\n\n\nGeophysics\nVirginia Coast Reserve Stratigraphy & Seismic Context\nknb-lter-vcr.15.19\n\n\n\nHydrology also lists MacroSheds (the same EDI package, edi.1262.2, as under Biogeochemistry)."
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "EAES 380 Final Project Dataset Options",
+    "section": "About this site",
+    "text": "About this site\nThe original README files remain in the GitHub repository. This site organizes the same content by subject so it is easier to browse."
+  },
+  {
+    "objectID": "project-guide/executive-summary.html",
+    "href": "project-guide/executive-summary.html",
+    "title": "Executive summary",
+    "section": "",
+    "text": "Deadline\n\n\nExecutive summary due Wed, Dec 9, 2026, 5:00 pm\n\nWorth 30 points. Format: a brief summary in the README of your repository.\n\nConfirm with your instructor if anything changes."
+  },
+  {
+    "objectID": "project-guide/executive-summary.html#what-to-include",
+    "href": "project-guide/executive-summary.html#what-to-include",
+    "title": "Executive summary",
+    "section": "What to include",
+    "text": "What to include\nAlong with your presentation slides, provide a brief summary of your project in the README of your repository. It should cover:\n\nThe dataset you are using.\nYour research question(s).\nYour methodology.\nYour findings.\n\nThe executive summary is evaluated on whether it follows the guidance and whether it is concise but detailed enough. Style and format count, so make sure code and outputs look good."
+  },
+  {
+    "objectID": "project-guide/executive-summary.html#readme.rmd-skeleton",
+    "href": "project-guide/executive-summary.html#readme.rmd-skeleton",
+    "title": "Executive summary",
+    "section": "README.Rmd skeleton",
+    "text": "README.Rmd skeleton\n\n\n\n\n\n\nThis is a template, not results. Replace every placeholder with your own words. Knit README.Rmd to produce README.md and commit both.\n\n\n\n---\ntitle: \"Your project title\"\noutput: github_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)\nlibrary(tidyverse)\n```\n\n## Dataset\n\n*What is the dataset, where does it come from, and what does each row\nrepresent?*\n\n## Research question(s)\n\n*State your question(s) in one or two sentences.*\n\n## Methodology\n\n*Which tidyverse methods or models did you use, and why? Keep it brief.*\n\n## Findings\n\n*What did you find? Include your key figure or table here.*\n\n```{r key-figure}\n# TEMPLATE PLACEHOLDER: your key figure or table\n```"
+  },
+  {
+    "objectID": "project-guide/executive-summary.html#repo-folder-tree",
+    "href": "project-guide/executive-summary.html#repo-folder-tree",
+    "title": "Executive summary",
+    "section": "Repo folder tree",
+    "text": "Repo folder tree\nyour-group-repo/\n├── presentation.Rmd    # slides (source)\n├── presentation.html   # slides (rendered)\n├── README.Rmd          # executive summary (source)\n├── README.md           # executive summary (rendered)\n├── data/               # dataset (CSV or RDS) and data dictionary\n└── proposal/           # the project proposal"
+  },
+  {
+    "objectID": "project-guide/executive-summary.html#before-you-submit",
+    "href": "project-guide/executive-summary.html#before-you-submit",
+    "title": "Executive summary",
+    "section": "Before you submit",
+    "text": "Before you submit\n\nReview the documents on GitHub to make sure you are happy with the final state.\nCheck that the data and code are properly formatted.\nMake sure every team member has contributed, and that every member understands how and why the code works.\n\n\n← Presentation\nBack to the Project guide"
+  },
+  {
+    "objectID": "project-guide/kickoff.html",
+    "href": "project-guide/kickoff.html",
+    "title": "Kick-off",
+    "section": "",
+    "text": "First deadline: Proposal\n\n\nDue Wed, Nov 11, 2026\n\nKick-off work is the start of your proposal (20 pts). Later dates are on the Project guide.\n\nConfirm with your instructor if anything changes."
+  },
+  {
+    "objectID": "project-guide/kickoff.html#why",
+    "href": "project-guide/kickoff.html#why",
+    "title": "Kick-off",
+    "section": "Why?",
+    "text": "Why?\n\nMimic the project-based work and skills of a real data scientist.\nApply your skills to a dataset of your choosing, including EAESy (earth and environmental science) data.\nBecause this should be more useful (and fun?) than a big final exam."
+  },
+  {
+    "objectID": "project-guide/kickoff.html#how",
+    "href": "project-guide/kickoff.html#how",
+    "title": "Kick-off",
+    "section": "How?",
+    "text": "How?\n\nPick a dataset and apply the data science workflow.\nConduct a focused (not exhaustive) analysis. Demonstrate that you can ask a question and answer it with analysis results, code in R and combine code with text to produce .Rmd reports, and interpret and communicate results.\nDo whatever you want, but use tidyverse packages in R and RStudio.\nFocus on quality, not quantity, in code and results.\nCollaborate in small groups (graduate students have an independent option)."
+  },
+  {
+    "objectID": "project-guide/kickoff.html#what",
+    "href": "project-guide/kickoff.html#what",
+    "title": "Kick-off",
+    "section": "What?",
+    "text": "What?\nEach group (or graduate student) will complete:\n\n\n\nDeliverable\nPoints\nFormat\n\n\n\n\nProposal\n20\nOne page maximum, in R Markdown, describing (1) your dataset, (2) an exploratory visualization, and (3) one question you may pose and some tidyverse methods that may help answer it\n\n\nPresentation\n50\n5 minutes maximum, R Markdown with the xaringan package; each group member contributes 1–2 slides; tell the story of your analysis (what choices you made and why), not all the different things you tried\n\n\nExecutive summary\n30\nA brief summary of your project in the README of your GitHub repo; style and format matter, so make sure code and outputs look good\n\n\n\nLab time is used for the projects. Groups form from shared interest and confidence level. Request and resolve any group changes early. Starter repos are released by your instructor at the proper kick-off."
+  },
+  {
+    "objectID": "project-guide/kickoff.html#kick-off-activities",
+    "href": "project-guide/kickoff.html#kick-off-activities",
+    "title": "Kick-off",
+    "section": "Kick-off activities",
+    "text": "Kick-off activities\nWork through these with your group:\n\n1. Form groups. Pick a group name, and include any remote classmates.\n2. Pick a dataset with your instructor’s help. Choose from the options on this site or elsewhere (NASA, NOAA, WMO, Dryad, etc.), or from your own project (graduate students only). Discuss your options and interests as a group.\n3. Self-organize. How will you divide up the proposal? How, where and when will you meet outside class? Take 3 minutes to think about 5 “challenges” you might face during this project.\n4. Start working on the proposal. Fork the group repo and familiarize yourselves with the files. Add to your proposal, commit, push, create a pull request and merge. Your proposal needs a description of the dataset including a data dictionary, an exploratory visualization figure (with some narrative), and a question you could pose with a possible method for answering it."
+  },
+  {
+    "objectID": "project-guide/kickoff.html#git-workflow-in-a-group-repo",
+    "href": "project-guide/kickoff.html#git-workflow-in-a-group-repo",
+    "title": "Kick-off",
+    "section": "Git workflow in a group repo",
+    "text": "Git workflow in a group repo\n\n\n\nThe group git workflow: fork, edit, commit, push, pull request, merge.\n\n\nCommit and push often. Merge conflicts will happen when teammates edit the same lines; that is normal and expected.\n\n← Project guide\nNext: Proposal →"
+  },
+  {
+    "objectID": "project-guide/proposal.html",
+    "href": "project-guide/proposal.html",
+    "title": "Proposal",
+    "section": "",
+    "text": "Deadline\n\n\nProposal due Wed, Nov 11, 2026\n\nWorth 20 points. Format: about one page, written in R Markdown, saved in the /proposal folder of your repo.\n\nConfirm with your instructor if anything changes."
+  },
+  {
+    "objectID": "project-guide/proposal.html#what-it-is",
+    "href": "project-guide/proposal.html#what-it-is",
+    "title": "Proposal",
+    "section": "What it is",
+    "text": "What it is\nA draft of the introduction section of your project, plus a data analysis plan and your dataset. The entire proposal should be about 1 page. Use “Print Preview” to check the size of your .Rmd html output."
+  },
+  {
+    "objectID": "project-guide/proposal.html#sections",
+    "href": "project-guide/proposal.html#sections",
+    "title": "Proposal",
+    "section": "Sections",
+    "text": "Sections\nSection 1a: Description of dataset. Cover:\n\nWhere the dataset comes from, what interests you about it, and why you chose it.\nIts dimensions and variable names/types.\nWhat each row (observation) is.\nWhether the data seem “tidy”.\n\nSection 1b: Data and data dictionary. Place your data in the /data folder, and add the dimensions and a data dictionary to the README in that folder. Then print the output of glimpse() or skim() of your data frame.\nSection 2: Exploratory visualization. Very preliminary exploratory data analysis, including some summary statistics and visualizations, along with some explanation of how they help you learn more about your data.\nSection 3: Pose a question and a potential method. What question could you answer with this dataset, and which method(s) do you believe will help answer it? You can update these later as you work on your project."
+  },
+  {
+    "objectID": "project-guide/proposal.html#grading-20-pts",
+    "href": "project-guide/proposal.html#grading-20-pts",
+    "title": "Proposal",
+    "section": "Grading (20 pts)",
+    "text": "Grading (20 pts)\n\n\n\nPart\nPoints\n\n\n\n\nData\n6\n\n\nProposal\n10\n\n\nWorkflow, organization and code quality\n2\n\n\nTeamwork\n2\n\n\nTotal\n20\n\n\n\nAfter you receive feedback you can improve the proposal and re-submit. If you re-submit, your final score is the average of your first and second submissions."
+  },
+  {
+    "objectID": "project-guide/proposal.html#template-a-one-page-scaffold-you-can-copy",
+    "href": "project-guide/proposal.html#template-a-one-page-scaffold-you-can-copy",
+    "title": "Proposal",
+    "section": "Template: a one-page scaffold you can copy",
+    "text": "Template: a one-page scaffold you can copy\n\n\n\n\n\n\nThis is a template, not results. Every name, file path and placeholder below is a stand-in. Replace it with your own dataset and write your own text. The code chunks are empty on purpose.\n\n\n\nCopy this into a new .Rmd file in your /proposal folder.\n---\ntitle: \"Your project title\"\nauthor: \"Group name: member 1, member 2, member 3\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)\nlibrary(tidyverse)\nlibrary(skimr)\n```\n\n## 1a. Description of the dataset\n\n*Where does the dataset come from? Why did you choose it and what interests\nyou about it? How many rows and columns? What is one row (one observation)?\nDoes the data seem tidy?*\n\n## 1b. Data and data dictionary\n\n*Put your data in the /data folder and describe it (dimensions + data\ndictionary) in the README inside that folder.*\n\n```{r load-data}\n# TEMPLATE PLACEHOLDER: replace with your own file path\n# your_data &lt;- read_csv(\"../data/your-data-file.csv\")\n```\n\n```{r glimpse}\n# TEMPLATE PLACEHOLDER: use glimpse() or skim() on your data frame\n# glimpse(your_data)\n# skim(your_data)\n```\n\n## 2. Exploratory visualization\n\n*Show a few summary statistics and one or two preliminary figures. Explain\nwhat each one tells you about the data.*\n\n```{r eda}\n# TEMPLATE PLACEHOLDER: your summary statistics and figure(s) go here\n```\n\n## 3. Question and potential method\n\n*What question could you answer with this dataset? Which method(s) might\nhelp? You can update this later.*"
+  },
+  {
+    "objectID": "project-guide/proposal.html#tips-for-a-strong-proposal",
+    "href": "project-guide/proposal.html#tips-for-a-strong-proposal",
+    "title": "Proposal",
+    "section": "Tips for a strong proposal",
+    "text": "Tips for a strong proposal\n\nKeep it to about one page; focused beats exhaustive.\nMake sure your dataset meets the dataset requirements (at least 50 rows, at least 10 variables, a mix of variable types, loads into R).\nEach dataset page on this site has an “Explanation of data” section that can help you write Section 1a.\nCommit, push and open a pull request often, and share the writing fairly: teamwork is graded.\n\n\n← Kick-off\nNext: Presentation →"
+  },
+  {
+    "objectID": "biogeochemistry/index.html",
+    "href": "biogeochemistry/index.html",
+    "title": "Biogeochemistry and Geobiology",
+    "section": "",
+    "text": "1. GCE Eddy Covariance\nEddy Covariance Vertical Carbon Fluxes from a Georgia Tidal Salt Marsh (2014–2024)\nScience-ready vertical carbon fluxes measured by eddy covariance (EC) over a Spartina alterniflora tidal salt marsh on Sapelo Island, Georgia (GCE-LTER).\nEDI package: knb-lter-gce.858.12\n\n\n2. SC Wetland Fluxes\nChamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina\nPaired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023).\nEDI package: edi.1828.3\n\n\n3. MacroSheds\nMacroSheds: Synthesis of Long-Term Biogeochemical, Hydroclimatic, and Geospatial Data from Small Watersheds\nA harmonized synthesis of daily streamflow, stream chemistry, precipitation, and watershed attributes from &gt;200 small watersheds across LTER, CZO/CZNet, NEON, and other networks.\nEDI package: edi.1262.2\n← Back to all subjects"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html",
+    "href": "biogeochemistry/sc-wetland-fluxes.html",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "",
+    "text": "← Previous: GCE Eddy Covariance\nBack to Biogeochemistry\nNext: MacroSheds →"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#what-it-is",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#what-it-is",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "What it is",
+    "text": "What it is\nPaired measurements of methane (CH₄) and carbon dioxide (CO₂) fluxes and soil biogeochemical properties from a tidal salt marsh and an impounded brackish wetland in Georgetown County, South Carolina (2022–2023)."
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#explanation-of-data",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#explanation-of-data",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Explanation of data",
+    "text": "Explanation of data\nThe big idea. Wetland soils hold a lot of carbon, and they can release two greenhouse gases: carbon dioxide (CO₂) and methane (CH₄). This dataset pairs measurements of those gas fluxes with measurements of the soil beneath, so you can ask why some spots release more gas than others. The data come from two kinds of coastal wetland in Georgetown County, South Carolina, measured about monthly in 2022–2023: a tidal salt marsh and an impounded brackish wetland.\n\nTidal salt marsh: flooded by ocean tides, so the water is salty.\nImpounded wetland: a wetland where a berm or dike holds water in, which changes how often and how deeply it floods. Brackish water is in between fresh and ocean water in saltiness.\n\nWhat is a flux, and what is a chamber? A flux is how much gas moves across a surface per unit area per unit time. To measure it here, researchers use chambers: closed boxes placed over the ground. Gas that leaks out of the soil and plants builds up inside the sealed space, and the rate of increase in concentration tells you the flux. A steeper rise means a larger flux. In the usual convention a positive flux is gas going from the wetland into the air (confirm this in the metadata).\n\n\n\nA closed chamber over marsh plants and soil, with CH₄ and CO₂ entering the chamber and an inset showing concentration rising over time.\n\n\nThe README names three chamber types: whole-plant, plant-adjacent and non-vegetated. It does not define them, so read the metadata before you compare them. The general idea is to separate the effect of plants from the effect of bare soil. Many wetland plants can also move gas between the soil and the air through their stems, which is one reason plants matter for methane.\nSoil measurements. Soil cores were taken at two depths (0–10 cm and 10–50 cm). The README lists these variables:\n\nCarbon (C) and nitrogen (N) concentrations and the C:N ratio. C:N is the amount of carbon relative to nitrogen. It is often used as a rough sign of how easily microbes can break down the organic matter.\nMoisture (how wet the soil is) and pH (how acidic or basic it is).\nConductivity: how well the soil water carries electricity. It is usually a stand-in for how salty the water is, but check the metadata.\nOrganic matter: the part of the soil made from once-living material.\nRoot biomass: the weight of roots in the soil.\nmcrA gene copy numbers: mcrA is a gene that methanogens (microbes that produce methane) use. Counting its copies is a way to estimate how many methane-producing microbes are present.\n\n\n\n\n\n\n\nNot stated in the README: the units, the exact chamber method, and how chamber and soil measurements are matched in time and place. Check the metadata page before you combine tables.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nCH₄ (methane)\nA potent greenhouse gas made by microbes in oxygen-poor soils\nNot given in README\n\n\nCO₂\nCarbon dioxide, the main carbon greenhouse gas\nNot given in README\n\n\nFlux\nGas moving across a surface per area per time\nNot given in README\n\n\nChamber\nA closed box placed over the ground to catch emitted gas\nn/a\n\n\nTidal salt marsh\nCoastal wetland flooded by ocean tides\nn/a\n\n\nImpounded wetland\nWetland where a berm or dike holds water in\nn/a\n\n\nBrackish\nSalinity between fresh water and seawater\nn/a\n\n\nC:N ratio\nCarbon relative to nitrogen in the soil\nRatio (no units)\n\n\nConductivity\nHow well soil water conducts electricity (often a salinity proxy)\nNot given in README\n\n\nOrganic matter\nSoil material from once-living things\nNot given in README\n\n\nmcrA gene copies\nA count that estimates how many methane-making microbes are present\nCopies (see metadata)\n\n\nCore depths\nSoil samples at 0–10 cm and 10–50 cm\ncm"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#source-and-access",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#source-and-access",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: edi.1828.3\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1828.3\nDOI: https://doi.org/10.6073/pasta/08bab7404a446ab8c3d6607eb796aed8\nOriginal README: Biogeochem_2_SC_WetlandFluxes_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#variables-and-contents",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#variables-and-contents",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nSoil cores (0–10 cm and 10–50 cm): C and N concentrations, C:N ratios, moisture, pH, conductivity, organic matter, root biomass, mcrA gene copy numbers\nChamber fluxes: whole-plant, plant-adjacent, and non-vegetated chambers for CH₄ and CO₂"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#temporal-spatial-coverage",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#temporal-spatial-coverage",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2022–2023 (approximately monthly)\nLocation: Georgetown County, South Carolina, USA"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nIdeal for students interested in plant–microbe–soil interactions controlling wetland greenhouse-gas emissions. Combines process measurements (fluxes) with mechanistic soil variables."
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#suggested-questions-and-analyses",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#suggested-questions-and-analyses",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nRelationships between plant presence, soil properties, and CH₄ fluxes\nComparison of salt marsh vs. impounded wetland\nDrivers of spatial and temporal variability in fluxes"
+  },
+  {
+    "objectID": "biogeochemistry/sc-wetland-fluxes.html#using-this-dataset-in-your-project",
+    "href": "biogeochemistry/sc-wetland-fluxes.html#using-this-dataset-in-your-project",
+    "title": "Chamber-Level Gas Fluxes and Soil Biogeochemical Properties from Coastal Wetlands, South Carolina",
+    "section": "Using this dataset in your project",
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: GCE Eddy Covariance\nBack to Biogeochemistry\nNext: MacroSheds →"
+  },
+  {
+    "objectID": "climate/index.html",
+    "href": "climate/index.html",
+    "title": "Meteorology and Climate",
+    "section": "",
+    "text": "1. KBS Meteorology\nLTER Meteorological Stations at the Kellogg Biological Station, Michigan (1941–present)\nLong-term meteorological observations from the Kellogg Biological Station LTER site in southwest Michigan.\nEDI package: knb-lter-kbs.2\n\n\n2. Niwot Ridge D1\nClimate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)\nHigh-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m).\nEDI package: knb-lter-nwt.273\n\n\n3. California Downscaled Grids\nDownscaled Climate Grids of California (90 m) for Bioclimatic Variables, 1971–2000\nHigh-resolution (90 m) downscaled climate grids for California covering a variety of bioclimatic variables derived from historical climate data (1971–2000 normal period).\nEDI package: edi.167.1\n← Back to all subjects"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html",
+    "href": "climate/niwot-ridge-d1.html",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "",
+    "text": "← Previous: KBS Meteorology\nBack to Climate\nNext: California Downscaled Grids →"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#what-it-is",
+    "href": "climate/niwot-ridge-d1.html#what-it-is",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "What it is",
+    "text": "What it is\nHigh-frequency (10-minute) climatological data from the D1 climate station on Niwot Ridge, Colorado (elevation ~3738 m). Part of the Niwot Ridge LTER long-term monitoring program."
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#explanation-of-data",
+    "href": "climate/niwot-ridge-d1.html#explanation-of-data",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Explanation of data",
+    "text": "Explanation of data\nThe big idea. Niwot Ridge is in the Colorado Front Range, and the D1 station sits at about 3,738 m (roughly 12,300 ft) above sea level. That is an alpine site: very high in the mountains, where it is cold, windy and sunny and the weather can change quickly. The station is part of the Niwot Ridge LTER (Long Term Ecological Research) monitoring program.\nWhat was measured? The README lists:\n\nAir temperature and relative humidity (water vapor in the air compared with the most the air could hold at that temperature).\nWind speed and direction. By meteorology’s usual convention, direction is where the wind blows from; confirm in the metadata.\nSolar radiation: the energy arriving from the sun.\n\nThe README also says the data are quality-flagged and at native resolution. A flag is a code next to a value saying that it is good, estimated or suspicious. Native resolution means the data have not been averaged: you get a record every 10 minutes. That is dense data: there are 144 records per day per variable.\nWhat does 10-minute data let you do? Because values are so frequent, you can see the diurnal cycle, a pattern that repeats every 24 hours (temperature usually climbs after sunrise and falls overnight). You can also look at seasonal cycles across the year, extreme wind or temperature events, and how fast conditions change. Before you plot, check the flags and decide how to treat flagged values, and think about whether to average to hourly or daily data so graphs are readable.\nWhy elevation matters. High-elevation stations are generally colder and windier than low ones, which is why the README suggests comparing D1 with lower-elevation stations. That comparison needs data from another source, so check that it is available before choosing it.\n\n\n\n\n\n\nNot stated in the README: exact variable names, units and flag codes, and whether other variables (such as precipitation or snow) are included. Check the metadata page.\n\n\n\n\nKey terms\n\n\n\n\n\n\n\n\nTerm\nPlain-language meaning\nTypical units\n\n\n\n\nAlpine\nHigh in the mountains, around and above the tree line\nElevation about 3,738 m here\n\n\nAir temperature\nHow warm or cold the air is\nNot given in README\n\n\nRelative humidity\nWater vapor in the air as a share of the maximum it could hold\nPercent (usual)\n\n\nWind speed / direction\nHow fast the wind blows and where it comes from\nNot given in README\n\n\nSolar radiation\nEnergy arriving from the sun\nNot given in README\n\n\nQuality flag\nA code that marks a value as good, estimated or suspicious\nn/a\n\n\nNative resolution\nThe original measurement frequency, with no averaging\n10 minutes\n\n\nDiurnal cycle\nA pattern that repeats every 24 hours\nn/a\n\n\nSeasonal cycle\nA pattern that repeats every year\nn/a"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#source-and-access",
+    "href": "climate/niwot-ridge-d1.html#source-and-access",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Source and access",
+    "text": "Source and access\n\nEDI package ID: knb-lter-nwt.273\nMetadata page: https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nwt.273\nDOI (example): https://doi.org/10.6073/pasta/e06669d42e1314dd93160d091022a717\nOriginal README: Climate_2_NiwotRidge_D1_README.md\n\n\n\n\n\n\n\nNote on access (from the course README): Most EDI datasets can be downloaded directly from the metadata page (or via the generated R/Python code). Some require a free EDI access key for scripted downloads. Check the “Accessing Data” documentation on the EDI site if you encounter authentication prompts."
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#variables-and-contents",
+    "href": "climate/niwot-ridge-d1.html#variables-and-contents",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Variables and contents",
+    "text": "Variables and contents\n\nAir temperature, relative humidity, wind speed and direction, solar radiation\nQuality-flagged native-resolution data\nSuitable for alpine climate and meteorology studies"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#temporal-spatial-coverage",
+    "href": "climate/niwot-ridge-d1.html#temporal-spatial-coverage",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Temporal & spatial coverage",
+    "text": "Temporal & spatial coverage\n\nTime: 2014–ongoing (10-minute resolution)\nLocation: Niwot Ridge, Colorado Front Range, USA (high-elevation alpine)"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#why-this-dataset-is-useful-for-final-projects",
+    "href": "climate/niwot-ridge-d1.html#why-this-dataset-is-useful-for-final-projects",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Why this dataset is useful for final projects",
+    "text": "Why this dataset is useful for final projects\nStudents interested in alpine or mountain meteorology can examine high-elevation climate variability, wind patterns, or radiation regimes. High temporal resolution supports diurnal cycle analyses."
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#suggested-questions-and-analyses",
+    "href": "climate/niwot-ridge-d1.html#suggested-questions-and-analyses",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Suggested questions and analyses",
+    "text": "Suggested questions and analyses\n\nDiurnal and seasonal temperature/wind cycles\nExtreme wind or temperature events at high elevation\nComparison with lower-elevation stations"
+  },
+  {
+    "objectID": "climate/niwot-ridge-d1.html#using-this-dataset-in-your-project",
+    "href": "climate/niwot-ridge-d1.html#using-this-dataset-in-your-project",
+    "title": "Climate Data from Niwot Ridge LTER D1 Station (High-Elevation Alpine)",
+    "section": "Using this dataset in your project",
+    "text": "Using this dataset in your project\n\nThinking about choosing this dataset? Your proposal needs a description of the data (what each row is, the variables and a data dictionary), a first exploratory figure, and one question with a possible method. The Proposal page has a one-page template, and the Project guide summarizes everything due. Before you commit, check that this dataset gives you at least 50 rows and at least 10 variables, including categorical, discrete numerical and continuous numerical variables, and that you can load it into R.\n\n\n\n← Previous: KBS Meteorology\nBack to Climate\nNext: California Downscaled Grids →"
   },
   {
     "objectID": "hydrology/harvard-forest-hydro.html",
@@ -935,7 +998,7 @@
     "href": "hydrology/index.html",
     "title": "Hydrology and Ecosystems",
     "section": "",
-    "text": "MacroSheds is also listed under Biogeochemistry.\n\n1. Hubbard Brook Streamflow\nHubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present\nContinuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire.\nEDI package: knb-lter-hbr.2.15\n\n\n2. Harvard Forest Hydrology\nProspect Hill Hydrological Stations at Harvard Forest (since 2005)\nLong-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts.\nEDI package: knb-lter-hfr.70\n\n\n3. MacroSheds\nMacroSheds Watershed Synthesis (also listed under Biogeochemistry)\nMacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for &gt;200 small watersheds and is equally valuable for hydrology-focused projects.\nEDI package: edi.1262.2\n← Back to all subjects"
+    "text": "MacroSheds is also listed under Biogeochemistry.\n\n1. Hubbard Brook Streamflow\nHubbard Brook Experimental Forest: Daily Streamflow by Watershed, 1956–present\nContinuous daily streamflow records from nine small watersheds (12–77 ha) at the Hubbard Brook Experimental Forest in New Hampshire.\nEDI package: knb-lter-hbr.2.15\n\n\n2. Harvard Forest Hydrology\nProspect Hill Hydrological Stations at Harvard Forest (since 2005)\nLong-term hydrologic measurements on two small watersheds in the Prospect Hill Tract of the Harvard Forest, Massachusetts.\nEDI package: knb-lter-hfr.70\n\n\n3. MacroSheds\nMacroSheds Watershed Synthesis (also listed under Biogeochemistry)\nMacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for &gt;200 small watersheds and is equally valuable for hydrology-focused projects.\nEDI package: edi.1262.2\n\n\n4. CROCUS Urban Tree Sap Flow\nSap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)\nSap velocity from heat ratio sensors on street and park trees at five Chicago sites, from the DOE CROCUS project.\nDOI: 10.15485/3013822 (ESS-DIVE, not EDI)\n← Back to all subjects"
   },
   {
     "objectID": "geophysics/ak-wildfire-permafrost.html",
