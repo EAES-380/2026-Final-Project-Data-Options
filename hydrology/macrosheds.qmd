@@ -7,6 +7,8 @@ subtitle: "Hydrology and Ecosystems · Option 3"
 [← Previous: Harvard Forest Hydrology](harvard-forest-hydro.qmd)
 
 [Back to Hydrology](index.qmd)
+
+[Next: CROCUS Sap Flow →](crocus-sap-flow.qmd)
 :::
 
 ## What it is
@@ -74,4 +76,6 @@ Thinking about choosing this dataset? Your **proposal** needs a description of t
 [← Previous: Harvard Forest Hydrology](harvard-forest-hydro.qmd)
 
 [Back to Hydrology](index.qmd)
+
+[Next: CROCUS Sap Flow →](crocus-sap-flow.qmd)
 :::

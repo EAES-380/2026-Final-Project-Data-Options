@@ -66,6 +66,8 @@ website:
             href: hydrology/harvard-forest-hydro.qmd
           - text: "MacroSheds"
             href: hydrology/macrosheds.qmd
+          - text: "CROCUS Sap Flow"
+            href: hydrology/crocus-sap-flow.qmd
       - text: "Geophysics"
         menu:
           - text: "Geophysics overview"

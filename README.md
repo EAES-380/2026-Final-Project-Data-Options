@@ -55,6 +55,10 @@ Three options are provided for each of the four departmental subject areas. Each
    File: `Hydrology_3_MacroSheds_README.md`  
    Package: edi.1262.2
 
+4. **CROCUS Urban Tree Sap Velocity (Chicago, 2024–2025)**  
+   File: `Hydrology_4_CROCUS_SapFlow_README.md`  
+   DOI: 10.15485/3013822 (ESS-DIVE, not EDI)
+
 ---
 
 ## 4. Earth and Planetary Geophysics

@@ -1,6 +1,6 @@
 ---
 title: "Hydrology and Ecosystems"
-subtitle: "Three dataset options for your EAES 380 final project"
+subtitle: "Four dataset options for your EAES 380 final project"
 ---
 
 *MacroSheds is also listed under [Biogeochemistry](../biogeochemistry/macrosheds.qmd).*
@@ -28,5 +28,13 @@ EDI package: `knb-lter-hfr.70`
 MacroSheds provides harmonized daily discharge, chemistry, and watershed attributes for >200 small watersheds and is equally valuable for hydrology-focused projects.
 
 EDI package: `edi.1262.2`
+
+### 4. [CROCUS Urban Tree Sap Flow](crocus-sap-flow.qmd)
+
+*Sap Velocity Data for Urban Trees in Chicago, Illinois (2024–2025)*
+
+Sap velocity from heat ratio sensors on street and park trees at five Chicago sites, from the DOE CROCUS project.
+
+DOI: [10.15485/3013822](https://doi.org/10.15485/3013822) (ESS-DIVE, not EDI)
 
 [← Back to all subjects](../index.qmd)
